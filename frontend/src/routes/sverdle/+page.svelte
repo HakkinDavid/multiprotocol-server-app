@@ -1,10 +1,14 @@
-<script>
+<script lang="ts">
 	import { enhance } from '$app/forms';
 	import { confetti } from '@neoconfetti/svelte';
-
+	import type { ActionData, PageData } from './$types';
 	import { MediaQuery } from 'svelte/reactivity';
 
-	let { data, form = $bindable() } = $props();
+	interface Props {
+		data: PageData;
+		form: ActionData;
+	}
+	let { data, form = $bindable() }: Props = $props();
 
 	/** Whether the user prefers reduced motion */
 	const reducedMotion = new MediaQuery('(prefers-reduced-motion: reduce)');
@@ -31,12 +35,12 @@
 		 * A map of classnames for all letters that have been guessed,
 		 * used for styling the keyboard
 		 */
-		let classnames = {};
+		let classnames: Record<string, 'exact' | 'close' | 'missing'> = {};
 		/**
 		 * A map of descriptions for all letters that have been guessed,
 		 * used for adding text for assistive technology (e.g. screen readers)
 		 */
-		let description = {};
+		let description: Record<string, string> = {};
 		data.answers.forEach((answer, i) => {
 			const guess = data.guesses[i];
 			for (let i = 0; i < 5; i += 1) {
@@ -57,9 +61,11 @@
 	 * Modify the game state without making a trip to the server,
 	 * if client-side JavaScript is enabled
 	 */
-	function update(event) {
+	function update(event: MouseEvent) {
 		event.preventDefault();
-		const key = (event.target).getAttribute('data-key');
+		const key = (event.target as HTMLButtonElement).getAttribute(
+			'data-key'
+		);
 
 		if (key === 'backspace') {
 			currentGuess = currentGuess.slice(0, -1);
@@ -73,7 +79,7 @@
 	 * Trigger form logic in response to a keydown event, so that
 	 * desktop users can use the keyboard to play the game
 	 */
-	function keydown(event) {
+	function keydown(event: KeyboardEvent) {
 		if (event.metaKey) return;
 
 		if (event.key === 'Enter' && !submittable) return;

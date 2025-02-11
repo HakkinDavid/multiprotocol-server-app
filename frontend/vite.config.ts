@@ -1,5 +1,5 @@
-import { svelteTesting } from "@testing-library/svelte/vite";
 import tailwindcss from "@tailwindcss/vite";
+import { svelteTesting } from "@testing-library/svelte/vite";
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
@@ -8,7 +8,7 @@ export default defineConfig({
 
     test: {
         workspace: [{
-            extends: "./vite.config.js",
+            extends: "./vite.config.ts",
             plugins: [svelteTesting()],
 
             test: {
@@ -17,10 +17,10 @@ export default defineConfig({
                 clearMocks: true,
                 include: ['src/**/*.svelte.{test,spec}.{js,ts}'],
                 exclude: ['src/lib/server/**'],
-                setupFiles: ['./vitest-setup-client.js']
+                setupFiles: ['./vitest-setup-client.ts']
             }
         }, {
-            extends: "./vite.config.js",
+            extends: "./vite.config.ts",
 
             test: {
                 name: "server",
