@@ -2,6 +2,11 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
+
+    let data: string;
+    fetch("http://localhost:8000/")
+      .then(res => res.json())
+      .then(json => data = json.message);
 </script>
 
 <svelte:head>
@@ -11,6 +16,7 @@
 
 <section>
 	<h1>
+        {data}
 		<span class="welcome">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
