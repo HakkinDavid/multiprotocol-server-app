@@ -3,14 +3,20 @@ import shutil
 import asyncio
 import smtplib
 from email.mime.text import MIMEText
+from typing import List
 
-from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File
+
+from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, WebSocket, WebSocketDisconnect
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.database import get_db
 from app.models import User
 from app.schemas import UserCreate, UserResponse
 from app.auth import hash_password, verify_password, create_access_token
 from app.dependencies import get_current_user
+
+
+# Routes imports
+#from app.routes.chat import router as chat_router
 
 router = APIRouter()
 
@@ -162,3 +168,21 @@ async def upload_ftp(file: UploadFile = File(...)):
 async def list_ftp_files():
     files = os.listdir(UPLOAD_DIR)
     return {"files": files}
+
+# --- Chat ---
+#router.include_router(chat_router, prefix="/chat")
+active_connections: List[WebSocket] = []
+
+@router.websocket("/ws")
+async def websocket_chat(websocket: WebSocket):
+    await websocket.accept()
+    active_connections.append(websocket)
+    try:
+        while True:
+            data = await websocket.receive_text()
+            await websocket.send_text(f"Message text was: {data}")
+            for connection in active_connections:
+                await connection.send_text(f"Message text was: {data}")
+    except WebSocketDisconnect:
+        active_connections.remove(websocket)
+
