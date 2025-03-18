@@ -182,7 +182,8 @@ async def websocket_chat(websocket: WebSocket):
             data = await websocket.receive_text()
             await websocket.send_text(f"Message text was: {data}")
             for connection in active_connections:
-                await connection.send_text(f"Message text was: {data}")
+                if connection != websocket:
+                 await connection.send_text(f"Message text was: {data}")
     except WebSocketDisconnect:
         active_connections.remove(websocket)
 
