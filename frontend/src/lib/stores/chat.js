@@ -4,7 +4,7 @@ export const messages = writable([]);
 let socket; 
 
 export function connectWebSocket() {
-  socket = new WebSocket("ws://192.168.1.143:8000/ws");
+  socket = new WebSocket("ws://localhost:8000/ws");
 
   socket.onopen = function(event) {
     socket.send("Hello from the client!");
