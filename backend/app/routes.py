@@ -198,8 +198,8 @@ async def websocket_chat(websocket: WebSocket):
     try:
         while(True):
             data = await websocket.receive_text()
-            await connection_manager.send_personal_message(f"You: {data}", websocket)
-            await connection_manager.broadcast(f"{client}: {data}", websocket)
+            await connection_manager.send_personal_message(data, websocket)
+            await connection_manager.broadcast(data, websocket)
     except WebSocketDisconnect:
         connection_manager.disconnect(websocket)
         await connection_manager.broadcast(f"{client} left the chat")

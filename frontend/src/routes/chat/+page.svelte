@@ -22,9 +22,9 @@
 	</div>
 
 	<div class="chat-messages">
-		{#each $messages as msg, i}
-			<div class="message {i % 2 === 0 ? 'sent' : 'received'}">
-				<p>{msg}</p>
+		{#each $messages as msg}
+			<div class="message {msg.isSentByClient ? 'sent' : 'received'}">
+				<p>{msg.text}</p>
 			</div>
 		{/each}
 	</div>
