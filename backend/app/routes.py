@@ -170,20 +170,37 @@ async def list_ftp_files():
     return {"files": files}
 
 # --- Chat ---
-#router.include_router(chat_router, prefix="/chat")
-active_connections: List[WebSocket] = []
+class ConnectionManager:
+    def __init__(self):
+        self.active_connections: List[WebSocket] = []
+    
+    async def connect(self, websocket: WebSocket):
+        await websocket.accept()
+        self.active_connections.append(websocket)
+    
+    def disconnect(self, websocket: WebSocket):
+        self.active_connections.remove(websocket)
 
+    async def send_personal_message(self, message: str, websocket: WebSocket):
+        await websocket.send_text(message)
+    
+    async def broadcast(self, message: str, websocket):
+        for connection in self.active_connections:
+            if connection != websocket:
+                await connection.send_text(message)
+
+connection_manager = ConnectionManager()
+\
 @router.websocket("/ws")
 async def websocket_chat(websocket: WebSocket):
-    await websocket.accept()
-    active_connections.append(websocket)
+    await connection_manager.connect(websocket)
+    client = websocket.client.host
     try:
-        while True:
+        while(True):
             data = await websocket.receive_text()
-            await websocket.send_text(f"Message text was: {data}")
-            for connection in active_connections:
-                if connection != websocket:
-                 await connection.send_text(f"Message text was: {data}")
+            await connection_manager.send_personal_message(f"You: {data}", websocket)
+            await connection_manager.broadcast(f"{client}: {data}", websocket)
     except WebSocketDisconnect:
-        active_connections.remove(websocket)
+        connection_manager.disconnect(websocket)
+        await connection_manager.broadcast(f"{client} left the chat")
 

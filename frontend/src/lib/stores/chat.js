@@ -1,13 +1,12 @@
 import { writable } from "svelte/store";
 
 export const messages = writable([]);
-let socket; // Declarar socket en el ámbito del módulo
+let socket; 
 
 export function connectWebSocket() {
-  socket = new WebSocket("ws://localhost:8000/ws"); // Asignar a la variable del módulo
+  socket = new WebSocket("ws://192.168.1.143:8000/ws");
 
   socket.onopen = function(event) {
-    console.log("WebSocket connection established.");
     socket.send("Hello from the client!");
   };
 
