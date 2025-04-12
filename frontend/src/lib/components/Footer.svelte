@@ -1,5 +1,5 @@
 <footer class="footer">
-    <p>&copy; 2025 David Santana, Hugo Manzano, Oscar Angulo</p>
+    <p>&copy; 2025 David Santana, Hugo Manzano, Oscar Angulo, Oceguera Gael</p>
 </footer>
 
 <style>
