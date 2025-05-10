@@ -1,7 +1,10 @@
-<footer class="footer">
-    <p>&copy; 2025 David Santana, Hugo Manzano, Oscar Angulo, Oceguera Gael</p>
+<footer class="bg-gray-800 text-gray-300 py-6 mt-auto">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <p>&copy; 2025 David Santana, Hugo Manzano, Oscar Angulo</p>
+            <div class="mt-4 md:mt-0">
+                <span class="text-sm">Multiprotocol Server App</span>
+            </div>
+        </div>
+    </div>
 </footer>
-
-<style>
-    .footer { background: #222; color: white; padding: 1rem; text-align: center; position: absolute; bottom: 0; width: 100%; }
-</style>

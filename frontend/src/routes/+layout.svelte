@@ -1,6 +1,12 @@
 <script>
 	import '../app.css';
-	let { children } = $props();
 </script>
 
-{@render children()}
+<slot></slot>
+
+<style>
+	:global(body) {
+		margin: 0;
+		padding: 0;
+	}
+</style>
