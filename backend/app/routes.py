@@ -5,14 +5,17 @@ import smtplib
 from email.mime.text import MIMEText
 from typing import List
 
+from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, WebSocket, WebSocketDisconnect, Request
 
-from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, WebSocket, WebSocketDisconnect
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.database import get_db
 from app.models import User
 from app.schemas import UserCreate, UserResponse
 from app.auth import hash_password, verify_password, create_access_token
 from app.dependencies import get_current_user
+
+from fastapi.responses import FileResponse, StreamingResponse
+import time
 
 
 # Routes imports
@@ -54,41 +57,6 @@ async def get_me(current_user: UserResponse = Depends(get_current_user)):
 # Multiprotocol Endpoints Implementation
 # =======================================
 
-# --- DNS Service ---
-# In-memory storage for DNS records.
-dns_records = []
-
-@router.post("/dns/register")
-async def register_dns(name: str, ip: str):
-    # Automatically generate a DNS record for a new machine interacting via the API
-    dns_record = {
-        "name": name,
-        "type": "A",
-        "value": ip
-    }
-    dns_records.append(dns_record)
-    return {"message": "DNS record created", "record": dns_record}
-
-@router.get("/dns/records")
-async def get_dns_records():
-    return {"records": dns_records}
-
-@router.post("/dns/records")
-async def add_dns_record(record: dict):
-    required_keys = {"name", "type", "value"}
-    if not required_keys.issubset(record.keys()):
-        raise HTTPException(status_code=400, detail="Missing required DNS record fields")
-    dns_records.append(record)
-    return {"message": "DNS record added", "record": record}
-
-@router.post("/dns/auto")
-async def auto_create_dns(record: dict):
-    # Expected fields: machine_name and ip_address
-    if not all(k in record for k in ("machine_name", "ip_address")):
-         raise HTTPException(status_code=400, detail="Missing required fields: machine_name and ip_address")
-    new_record = {"name": f"{record['machine_name']}", "type": "A", "value": record["ip_address"]}
-    dns_records.append(new_record)
-    return {"message": "DNS record automatically created", "record": new_record}
 
 # --- Web Service ---
 WEB_CONTENT_FILE = "web_content.html"
@@ -108,28 +76,6 @@ async def deploy_web(content: dict):
     with open(WEB_CONTENT_FILE, "w", encoding="utf-8") as f:
         f.write(content["html"])
     return {"message": "Web content deployed"}
-
-# --- Streaming Service ---
-streaming_status = {"status": "stopped"}
-
-@router.get("/streaming/status")
-async def get_streaming_status():
-    return streaming_status
-
-@router.post("/streaming/start")
-async def start_streaming():
-    streaming_status["status"] = "started"
-    asyncio.create_task(simulate_streaming())
-    return {"message": "Streaming started"}
-
-@router.post("/streaming/stop")
-async def stop_streaming():
-    streaming_status["status"] = "stopped"
-    return {"message": "Streaming stopped"}
-
-async def simulate_streaming():
-    await asyncio.sleep(60)
-    streaming_status["status"] = "stopped"
 
 # --- Mail Service ---
 @router.post("/mail/send")
@@ -190,7 +136,7 @@ class ConnectionManager:
                 await connection.send_text(message)
 
 connection_manager = ConnectionManager()
-\
+
 @router.websocket("/ws")
 async def websocket_chat(websocket: WebSocket):
     await connection_manager.connect(websocket)
@@ -204,3 +150,65 @@ async def websocket_chat(websocket: WebSocket):
         connection_manager.disconnect(websocket)
         await connection_manager.broadcast(f"{client} left the chat")
 
+# --- DNS Service (registro de IPs) ---
+DNS_LOG_FILE = "dns_log.txt"
+
+@router.post("/dns/register")
+async def register_dns(request: Request):
+    client_ip = request.client.host
+    timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+    with open(DNS_LOG_FILE, "a") as f:
+        f.write(f"{timestamp} - {client_ip}\n")
+    return {"message": "IP registrada", "ip": client_ip, "timestamp": timestamp}
+
+@router.get("/dns/records")
+async def list_dns_records():
+    if not os.path.exists(DNS_LOG_FILE):
+        return {"records": []}
+    with open(DNS_LOG_FILE, "r") as f:
+        lines = f.readlines()
+    return {"records": [line.strip() for line in lines]}
+
+# --- Streaming Service (audio/video) ---
+STREAMING_DIR = "streaming"
+
+@router.get("/streaming/list")
+async def list_streaming_files():
+    if not os.path.exists(STREAMING_DIR):
+        return {"files": []}
+    return {"files": os.listdir(STREAMING_DIR)}
+
+@router.get("/streaming/play/{filename}")
+async def stream_media(filename: str):
+    file_path = os.path.join(STREAMING_DIR, filename)
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="Archivo no encontrado")
+
+    def file_iterator():
+        with open(file_path, "rb") as f:
+            yield from f
+
+    media_type = "video/mp4" if filename.endswith(".mp4") else "audio/mpeg"
+    return StreamingResponse(file_iterator(), media_type=media_type)
+
+# --- FTP Download ---
+@router.get("/ftp/download/{filename}")
+async def download_ftp_file(filename: str):
+    file_path = os.path.join(UPLOAD_DIR, filename)
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="Archivo no encontrado")
+    return FileResponse(file_path, filename=filename)
+
+# --- Mail Inbox (recepción desde archivos planos simulando bandeja local) ---
+MAILBOX_DIR = "mailbox"
+os.makedirs(MAILBOX_DIR, exist_ok=True)
+
+@router.get("/mail/inbox")
+async def list_mail():
+    mails = []
+    for fname in os.listdir(MAILBOX_DIR):
+        path = os.path.join(MAILBOX_DIR, fname)
+        with open(path, "r", encoding="utf-8") as f:
+            content = f.read()
+        mails.append({"filename": fname, "content": content})
+    return {"inbox": mails}
