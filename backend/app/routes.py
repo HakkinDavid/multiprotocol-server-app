@@ -3,14 +3,23 @@ import shutil
 import asyncio
 import smtplib
 from email.mime.text import MIMEText
+from typing import List
 
-from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, Request
+from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, WebSocket, WebSocketDisconnect, Request
+
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.database import get_db
 from app.models import User
 from app.schemas import UserCreate, UserResponse
 from app.auth import hash_password, verify_password, create_access_token
 from app.dependencies import get_current_user
+
+from fastapi.responses import FileResponse, StreamingResponse
+import time
+
+
+# Routes imports
+#from app.routes.chat import router as chat_router
 
 router = APIRouter()
 
@@ -106,8 +115,40 @@ async def list_ftp_files():
     files = os.listdir(UPLOAD_DIR)
     return {"files": files}
 
-from fastapi.responses import FileResponse, StreamingResponse
-import time
+# --- Chat ---
+class ConnectionManager:
+    def __init__(self):
+        self.active_connections: List[WebSocket] = []
+    
+    async def connect(self, websocket: WebSocket):
+        await websocket.accept()
+        self.active_connections.append(websocket)
+    
+    def disconnect(self, websocket: WebSocket):
+        self.active_connections.remove(websocket)
+
+    async def send_personal_message(self, message: str, websocket: WebSocket):
+        await websocket.send_text(message)
+    
+    async def broadcast(self, message: str, websocket):
+        for connection in self.active_connections:
+            if connection != websocket:
+                await connection.send_text(message)
+
+connection_manager = ConnectionManager()
+
+@router.websocket("/ws")
+async def websocket_chat(websocket: WebSocket):
+    await connection_manager.connect(websocket)
+    client = websocket.client.host
+    try:
+        while(True):
+            data = await websocket.receive_text()
+            await connection_manager.send_personal_message(data, websocket)
+            await connection_manager.broadcast(data, websocket)
+    except WebSocketDisconnect:
+        connection_manager.disconnect(websocket)
+        await connection_manager.broadcast(f"{client} left the chat")
 
 # --- DNS Service (registro de IPs) ---
 DNS_LOG_FILE = "dns_log.txt"
