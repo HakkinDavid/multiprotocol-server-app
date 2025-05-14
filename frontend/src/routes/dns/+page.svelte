@@ -15,7 +15,9 @@
 		error = '';
 		try {
 			const res = await fetch(`${backendUrl}/dns/register`, { method: 'POST' });
-			if (!res.ok) throw new Error('No se pudo registrar la IP');
+			if (res.status === 409) {
+				throw new Error('IP registrada previamente');
+			} else if (!res.ok) throw new Error('No se pudo registrar la IP');
 			const data = await res.json();
 			ip = data.ip;
 			timestamp = data.timestamp;
