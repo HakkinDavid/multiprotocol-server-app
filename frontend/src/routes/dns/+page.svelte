@@ -9,10 +9,12 @@
 	let records = [];
 	let error = '';
 
+	const backendUrl = 'http://localhost:8000'; // Hay que cambiar esto por un archivo config o variable de entorno
+
 	async function registerIP() {
 		error = '';
 		try {
-			const res = await fetch('/api/dns/register', { method: 'POST' });
+			const res = await fetch(`${backendUrl}/dns/register`, { method: 'POST' });
 			if (!res.ok) throw new Error('No se pudo registrar la IP');
 			const data = await res.json();
 			ip = data.ip;
