@@ -26,7 +26,7 @@
 	}
 
 	async function fetchRecords() {
-		const res = await fetch('/api/dns/records');
+		const res = await fetch(`${backendUrl}/dns/records`);
 		const data = await res.json();
 		records = data.records;
 	}
