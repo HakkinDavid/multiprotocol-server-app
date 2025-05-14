@@ -157,6 +157,20 @@ DNS_LOG_FILE = "dns_log.txt"
 async def register_dns(request: Request):
     client_ip = request.client.host
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Verificar si la IP ya ha sido registrada
+    if os.path.exists(DNS_LOG_FILE):
+        with open(DNS_LOG_FILE, "r") as f:
+            logs = f.readlines()
+        
+        for log in logs:
+            if client_ip in log:
+                raise HTTPException(
+                    status_code=status.HTTP_409_CONFLICT,
+                    detail={"message": "IP ya registrada previamente", "ip": client_ip, "timestamp": timestamp}
+                )
+            
+    # Si no está registrada, registrar la IP
     with open(DNS_LOG_FILE, "a") as f:
         f.write(f"{timestamp} - {client_ip}\n")
     return {"message": "IP registrada", "ip": client_ip, "timestamp": timestamp}
