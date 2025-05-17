@@ -2,6 +2,7 @@
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import { onMount } from 'svelte';
+	import { PUBLIC_BACKEND_URL } from '$env/static/public';
 
 	let mail = {
 		to: '',
@@ -11,15 +12,13 @@
 	let message = '';
 	let inbox = [];
 
-	const backendUrl = 'http://localhost:8000'; // cambiar esto por config o .env
-
 	async function sendMail() {
 		if (!mail.to || !mail.subject || !mail.body) {
 			message = 'Completa todos los campos.';
 			return;
 		}
 
-		const res = await fetch(`${backendUrl}/mail`, {
+		const res = await fetch(`${PUBLIC_BACKEND_URL}/mail`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify(mail)
@@ -32,7 +31,7 @@
 	}
 
 	async function loadInbox() {
-		const res = await fetch(`${backendUrl}/mail/inbox`);
+		const res = await fetch(`${PUBLIC_BACKEND_URL}/mail/inbox`);
 		const data = await res.json();
 		inbox = data.messages || [];
 	}

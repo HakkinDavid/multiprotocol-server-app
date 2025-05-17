@@ -2,13 +2,14 @@
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import { onMount } from 'svelte';
+  import { PUBLIC_BACKEND_URL } from '$env/static/public';
 
   let files = [];
   let fileToUpload = null;
   let message = '';
 
   async function fetchFiles() {
-    const res = await fetch('/api/ftp/list');
+    const res = await fetch(`${PUBLIC_BACKEND_URL}/ftp/list`);
     const data = await res.json();
     files = data.files;
   }
@@ -22,7 +23,7 @@
     const formData = new FormData();
     formData.append('file', fileToUpload);
 
-    const res = await fetch('/api/ftp/upload', {
+    const res = await fetch(`${PUBLIC_BACKEND_URL}/ftp/upload`, {
       method: 'POST',
       body: formData
     });
@@ -34,7 +35,7 @@
   }
 
   function download(file) {
-    window.open(`/api/ftp/download/${file}`, '_blank');
+    window.open(`${PUBLIC_BACKEND_URL}/ftp/download/${file}`, '_blank');
   }
 
   onMount(fetchFiles);

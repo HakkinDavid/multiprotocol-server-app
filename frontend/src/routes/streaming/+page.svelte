@@ -2,13 +2,14 @@
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import { onMount } from 'svelte';
+  import { PUBLIC_BACKEND_URL } from '$env/static/public';
 
   let files = [];
   let selected = '';
   let type = '';
 
   async function fetchFiles() {
-    const res = await fetch('/api/streaming/list');
+    const res = await fetch(`${PUBLIC_BACKEND_URL}/streaming/list`å);
     const data = await res.json();
     files = data.files;
   }
@@ -53,7 +54,7 @@
     <div class="mb-6">
       <h3 class="text-lg font-semibold mb-2">Reproduciendo video: {selected}</h3>
       <video class="w-full rounded-lg shadow" controls>
-        <source src={`/api/streaming/play/${selected}`} type="video/mp4" />
+        <source src={`${PUBLIC_BACKEND_URL}/streaming/play/${selected}`} type="video/mp4" />
         Tu navegador no soporta video.
       </video>
     </div>
@@ -63,7 +64,7 @@
     <div class="mb-6">
       <h3 class="text-lg font-semibold mb-2">Reproduciendo audio: {selected}</h3>
       <audio class="w-full" controls>
-        <source src={`/api/streaming/play/${selected}`} type="audio/mpeg" />
+        <source src={`${PUBLIC_BACKEND_URL}/streaming/play/${selected}`} type="audio/mpeg" />
         Tu navegador no soporta audio.
       </audio>
     </div>

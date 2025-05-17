@@ -3,18 +3,17 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
+	import { PUBLIC_BACKEND_URL } from '$env/static/public';
 
 	let ip = '';
 	let timestamp = '';
 	let records = [];
 	let error = '';
 
-	const backendUrl = 'http://localhost:8000'; // Hay que cambiar esto por un archivo config o variable de entorno
-
 	async function registerIP() {
 		error = '';
 		try {
-			const res = await fetch(`${backendUrl}/dns/register`, { method: 'POST' });
+			const res = await fetch(`${PUBLIC_BACKEND_URL}/dns/register`, { method: 'POST' });
 			if (res.status === 409) {
 				throw new Error('IP registrada previamente');
 			} else if (!res.ok) throw new Error('No se pudo registrar la IP');
@@ -28,7 +27,7 @@
 	}
 
 	async function fetchRecords() {
-		const res = await fetch(`${backendUrl}/dns/records`);
+		const res = await fetch(`${PUBLIC_BACKEND_URL}/dns/records`);
 		const data = await res.json();
 		records = data.records;
 	}
