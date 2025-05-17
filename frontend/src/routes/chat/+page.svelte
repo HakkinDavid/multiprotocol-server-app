@@ -1,4 +1,6 @@
 <script>
+	import Header from '$lib/components/Header.svelte';
+  	import Footer from '$lib/components/Footer.svelte';
 	import { onMount } from 'svelte';
 	import { messages, connectWebSocket, sendMessage } from '$lib/stores/chat';
 
@@ -15,6 +17,8 @@
 		}
 	}
 </script>
+
+<Header title="Chat 💬" />
 
 <div class="chat-container">
 	<div class="chat-header">
@@ -38,6 +42,8 @@
 		<button on:click={handleSend}>Enviar</button>
 	</div>
 </div>
+
+<Footer/>
 
 <style>
 	.chat-container {
