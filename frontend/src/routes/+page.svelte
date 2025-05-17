@@ -60,7 +60,7 @@
 <main class="container mx-auto min-h-[calc(100vh-200px)] px-4 py-8">
 	<div class="mb-8">
 		<h2 class="mb-2 text-2xl font-semibold text-gray-800">Panel de Control</h2>
-		<p class="text-gray-600">Selecciona un servicio para configurar y gestionar</p>
+		<p class="text-gray-600">Selecciona un servicio para utilizar</p>
 	</div>
 
 	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
