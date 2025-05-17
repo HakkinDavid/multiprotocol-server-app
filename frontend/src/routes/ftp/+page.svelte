@@ -30,7 +30,7 @@
     });
 
     const result = await res.json();
-    message = result.message || 'Archivo subido';
+    message = result.message || 'File has been uploaded';
     fileToUpload = null;
     await fetchFiles();
   }
@@ -45,12 +45,12 @@
 <Header title="FTP 📁" />
 
 <main class="container mx-auto px-4 py-8 min-h-[calc(100vh-200px)]">
-  <h2 class="text-2xl font-semibold text-gray-800 mb-4">Subida y descarga de archivos</h2>
+  <h2 class="text-2xl font-semibold text-gray-800 mb-4">File upload and download</h2>
 
   <div class="flex flex-row flex-wrap gap-2 bg-white rounded-lg p-4 shadow mb-6">
-    <p class="border border-purple-500 rounded-lg w-1/2 px-4 place-content-center justify-center items-center text-center">{fileToUpload ? fileToUpload.name : "No se ha seleccionado algún archivo"}</p>
+    <p class="border border-purple-500 rounded-lg w-1/2 px-4 place-content-center justify-center items-center text-center">{fileToUpload ? fileToUpload.name : "No file has been selected"}</p>
     <button on:click={upload} class:bg-purple-500={!fileToUpload} class:hover:bg-purple-600={!fileToUpload} class:bg-green-500={fileToUpload} class:hover:bg-green-600={fileToUpload} class="text-white px-4 py-1 rounded-full text-sm place-content-center justify-center items-center text-center w-32">
-      {fileToUpload ? "Subir" : "Seleccionar"}
+      {fileToUpload ? "Upload" : "Choose"}
     </button>
     {#if message}
       <p class="text-sm text-gray-600 place-content-center justify-center items-center text-center">{message}</p>
@@ -58,7 +58,7 @@
   </div>
 
   <div class="bg-gray-50 border rounded-lg p-4 max-h-[300px] overflow-y-auto">
-    <h3 class="text-lg font-semibold mb-2">Archivos disponibles</h3>
+    <h3 class="text-lg font-semibold mb-2">Available files</h3>
     {#if files.length > 0}
       <ul class="space-y-2">
         {#each files as file}
@@ -68,13 +68,13 @@
               on:click={() => download(file)}
               class="bg-gray-200 hover:bg-gray-300 text-sm px-3 py-1 rounded-full"
             >
-              Descargar
+              Download
             </button>
           </li>
         {/each}
       </ul>
     {:else}
-      <p class="text-gray-500">No hay archivos disponibles.</p>
+      <p class="text-gray-500">There are no files currently available...</p>
     {/if}
   </div>
 </main>

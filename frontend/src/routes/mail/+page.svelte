@@ -14,7 +14,7 @@
 
 	async function sendMail() {
 		if (!mail.to || !mail.subject || !mail.body) {
-			message = 'Completa todos los campos.';
+			message = 'Fill in all required fields';
 			return;
 		}
 
@@ -25,7 +25,7 @@
 		});
 
 		const data = await res.json();
-		message = data.message || 'Envío fallido';
+		message = data.message || 'Failed to send';
 		mail = { to: '', subject: '', body: '' };
 		await loadInbox();
 	}
@@ -39,29 +39,29 @@
 	onMount(loadInbox);
 </script>
 
-<Header title="Correo ✉️" />
+<Header title="Mail ✉️" />
 
 <main class="container mx-auto min-h-[calc(100vh-200px)] px-4 py-8">
-	<h2 class="mb-4 text-2xl font-semibold text-gray-800">Enviar Correo</h2>
+	<h2 class="mb-4 text-2xl font-semibold text-gray-800">Compose</h2>
 
 	<div class="mb-6 space-y-4 rounded-lg bg-white p-4 shadow">
 		<div>
-			<label class="mb-1 block text-sm text-gray-700">Para:</label>
+			<label class="mb-1 block text-sm text-gray-700">To:</label>
 			<input class="w-full rounded border px-3 py-2" bind:value={mail.to} />
 		</div>
 		<div>
-			<label class="mb-1 block text-sm text-gray-700">Asunto:</label>
+			<label class="mb-1 block text-sm text-gray-700">Subject:</label>
 			<input class="w-full rounded border px-3 py-2" bind:value={mail.subject} />
 		</div>
 		<div>
-			<label class="mb-1 block text-sm text-gray-700">Mensaje:</label>
+			<label class="mb-1 block text-sm text-gray-700">Body:</label>
 			<textarea class="h-32 w-full rounded border px-3 py-2" bind:value={mail.body}></textarea>
 		</div>
 		<button
 			on:click={sendMail}
 			class="rounded-full bg-orange-500 px-4 py-2 text-sm text-white hover:bg-orange-600"
 		>
-			Enviar
+			Send
 		</button>
 		{#if message}
 			<p class="text-sm text-gray-600">{message}</p>
@@ -69,19 +69,19 @@
 	</div>
 
 	<div class="max-h-[400px] overflow-y-auto rounded-lg border bg-gray-50 p-4">
-		<h3 class="mb-2 text-lg font-semibold">Bandeja de Entrada</h3>
+		<h3 class="mb-2 text-lg font-semibold">Inbound mail</h3>
 		{#if inbox.length > 0}
 			<ul class="space-y-3">
 				{#each inbox as mail}
 					<li class="rounded border bg-white p-3">
-						<p><strong>De:</strong> {mail.from}</p>
-						<p><strong>Asunto:</strong> {mail.subject}</p>
+						<p><strong>From:</strong> {mail.from}</p>
+						<p><strong>Subject:</strong> {mail.subject}</p>
 						<p class="mt-2 whitespace-pre-wrap text-sm text-gray-600">{mail.body}</p>
 					</li>
 				{/each}
 			</ul>
 		{:else}
-			<p class="text-gray-500">No hay correos.</p>
+			<p class="text-gray-500">The are no mails currently available...</p>
 		{/if}
 	</div>
 </main>

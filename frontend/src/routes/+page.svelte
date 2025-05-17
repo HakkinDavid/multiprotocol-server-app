@@ -10,7 +10,7 @@
 			icon: '🌐',
 			color: 'bg-cyan-500',
 			hoverColor: 'bg-cyan-600',
-			description: 'Gestión de nombres de dominio'
+			description: 'Domain names management'
 		},
 		{
 			name: 'Web',
@@ -18,7 +18,7 @@
 			icon: '🖥️',
 			color: 'bg-green-500',
 			hoverColor: 'bg-green-600',
-			description: 'Servidor web HTTP/HTTPS'
+			description: 'Web over HTTP service'
 		},
 		{
 			name: 'Streaming',
@@ -26,7 +26,7 @@
 			icon: '📺',
 			color: 'bg-red-500',
 			hoverColor: 'bg-red-600',
-			description: 'Servicio de streaming de contenido'
+			description: 'Streaming content service'
 		},
 		{
 			name: 'Mail',
@@ -34,7 +34,7 @@
 			icon: '✉️',
 			color: 'bg-orange-500',
 			hoverColor: 'bg-orange-600',
-			description: 'Servidor de correo electrónico'
+			description: 'Electronic mail service'
 		},
 		{
 			name: 'FTP',
@@ -42,7 +42,7 @@
 			icon: '📁',
 			color: 'bg-purple-500',
 			hoverColor: 'bg-purple-600',
-			description: 'Transferencia de archivos'
+			description: 'File transfer protocol service'
 		},
 		{
 			name: 'Chat',
@@ -50,17 +50,17 @@
 			icon: '💬',
 			color: 'bg-blue-500',
 			hoverColor: 'bg-blue-600',
-			description: 'Servicio de chat en tiempo real'
+			description: 'Real-time chat service'
 		}
 	];
 </script>
 
-<Header title="Multiprotocol Server Management" />
+<Header title="Multiprotocol Server App" />
 
 <main class="container mx-auto min-h-[calc(100vh-200px)] px-4 py-8">
 	<div class="mb-8">
-		<h2 class="mb-2 text-2xl font-semibold text-gray-800">Panel de Control</h2>
-		<p class="text-gray-600">Selecciona un servicio para utilizar</p>
+		<h2 class="mb-2 text-2xl font-semibold text-gray-800">Control Panel</h2>
+		<p class="text-gray-600">Click on a service and begin enjoying!</p>
 	</div>
 
 	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -84,7 +84,7 @@
 					<button
 						class="rounded-full bg-gray-100 px-4 py-1 text-sm text-gray-800 hover:bg-gray-200"
 					>
-						Acceder →
+						Access →
 					</button>
 				</div>
 			</div>

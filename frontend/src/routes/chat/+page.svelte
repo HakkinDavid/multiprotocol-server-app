@@ -37,9 +37,9 @@
 		<input
 			bind:value={newMessage}
 			on:keydown={(e) => e.key === 'Enter' && handleSend()}
-			placeholder="Escribe un mensaje..."
+			placeholder="Write your thoughts..."
 		/>
-		<button on:click={handleSend}>Enviar</button>
+		<button on:click={handleSend}>Send</button>
 	</div>
 </div>
 

@@ -18,7 +18,7 @@
         {/if}
         <div class="container mx-auto px-4 py-6">
             <h1 class="text-3xl font-bold text-white">{title}</h1>
-            <p class="text-blue-100 mt-1">Gestión de servicios multiprotocolo</p>
+            <p class="text-blue-100 mt-1">Multiprotocol services management</p>
         </div>
     </div>
 </header>
