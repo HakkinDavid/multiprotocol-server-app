@@ -81,9 +81,8 @@
 					</div>
 				</div>
 				<div class="bg-white p-4">
-					<p class="text-sm text-gray-600">Configurar servicio {service.name}</p>
 					<button
-						class="mt-2 rounded-full bg-gray-100 px-4 py-1 text-sm text-gray-800 hover:bg-gray-200"
+						class="rounded-full bg-gray-100 px-4 py-1 text-sm text-gray-800 hover:bg-gray-200"
 					>
 						Acceder →
 					</button>

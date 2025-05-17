@@ -59,7 +59,7 @@ async def get_me(current_user: UserResponse = Depends(get_current_user)):
 
 
 # --- Web Service ---
-WEB_CONTENT_FILE = "web_content.html"
+WEB_CONTENT_FILE = "web/index.html"
 
 @router.get("/web/content")
 async def get_web_content():

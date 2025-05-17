@@ -9,7 +9,7 @@
   let type = '';
 
   async function fetchFiles() {
-    const res = await fetch(`${PUBLIC_BACKEND_URL}/streaming/list`å);
+    const res = await fetch(`${PUBLIC_BACKEND_URL}/streaming/list`);
     const data = await res.json();
     files = data.files;
   }
