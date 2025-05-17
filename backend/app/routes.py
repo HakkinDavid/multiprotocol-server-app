@@ -145,14 +145,14 @@ connection_manager = ConnectionManager()
 async def websocket_chat(websocket: WebSocket):
     await connection_manager.connect(websocket)
     client = websocket.client.host
+    print(f"{client} connected.")
     try:
         while(True):
             data = await websocket.receive_text()
             await connection_manager.send_personal_message(data, websocket)
             await connection_manager.broadcast(data, websocket)
     except WebSocketDisconnect:
-        connection_manager.disconnect(websocket)
-        await connection_manager.broadcast(f"{client} left the chat")
+        print(f"{client} disconnected.")
 
 # --- DNS Service (registro de IPs) ---
 DNS_LOG_FILE = "dns_log.txt"
