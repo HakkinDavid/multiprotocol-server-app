@@ -7,6 +7,7 @@
   let files = [];
   let fileToUpload = null;
   let message = '';
+  let file_input;
 
   async function fetchFiles() {
     const res = await fetch(`${PUBLIC_BACKEND_URL}/ftp/list`);
@@ -16,7 +17,7 @@
 
   async function upload() {
     if (!fileToUpload) {
-      message = 'Selecciona un archivo para subir';
+      file_input.click();
       return;
     }
 
@@ -46,14 +47,13 @@
 <main class="container mx-auto px-4 py-8 min-h-[calc(100vh-200px)]">
   <h2 class="text-2xl font-semibold text-gray-800 mb-4">Subida y descarga de archivos</h2>
 
-  <div class="bg-white rounded-lg p-4 shadow mb-6">
-    <label class="block text-sm text-gray-700 mb-2">Selecciona archivo para subir:</label>
-    <input type="file" on:change={(e) => fileToUpload = e.target.files[0]} class="mb-2" />
-    <button on:click={upload} class="bg-purple-500 hover:bg-purple-600 text-white px-4 py-1 rounded-full text-sm">
-      Subir archivo
+  <div class="flex flex-row flex-wrap gap-2 bg-white rounded-lg p-4 shadow mb-6">
+    <p class="border border-purple-500 rounded-lg w-1/2 px-4 place-content-center justify-center items-center text-center">{fileToUpload ? fileToUpload.name : "No se ha seleccionado algún archivo"}</p>
+    <button on:click={upload} class:bg-purple-500={!fileToUpload} class:hover:bg-purple-600={!fileToUpload} class:bg-green-500={fileToUpload} class:hover:bg-green-600={fileToUpload} class="text-white px-4 py-1 rounded-full text-sm place-content-center justify-center items-center text-center w-32">
+      {fileToUpload ? "Subir" : "Seleccionar"}
     </button>
     {#if message}
-      <p class="text-sm text-gray-600 mt-2">{message}</p>
+      <p class="text-sm text-gray-600 place-content-center justify-center items-center text-center">{message}</p>
     {/if}
   </div>
 
@@ -80,3 +80,4 @@
 </main>
 
 <Footer />
+<input bind:this={file_input} type="file" on:change={(e) => fileToUpload = e.target.files[0]} class="w-0 h-0"/>
