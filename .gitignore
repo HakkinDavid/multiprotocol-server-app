@@ -160,3 +160,5 @@ cython_debug/
 
 # FTP
 backend/uploads/*
+*.mp4
+backend/streaming/test.txt

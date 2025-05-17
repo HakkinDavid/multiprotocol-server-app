@@ -1,4 +1,6 @@
+import { PUBLIC_BACKEND_URL } from "$env/static/public";
+
 export async function fetchWebConfig() {
-    const response = await fetch('http://localhost:8000/web/content');
+    const response = await fetch(`${PUBLIC_BACKEND_URL}/web/content`);
     return response.json();
 }
