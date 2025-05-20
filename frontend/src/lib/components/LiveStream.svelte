@@ -1,8 +1,8 @@
 <script>
-// @ts-nocheck
-
-  import { PUBLIC_BACKEND_URL, PUBLIC_WS_URL } from '$env/static/public';
-  import { onMount, onDestroy } from 'svelte';
+    // @ts-nocheck
+    import { onMount, onDestroy } from 'svelte';
+    import { PUBLIC_BACKEND_URL, PUBLIC_WS_URL } from '$env/static/public';
+    
 
   let {
     errorMessage = $bindable(''),
@@ -384,7 +384,6 @@ onDestroy(() => {
         </p>
         
         <div class="aspect-video bg-gray-900 mb-3 rounded overflow-hidden">
-          <!-- svelte-ignore a11y_media_has_caption -->
           <video 
             bind:this={videoElement} 
             autoplay 
@@ -462,7 +461,6 @@ onDestroy(() => {
         </div>
         
         <div class="aspect-video bg-gray-900 rounded overflow-hidden">
-          <!-- svelte-ignore a11y_media_has_caption -->
           <video 
             bind:this={viewVideoElement} 
             autoplay 
