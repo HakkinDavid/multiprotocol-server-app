@@ -5,7 +5,7 @@
   import { onMount, onDestroy } from 'svelte';
 
   let files = [];
-  let selected = '';
+  let selected = null;
   let type = '';
   let fileToUpload;
   let uploading = false;
@@ -32,6 +32,8 @@
   let viewVideoElement;
   let viewStreamStatus = 'Desconectado';
   let receivedFrames = 0;
+  let video_element;
+  let audio_element;
 
   async function fetchFiles() {
     try {
@@ -46,11 +48,24 @@
   }
 
   function play(file) {
-    selected = file;
     const ext = file.split('.').pop().toLowerCase();
-    if (['mp3', 'ogg', 'wav', 'aac', 'flac'].includes(ext)) type = 'audio';
-    else if (['mp4', 'webm', 'avi', 'mov', 'mkv'].includes(ext)) type = 'video';
+    if (['mp3', 'ogg', 'wav', 'aac', 'flac'].includes(ext)) {
+      type = 'audio';
+    }
+    else if (['mp4', 'webm', 'avi', 'mov', 'mkv'].includes(ext)) {
+      type = 'video';
+    }
+    else if (ext === 'txt') type = 'text';
     else type = '';
+
+    if (selected) {
+      selected = file;
+      if (video_element && type === 'video') video_element.load();
+      else if (audio_element && type === 'audio') audio_element.load();
+    }
+    else {
+      selected = file;
+    }
   }
 
   async function uploadFile() {
@@ -631,7 +646,7 @@
   {#if selected && type === 'video'}
     <div class="mb-6">
       <h3 class="text-lg font-semibold mb-2">Reproduciendo video: {selected}</h3>
-      <video class="w-full rounded-lg shadow" controls>
+      <video bind:this={video_element} class="w-full rounded-lg shadow" controls>
         <source src={`${PUBLIC_BACKEND_URL}/streaming/play/${selected}`} type="video/mp4" />
         Tu navegador no soporta video.
       </video>
@@ -641,11 +656,26 @@
   {#if selected && type === 'audio'}
     <div class="mb-6">
       <h3 class="text-lg font-semibold mb-2">Reproduciendo audio: {selected}</h3>
-      <audio class="w-full" controls>
+      <audio bind:this={audio_element} class="w-full" controls>
         <source src={`${PUBLIC_BACKEND_URL}/streaming/play/${selected}`} type="audio/mpeg" />
         Tu navegador no soporta audio.
       </audio>
     </div>
+  {/if}
+
+  {#if selected && type === 'text'}
+    {#await (async () => {
+      let txt_req = await fetch(`${PUBLIC_BACKEND_URL}/streaming/play/${selected}`)
+      let content = await (await txt_req.blob()).text()
+      return content
+    })()}
+      Cargando...
+    {:then text_file_stream}
+      <div class="mb-6">
+        <iframe class="w-full" srcdoc={text_file_stream} frameBorder="0">
+        </iframe>
+      </div>
+    {/await}
   {/if}
 </main>
 
