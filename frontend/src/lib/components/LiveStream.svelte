@@ -1,24 +1,32 @@
 <script>
+// @ts-nocheck
+
   import { PUBLIC_BACKEND_URL, PUBLIC_WS_URL } from '$env/static/public';
   import { onMount, onDestroy } from 'svelte';
+
+  let {
+    errorMessage = $bindable(''),
+    successMessage = $bindable('')
+  } = $props();
+
   // Streaming en vivo
-  let streamActive = false;
-  let streamConnecting = false;
+  let streamActive = $state(false);
+  let streamConnecting = $state(false);
   let streamId = `stream-${Math.random().toString(36).substring(2, 9)}`;
   let streamSocket;
   let videoElement;
   let mediaStream;
   let mediaRecorder;
-  let recordedChunks = [];
-  let streamStatus = 'Desconectado';
+  let recordedChunks = $state([]);
+  let streamStatus = $state('Desconectado');
   
   // Para ver streams
-  let viewStreamId = '';
-  let viewStreamActive = false;
-  let viewStreamConnecting = false;
+  let viewStreamId = $state('');
+  let viewStreamActive = $state(false);
+  let viewStreamConnecting = $state(false);
   let viewStreamSocket;
   let viewVideoElement;
-  let viewStreamStatus = 'Desconectado';
+  let viewStreamStatus = $state('Desconectado');
   let receivedFrames = 0;
   // Iniciar streaming en vivo (transmisión)
   async function startLiveStream() {
@@ -366,7 +374,7 @@ onDestroy(() => {
           ID del stream: <span class="font-mono bg-gray-100 px-1">{streamId}</span>
           <button 
             class="text-blue-500 ml-2" 
-            on:click={() => {
+            onclick={() => {
               navigator.clipboard.writeText(streamId);
               successMessage = 'ID copiado al portapapeles';
             }}
@@ -376,6 +384,7 @@ onDestroy(() => {
         </p>
         
         <div class="aspect-video bg-gray-900 mb-3 rounded overflow-hidden">
+          <!-- svelte-ignore a11y_media_has_caption -->
           <video 
             bind:this={videoElement} 
             autoplay 
@@ -386,7 +395,7 @@ onDestroy(() => {
         
         {#if !streamActive && !streamConnecting}
           <button 
-            on:click={startLiveStream}
+            onclick={startLiveStream}
             class="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded w-full"
           >
             Iniciar transmisión
@@ -400,7 +409,7 @@ onDestroy(() => {
           </button>
         {:else}
           <button 
-            on:click={stopLiveStream}
+            onclick={stopLiveStream}
             class="bg-gray-700 hover:bg-gray-800 text-white py-2 px-4 rounded w-full"
           >
             Detener transmisión
@@ -429,7 +438,7 @@ onDestroy(() => {
           />
           {#if !viewStreamActive && !viewStreamConnecting}
             <button 
-              on:click={viewLiveStream}
+              onclick={viewLiveStream}
               disabled={!viewStreamId}
               class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded disabled:opacity-50"
             >
@@ -444,7 +453,7 @@ onDestroy(() => {
             </button>
           {:else}
             <button 
-              on:click={stopViewingStream}
+              onclick={stopViewingStream}
               class="bg-gray-700 hover:bg-gray-800 text-white py-2 px-4 rounded"
             >
               Detener
@@ -453,6 +462,7 @@ onDestroy(() => {
         </div>
         
         <div class="aspect-video bg-gray-900 rounded overflow-hidden">
+          <!-- svelte-ignore a11y_media_has_caption -->
           <video 
             bind:this={viewVideoElement} 
             autoplay 
