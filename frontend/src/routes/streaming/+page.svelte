@@ -49,14 +49,35 @@
 
   function play(file) {
     const ext = file.split('.').pop().toLowerCase();
-    if (['mp3', 'ogg', 'wav', 'aac', 'flac'].includes(ext)) {
-      type = 'audio';
+    switch (ext) {
+      case 'mp3':
+      case 'ogg':
+      case 'wav':
+      case 'aac':
+      case 'flac':
+        type = 'audio';
+        break;
+      case 'mp4':
+      case 'webm':
+      case 'avi':
+      case 'mov':
+      case 'mkv':
+        type = 'video';
+        break;
+      case 'txt':
+        type = 'text';
+        break;
+      case 'png':
+      case 'jpeg':
+      case 'jpg':
+      case 'svg':
+      case 'gif':
+        type = 'image';
+        break;
+      default:
+        type = '';
+        break;
     }
-    else if (['mp4', 'webm', 'avi', 'mov', 'mkv'].includes(ext)) {
-      type = 'video';
-    }
-    else if (ext === 'txt') type = 'text';
-    else type = '';
 
     if (selected) {
       selected = file;
@@ -672,10 +693,18 @@
       Cargando...
     {:then text_file_stream}
       <div class="mb-6">
+        <h3 class="text-lg font-semibold mb-2">Texto: {selected}</h3>
         <iframe class="w-full" srcdoc={text_file_stream} frameBorder="0">
         </iframe>
       </div>
     {/await}
+  {/if}
+
+  {#if selected && type === 'image'}
+    <div class="mb-6">
+      <h3 class="text-lg font-semibold mb-2">Imagen: {selected}</h3>
+      <img src={`${PUBLIC_BACKEND_URL}/streaming/play/${selected}`} class="w-full rounded-lg shadow" />
+    </div>
   {/if}
 </main>
 
