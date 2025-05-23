@@ -463,10 +463,14 @@ async def download_ftp_file(filename: str):
     return FileResponse(file_path, filename=filename)
 
 # --- Mail Inbox (recepción desde archivos planos simulando bandeja local) ---
+from email.message import EmailMessage
+import ssl
+import smtplib
+
 MAILBOX_DIR = "mailbox"
 os.makedirs(MAILBOX_DIR, exist_ok=True)
 
-@router.get("/mail/inbox")
+@router.get("/mail")
 async def list_mail():
     mails = []
     for fname in os.listdir(MAILBOX_DIR):
@@ -475,3 +479,35 @@ async def list_mail():
             content = f.read()
         mails.append({"filename": fname, "content": content})
     return {"inbox": mails}
+
+@router.post("/mail")
+async def receive_mail(mail_data: dict):
+    required_keys = {"subject", "body", "to"}
+
+    if not required_keys.issubset(mail_data.keys()):
+        raise HTTPException(status_code=400, detail="Missing required mail fields")
+    
+    # Obtener datos del payload
+    sender = "leonardo.angulo@cetys.edu.mx"
+    to = mail_data["to"]
+    subject = mail_data["subject"]
+    body = mail_data["body"]
+    
+    # Crear un archivo de texto con el contenido del correo
+    filename = f"{time.time()}.txt"
+    with open(os.path.join(MAILBOX_DIR, filename), "w", encoding="utf-8") as f:
+        f.write(f"Subject: {subject}\nTo: {to}\n\n{body}")
+
+    email = EmailMessage()
+    email["From"] = sender
+    email["To"] = to
+    email["Subject"] = subject
+    email.set_content(body)
+
+    context = ssl.create_default_context()
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as smtp:
+        smtp.login(sender, "rieq cwgq mqys aqfi")
+        smtp.send_message(email)
+
+    return {"message": "Mail received", "filename": filename}

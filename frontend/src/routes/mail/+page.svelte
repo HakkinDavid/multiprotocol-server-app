@@ -31,7 +31,7 @@
 	}
 
 	async function loadInbox() {
-		const res = await fetch(`${PUBLIC_BACKEND_URL}/mail/inbox`);
+		const res = await fetch(`${PUBLIC_BACKEND_URL}/mail`);
 		const data = await res.json();
 		inbox = data.messages || [];
 	}
