@@ -11,6 +11,7 @@
 	};
 	let message = '';
 	let inbox = [];
+	let loading = false;
 
 	async function sendMail() {
 		if (!mail.to || !mail.subject || !mail.body) {
@@ -48,9 +49,22 @@
 	}
 
 	async function loadInbox() {
-		const res = await fetch(`${PUBLIC_BACKEND_URL}/mail`);
-		const data = await res.json();
-		inbox = data.messages || [];
+		try {
+			loading = true;
+			const userEmail = getCookie('userEmail');
+			if (!userEmail) {
+				message = 'User email not found. Please register first.';
+				return;
+			}
+
+			const res = await fetch(`${PUBLIC_BACKEND_URL}/mail?user_email=${encodeURIComponent(userEmail)}`);
+			const data = await res.json();
+			inbox = data.emails || [];
+		} catch (error) {
+			message = 'Error loading inbox: ' + (error instanceof Error ? error.message : String(error));
+		} finally {
+			loading = false;
+		}
 	}
 
 	onMount(loadInbox);
@@ -85,20 +99,38 @@
 		{/if}
 	</div>
 
-	<div class="max-h-[400px] overflow-y-auto rounded-lg border bg-gray-50 p-4">
-		<h3 class="mb-2 text-lg font-semibold">Inbound mail</h3>
-		{#if inbox.length > 0}
+	<div class="max-h-[600px] overflow-y-auto rounded-lg border bg-gray-50 p-4">
+		<div class="mb-4 flex items-center justify-between">
+			<h3 class="text-lg font-semibold">Inbound mail</h3>
+			<button
+				on:click={loadInbox}
+				class="rounded-full bg-blue-500 px-3 py-1 text-sm text-white hover:bg-blue-600"
+			>
+				Refresh
+			</button>
+		</div>
+		{#if loading}
+			<div class="flex items-center justify-center py-8">
+				<div class="h-8 w-8 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
+				<span class="ml-2 text-gray-600">Loading emails...</span>
+			</div>
+		{:else if inbox.length > 0}
 			<ul class="space-y-3">
-				{#each inbox as mail}
-					<li class="rounded border bg-white p-3">
-						<p><strong>From:</strong> {mail.from}</p>
-						<p><strong>Subject:</strong> {mail.subject}</p>
-						<p class="mt-2 whitespace-pre-wrap text-sm text-gray-600">{mail.body}</p>
+				{#each inbox as email}
+					<li class="rounded border bg-white p-4 shadow-sm hover:shadow-md transition-shadow">
+						<div class="flex justify-between items-start mb-2">
+							<h4 class="font-semibold text-gray-800">{email.subject}</h4>
+							<span class="text-sm text-gray-500">{email.date}</span>
+						</div>
+						<p class="text-sm text-gray-600 mb-2"><span class="font-medium">From:</span> {email.from}</p>
+						<div class="mt-2 text-sm text-gray-700 whitespace-pre-wrap border-t pt-2">
+							{email.body}
+						</div>
 					</li>
 				{/each}
 			</ul>
 		{:else}
-			<p class="text-gray-500">The are no mails currently available...</p>
+			<p class="text-center text-gray-500 py-8">No emails available...</p>
 		{/if}
 	</div>
 </main>

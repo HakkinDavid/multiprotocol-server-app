@@ -5,6 +5,10 @@ import smtplib
 from email.mime.text import MIMEText
 from typing import List
 import json
+import imaplib
+import email
+from email.header import decode_header
+from datetime import datetime
 
 from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, WebSocket, WebSocketDisconnect, Request
 
@@ -483,14 +487,94 @@ MAILBOX_DIR = "mailbox"
 os.makedirs(MAILBOX_DIR, exist_ok=True)
 
 @router.get("/mail")
-async def list_mail():
-    mails = []
-    for fname in os.listdir(MAILBOX_DIR):
-        path = os.path.join(MAILBOX_DIR, fname)
-        with open(path, "r", encoding="utf-8") as f:
-            content = f.read()
-        mails.append({"filename": fname, "content": content})
-    return {"inbox": mails}
+async def list_mail(user_email: str):
+    if not user_email:
+        raise HTTPException(status_code=400, detail="Email is required")
+    
+    # Buscar la carpeta del usuario en la carpeta users
+    users_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "users")
+    user_folder = os.path.join(users_dir, user_email)
+    if not os.path.exists(user_folder):
+        raise HTTPException(status_code=404, detail="User not found")
+    # Leer la contraseña del archivo password.txt
+    password_file = os.path.join(user_folder, "password.txt")
+    with open(password_file, "r") as f:
+        password = f.read().strip()
+
+    try:
+        # Connect to Gmail IMAP server
+        mail = imaplib.IMAP4_SSL("imap.gmail.com")
+        mail.login(user_email, password)
+        mail.select("inbox")
+
+        # Search for all emails
+        _, messages = mail.search(None, "ALL")
+        email_ids = messages[0].split()
+
+        # Get the last 10 emails
+        last_10_emails = email_ids[-10:] if len(email_ids) > 10 else email_ids
+        emails = []
+
+        for email_id in reversed(last_10_emails):
+            _, msg_data = mail.fetch(email_id, "(RFC822)")
+            raw_email = msg_data[0][1]
+            email_message = email.message_from_bytes(raw_email)
+
+            # Get subject
+            subject = decode_header(email_message["subject"])[0]
+            subject = subject[0].decode(subject[1] or "utf-8") if isinstance(subject[0], bytes) else subject[0]
+
+            # Get sender
+            from_ = decode_header(email_message["from"])[0]
+            from_ = from_[0].decode(from_[1] or "utf-8") if isinstance(from_[0], bytes) else from_[0]
+
+            # Get date
+            date = email_message["date"]
+            try:
+                # Try different date formats
+                date_formats = [
+                    "%a, %d %b %Y %H:%M:%S %z",  # Fri, 23 May 2025 23:19:21 +0000
+                    "%a, %d %b %Y %H:%M:%S %Z",  # Fri, 23 May 2025 23:19:21 GMT
+                    "%a, %d %b %Y %H:%M:%S",     # Fri, 23 May 2025 23:19:21
+                ]
+                
+                parsed_date = None
+                for date_format in date_formats:
+                    try:
+                        parsed_date = datetime.strptime(date, date_format)
+                        break
+                    except ValueError:
+                        continue
+                
+                if parsed_date:
+                    date = parsed_date.strftime("%Y-%m-%d %H:%M:%S")
+                else:
+                    date = "Unknown date"
+            except Exception:
+                date = "Unknown date"
+
+            # Get body
+            body = ""
+            if email_message.is_multipart():
+                for part in email_message.walk():
+                    if part.get_content_type() == "text/plain":
+                        body = part.get_payload(decode=True).decode()
+                        break
+            else:
+                body = email_message.get_payload(decode=True).decode()
+
+            emails.append({
+                "subject": subject,
+                "from": from_,
+                "date": date,
+                "body": body
+            })
+
+        mail.logout()
+        return {"emails": emails}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error fetching emails: {str(e)}")
 
 @router.post("/mail")
 async def receive_mail(mail_data: dict):
