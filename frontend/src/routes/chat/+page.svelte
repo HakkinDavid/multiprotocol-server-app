@@ -1,6 +1,6 @@
 <script>
 	import Header from '$lib/components/Header.svelte';
-  	import Footer from '$lib/components/Footer.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 	import { onMount } from 'svelte';
 	import { messages, connectWebSocket, sendMessage } from '$lib/stores/chat';
 
@@ -43,7 +43,7 @@
 	</div>
 </div>
 
-<Footer/>
+<Footer />
 
 <style>
 	.chat-container {

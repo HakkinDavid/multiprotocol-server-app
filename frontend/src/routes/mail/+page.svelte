@@ -18,16 +18,33 @@
 			return;
 		}
 
+		const userEmail = getCookie('userEmail');
+		if (!userEmail) {
+			message = 'User email not found. Please register first.';
+			return;
+		}
+
+		const mailData = {
+			...mail,
+			from: userEmail
+		};
+
 		const res = await fetch(`${PUBLIC_BACKEND_URL}/mail`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify(mail)
+			body: JSON.stringify(mailData)
 		});
 
 		const data = await res.json();
 		message = data.message || 'Failed to send';
 		mail = { to: '', subject: '', body: '' };
 		await loadInbox();
+	}
+
+	function getCookie(name) {
+		const value = `; ${document.cookie}`;
+		const parts = value.split(`; ${name}=`);
+		if (parts.length === 2) return parts.pop()?.split(';').shift();
 	}
 
 	async function loadInbox() {

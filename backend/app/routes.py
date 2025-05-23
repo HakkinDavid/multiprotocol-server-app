@@ -31,18 +31,30 @@ router = APIRouter()
 # User Management Endpoints
 # ============================
 
-@router.post("/register", response_model=UserResponse)
-async def register_user(user: UserCreate, db: AsyncSession = Depends(get_db)):
-    result = await db.execute("SELECT * FROM users WHERE username = :username", {"username": user.username})
-    if result.fetchone():
-        raise HTTPException(status_code=400, detail="Username already taken")
-    hashed_pwd = hash_password(user.password)
-    await db.execute(
-        "INSERT INTO users (username, hashed_password) VALUES (:username, :password)",
-        {"username": user.username, "password": hashed_pwd}
-    )
-    await db.commit()
-    return UserResponse(id=1, username=user.username)
+@router.post("/register")
+async def register_user(request: Request):
+    data = await request.json()
+    email = data.get("email")
+    password = data.get("password")
+    if not email or not password:
+        raise HTTPException(status_code=400, detail="Email and password are required")
+    
+    # Base folder for users
+    users_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "users")
+    users_dir = os.path.abspath(users_dir)
+    os.makedirs(users_dir, exist_ok=True)
+
+    # User folder
+    user_folder = os.path.join(users_dir, email)
+    if os.path.exists(user_folder):
+        raise HTTPException(status_code=409, detail="User already exists")
+    os.makedirs(user_folder)
+
+    # Save password in a txt file
+    password_file = os.path.join(user_folder, "password.txt")
+    with open(password_file, "w") as f:
+        f.write(password)
+    return {"message": "User registered successfully"}
 
 @router.post("/login")
 async def login(user: UserCreate, db: AsyncSession = Depends(get_db)):
@@ -482,16 +494,26 @@ async def list_mail():
 
 @router.post("/mail")
 async def receive_mail(mail_data: dict):
-    required_keys = {"subject", "body", "to"}
+    required_keys = {"subject", "body", "to", "from"}
 
     if not required_keys.issubset(mail_data.keys()):
         raise HTTPException(status_code=400, detail="Missing required mail fields")
     
     # Obtener datos del payload
-    sender = "leonardo.angulo@cetys.edu.mx"
+    sender = mail_data["from"]
     to = mail_data["to"]
     subject = mail_data["subject"]
     body = mail_data["body"]
+    
+    # Buscar la carpeta del usuario en la carpeta users
+    users_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "users")
+    user_folder = os.path.join(users_dir, sender)
+    if not os.path.exists(user_folder):
+        raise HTTPException(status_code=404, detail="User not found")
+    # Leer la contraseña del archivo password.txt
+    password_file = os.path.join(user_folder, "password.txt")
+    with open(password_file, "r") as f:
+        password = f.read().strip()
     
     # Crear un archivo de texto con el contenido del correo
     filename = f"{time.time()}.txt"
@@ -507,7 +529,7 @@ async def receive_mail(mail_data: dict):
     context = ssl.create_default_context()
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as smtp:
-        smtp.login(sender, "rieq cwgq mqys aqfi")
+        smtp.login(sender, password)
         smtp.send_message(email)
 
     return {"message": "Mail received", "filename": filename}
