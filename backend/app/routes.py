@@ -51,7 +51,8 @@ async def register_user(request: Request):
     # User folder
     user_folder = os.path.join(users_dir, email)
     if os.path.exists(user_folder):
-        raise HTTPException(status_code=409, detail="User already exists")
+        #raise HTTPException(status_code=409, detail="User already exists")
+        return {"message": "User already exists"}
     os.makedirs(user_folder)
 
     # Save password in a txt file
@@ -145,15 +146,33 @@ class ConnectionManager:
         self.active_connections.append(websocket)
     
     def disconnect(self, websocket: WebSocket):
-        self.active_connections.remove(websocket)
+        if websocket in self.active_connections:
+            self.active_connections.remove(websocket)
 
     async def send_personal_message(self, message: str, websocket: WebSocket):
-        await websocket.send_text(message)
+        try:
+            await websocket.send_text(message)
+        except WebSocketDisconnect:
+            self.disconnect(websocket)
+        except Exception as e:
+            print(f"Error sending personal message: {str(e)}")
+            self.disconnect(websocket)
     
     async def broadcast(self, message: str, websocket):
+        disconnected = []
         for connection in self.active_connections:
             if connection != websocket:
-                await connection.send_text(message)
+                try:
+                    await connection.send_text(message)
+                except WebSocketDisconnect:
+                    disconnected.append(connection)
+                except Exception as e:
+                    print(f"Error broadcasting message: {str(e)}")
+                    disconnected.append(connection)
+        
+        # Remove disconnected connections
+        for connection in disconnected:
+            self.disconnect(connection)
 
 connection_manager = ConnectionManager()
 
@@ -165,10 +184,10 @@ async def websocket_chat(websocket: WebSocket):
     try:
         while(True):
             data = await websocket.receive_text()
-            await connection_manager.send_personal_message(data, websocket)
             await connection_manager.broadcast(data, websocket)
     except WebSocketDisconnect:
         print(f"{client} disconnected.")
+        connection_manager.disconnect(websocket)
 
 # --- DNS Service (registro de IPs) ---
 DNS_LOG_FILE = "dns_log.txt"
