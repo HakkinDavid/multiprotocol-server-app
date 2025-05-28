@@ -180,7 +180,7 @@
     {/if}
   </div>
 
-  <LiveStream bind:errorMessage bind:successMessage/>
+  <!--LiveStream bind:errorMessage bind:successMessage/-->
 
   <!-- Sección de contenido para streaming -->
   <h2 class="text-2xl font-semibold text-gray-800 mb-4">Archivos disponibles para streaming</h2>
