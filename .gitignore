@@ -162,3 +162,5 @@ cython_debug/
 backend/uploads/*
 *.mp4
 backend/streaming/test.txt
+*.txt
+*.mov

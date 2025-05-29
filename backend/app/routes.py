@@ -52,7 +52,7 @@ async def register_user(request: Request):
     user_folder = os.path.join(users_dir, email)
     if os.path.exists(user_folder):
         #raise HTTPException(status_code=409, detail="User already exists")
-        return {"message": "User already exists"}
+        return {"message": "Logged in"}
     os.makedirs(user_folder)
 
     # Save password in a txt file
