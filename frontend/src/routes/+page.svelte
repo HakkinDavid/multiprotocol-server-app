@@ -52,6 +52,14 @@
 			color: 'bg-blue-500',
 			hoverColor: 'bg-blue-600',
 			description: 'Real-time chat service'
+		},
+        {
+			name: 'Machine Learning',
+			path: '/ml',
+			icon: '🤖',
+			color: 'bg-cyan-500',
+			hoverColor: 'bg-cyan-600',
+			description: 'Inference as a Service'
 		}
 	];
 
