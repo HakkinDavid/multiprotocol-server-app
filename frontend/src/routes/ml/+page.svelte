@@ -11,6 +11,7 @@
     let awayTeam = '';
     let homeGoalsHT = '';
     let awayGoalsHT = '';
+    let roundSel = '';
 
     const teams = [
         "Atlas",
@@ -59,12 +60,12 @@
         "Apertura - 17",
         "Apertura - 18",
         "Apertura - 19",
+        "Apertura - Reclasificación",
+        "Apertura - Quarter-finals",
+        "Apertura - Semi-finals",
         "Apertura - Final",
         "Apertura - Finals",
         "Apertura - Play-offs",
-        "Apertura - Quarter-finals",
-        "Apertura - Reclasificación",
-        "Apertura - Semi-finals",
         "Clausura - 1",
         "Clausura - 2",
         "Clausura - 3",
@@ -82,12 +83,12 @@
         "Clausura - 15",
         "Clausura - 16",
         "Clausura - 17",
+        "Clausura - Reclasificacion",
+        "Clausura - Quarter-finals",
+        "Clausura - Semi-finals",
         "Clausura - Final",
         "Clausura - Finals",
-        "Clausura - Play-offs",
-        "Clausura - Quarter-finals",
-        "Clausura - Reclasificacion",
-        "Clausura - Semi-finals"
+        "Clausura - Play-offs"
     ];
 
     function handleHTLocal(e) {
@@ -105,7 +106,7 @@
     }
 
     $: isValidInt = (v) => v !== '' && Number.isInteger(Number(v)) && Number(v) >= 0;
-    $: canSubmit = homeTeam !== '' && awayTeam !== '' && homeTeam !== awayTeam && isValidInt(homeGoalsHT) && isValidInt(awayGoalsHT);
+    $: canSubmit = homeTeam !== '' && awayTeam !== '' && homeTeam !== awayTeam && roundSel !== '' && isValidInt(homeGoalsHT) && isValidInt(awayGoalsHT);
 
     let predHome = null;
     let predAway = null;
@@ -119,7 +120,7 @@
         predAway = null;
 
         if (!canSubmit) {
-            error = 'Selecciona equipos distintos y proporciona goles de medio tiempo como enteros no negativos.';
+            error = 'Selecciona equipos distintos, una jornada válida y proporciona goles de medio tiempo como enteros no negativos.';
             loading = false;
             return;
         }
@@ -133,6 +134,7 @@
                 body: JSON.stringify({
                     home_team: homeTeam,
                     away_team: awayTeam,
+                    round: roundSel,
                     home_goals_half_time: parseInt(homeGoalsHT),
                     away_goals_half_time: parseInt(awayGoalsHT)
                 })
@@ -178,6 +180,16 @@
           <option value="" disabled>Selecciona equipo</option>
           {#each teams as team}
             <option value={team}>{team}</option>
+          {/each}
+        </select>
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Jornada / Fase</label>
+        <select bind:value={roundSel} class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="" disabled>Selecciona jornada</option>
+          {#each round as r}
+            <option value={r}>{r}</option>
           {/each}
         </select>
       </div>
