@@ -106,7 +106,8 @@
     }
 
     $: isValidInt = (v) => v !== '' && Number.isInteger(Number(v)) && Number(v) >= 0;
-    $: canSubmit = homeTeam !== '' && awayTeam !== '' && homeTeam !== awayTeam && roundSel !== '' && isValidInt(homeGoalsHT) && isValidInt(awayGoalsHT);
+    // TODO: definir si usar round
+    $: canSubmit = homeTeam !== '' && awayTeam !== '' && homeTeam !== awayTeam /* && roundSel !== '' */ && isValidInt(homeGoalsHT) && isValidInt(awayGoalsHT);
 
     let predHome = null;
     let predAway = null;
@@ -134,7 +135,8 @@
                 body: JSON.stringify({
                     home_team: homeTeam,
                     away_team: awayTeam,
-                    round: roundSel,
+                    // TODO: definir si usar round
+                    //round: roundSel,
                     home_goals_half_time: parseInt(homeGoalsHT),
                     away_goals_half_time: parseInt(awayGoalsHT)
                 })
@@ -183,7 +185,8 @@
           {/each}
         </select>
       </div>
-
+        <!--TODO: definir si usar round-->
+      <!--
       <div class="mb-4">
         <label class="block text-sm font-medium text-gray-700 mb-1">Jornada / Fase</label>
         <select bind:value={roundSel} class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
@@ -193,6 +196,7 @@
           {/each}
         </select>
       </div>
+        -->
 
       <div class="mb-4">
         <label class="block text-sm font-medium text-gray-700 mb-1">Goles Local (Medio Tiempo)</label>
