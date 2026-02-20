@@ -1,0 +1,2590 @@
+home_team,away_team,home_win,away_win,home_goals,away_goals,home_goals_half_time,away_goals_half_time,home_goals_fulltime,away_goals_fulltime
+Mazatlán,Puebla,False,True,2.0,4.0,0.0,2.0,2.0,4.0
+Guadalajara Chivas,FC Juarez,,,0.0,0.0,0.0,0.0,0.0,0.0
+Necaxa,Toluca,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Tigres UANL,Cruz Azul,False,True,2.0,3.0,0.0,1.0,2.0,3.0
+Club America,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Club Tijuana,,,1.0,1.0,0.0,1.0,1.0,1.0
+Atletico San Luis,Leon,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Santos Laguna,Monterrey,True,False,4.0,3.0,2.0,2.0,4.0,3.0
+Pachuca,Club Queretaro,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Mazatlán,Tigres UANL,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Club Tijuana,FC Juarez,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Puebla,Santos Laguna,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Leon,U.N.A.M. - Pumas,,,3.0,3.0,0.0,2.0,3.0,3.0
+Guadalajara Chivas,Atletico San Luis,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Monterrey,Club America,True,False,3.0,2.0,1.0,2.0,3.0,2.0
+Cruz Azul,Pachuca,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Toluca,Atlas,True,False,3.0,2.0,3.0,1.0,3.0,2.0
+Club Queretaro,Necaxa,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club America,Toluca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Puebla,Leon,,,1.0,1.0,1.0,0.0,1.0,1.0
+FC Juarez,Club Queretaro,,,1.0,1.0,1.0,1.0,1.0,1.0
+Atlas,Cruz Azul,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Santos Laguna,Guadalajara Chivas,,,1.0,1.0,0.0,0.0,1.0,1.0
+U.N.A.M. - Pumas,Necaxa,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Atletico San Luis,Monterrey,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Tigres UANL,Club Tijuana,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Mazatlán,,,1.0,1.0,0.0,0.0,1.0,1.0
+Guadalajara Chivas,Leon,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Queretaro,Monterrey,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Mazatlán,Atletico San Luis,,,1.0,1.0,1.0,1.0,1.0,1.0
+Necaxa,FC Juarez,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Toluca,Santos Laguna,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Cruz Azul,Puebla,,,2.0,2.0,2.0,2.0,2.0,2.0
+Club Tijuana,Club America,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Tigres UANL,Atlas,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Pachuca,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Puebla,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Atlas,Club Tijuana,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+FC Juarez,Tigres UANL,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Leon,Toluca,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Atletico San Luis,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Necaxa,Pachuca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Queretaro,Guadalajara Chivas,,,2.0,2.0,1.0,1.0,2.0,2.0
+U.N.A.M. - Pumas,Mazatlán,,,1.0,1.0,0.0,0.0,1.0,1.0
+FC Juarez,Toluca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Cruz Azul,Necaxa,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Tigres UANL,Club Queretaro,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Guadalajara Chivas,Pachuca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Tijuana,Mazatlán,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Puebla,Atletico San Luis,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Monterrey,,,1.0,1.0,1.0,1.0,1.0,1.0
+Santos Laguna,Atlas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Leon,Club America,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Toluca,Puebla,,,1.0,1.0,0.0,1.0,1.0,1.0
+FC Juarez,Atletico San Luis,,,1.0,1.0,0.0,1.0,1.0,1.0
+Atlas,Club Queretaro,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Mazatlán,Guadalajara Chivas,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Monterrey,Leon,True,False,5.0,1.0,3.0,0.0,5.0,1.0
+Santos Laguna,Cruz Azul,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Toluca,Club Tijuana,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Atletico San Luis,Necaxa,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Pachuca,Tigres UANL,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club America,FC Juarez,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Club Queretaro,Atletico San Luis,,,1.0,1.0,0.0,0.0,1.0,1.0
+Necaxa,Monterrey,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Club Tijuana,Puebla,,,3.0,3.0,1.0,1.0,3.0,3.0
+Leon,Mazatlán,False,True,0.0,3.0,0.0,3.0,0.0,3.0
+U.N.A.M. - Pumas,Club America,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Guadalajara Chivas,Atlas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Cruz Azul,Toluca,False,True,2.0,3.0,1.0,2.0,2.0,3.0
+Tigres UANL,Santos Laguna,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Atlas,FC Juarez,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Mazatlán,Club Queretaro,,,1.0,1.0,0.0,0.0,1.0,1.0
+Puebla,Necaxa,,,2.0,2.0,1.0,0.0,2.0,2.0
+Toluca,Monterrey,,,1.0,1.0,1.0,0.0,1.0,1.0
+Pachuca,Club America,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Cruz Azul,Club Tijuana,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Santos Laguna,Leon,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Atletico San Luis,U.N.A.M. - Pumas,True,False,3.0,2.0,1.0,2.0,3.0,2.0
+Necaxa,Guadalajara Chivas,False,True,0.0,4.0,0.0,2.0,0.0,4.0
+Club Queretaro,Club Tijuana,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monterrey,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Puebla,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club America,Cruz Azul,True,False,7.0,0.0,3.0,0.0,7.0,0.0
+FC Juarez,Mazatlán,,,1.0,1.0,0.0,1.0,1.0,1.0
+U.N.A.M. - Pumas,Santos Laguna,False,True,1.0,5.0,0.0,3.0,1.0,5.0
+Atletico San Luis,Toluca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Pachuca,Leon,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Guadalajara Chivas,Monterrey,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Queretaro,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+U.N.A.M. - Pumas,Tigres UANL,,,1.0,1.0,0.0,0.0,1.0,1.0
+Pachuca,Atlas,True,False,3.0,1.0,0.0,0.0,3.0,1.0
+Club Tijuana,Santos Laguna,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Puebla,FC Juarez,,,2.0,2.0,1.0,1.0,2.0,2.0
+Mazatlán,Club America,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Cruz Azul,Club Queretaro,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Tigres UANL,Necaxa,,,0.0,0.0,0.0,0.0,0.0,0.0
+Guadalajara Chivas,U.N.A.M. - Pumas,True,False,3.0,1.0,3.0,1.0,3.0,1.0
+Toluca,Pachuca,False,True,1.0,4.0,0.0,2.0,1.0,4.0
+Leon,Atlas,True,False,4.0,2.0,1.0,1.0,4.0,2.0
+Santos Laguna,Atletico San Luis,True,False,4.0,1.0,1.0,0.0,4.0,1.0
+Club Tijuana,Monterrey,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Atletico San Luis,Club Tijuana,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Queretaro,Puebla,,,1.0,1.0,1.0,0.0,1.0,1.0
+Necaxa,Leon,True,False,3.0,2.0,3.0,0.0,3.0,2.0
+FC Juarez,Cruz Azul,,,2.0,2.0,0.0,2.0,2.0,2.0
+Pachuca,Santos Laguna,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Monterrey,Mazatlán,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club America,Tigres UANL,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Toluca,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Leon,FC Juarez,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Necaxa,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Monterrey,Cruz Azul,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Club America,Atletico San Luis,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Tigres UANL,Toluca,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Puebla,Pachuca,,,2.0,2.0,1.0,0.0,2.0,2.0
+Mazatlán,Atlas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club Tijuana,Guadalajara Chivas,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+U.N.A.M. - Pumas,Club Queretaro,True,False,4.0,1.0,1.0,1.0,4.0,1.0
+FC Juarez,Monterrey,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Queretaro,Santos Laguna,,,3.0,3.0,2.0,1.0,3.0,3.0
+Necaxa,Club America,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Tigres UANL,Leon,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Guadalajara Chivas,Puebla,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Toluca,U.N.A.M. - Pumas,,,2.0,2.0,0.0,1.0,2.0,2.0
+Cruz Azul,Mazatlán,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Atlas,Atletico San Luis,False,True,1.0,3.0,1.0,0.0,1.0,3.0
+Pachuca,Club Tijuana,True,False,6.0,1.0,2.0,0.0,6.0,1.0
+Guadalajara Chivas,Tigres UANL,False,True,1.0,4.0,0.0,2.0,1.0,4.0
+Club America,Santos Laguna,,,3.0,3.0,1.0,2.0,3.0,3.0
+FC Juarez,Pachuca,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Cruz Azul,Leon,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Puebla,Tigres UANL,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Mazatlán,Toluca,,,1.0,1.0,1.0,0.0,1.0,1.0
+Monterrey,Atlas,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club America,Guadalajara Chivas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+U.N.A.M. - Pumas,Cruz Azul,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Santos Laguna,FC Juarez,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Leon,Club Queretaro,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Atletico San Luis,Pachuca,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club Tijuana,Necaxa,,,1.0,1.0,1.0,1.0,1.0,1.0
+Necaxa,Mazatlán,,,2.0,2.0,1.0,2.0,2.0,2.0
+Puebla,U.N.A.M. - Pumas,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Puebla,Club America,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+FC Juarez,U.N.A.M. - Pumas,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Atletico San Luis,Tigres UANL,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Monterrey,Pachuca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Necaxa,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Cruz Azul,Guadalajara Chivas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Toluca,Club Queretaro,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Santos Laguna,Mazatlán,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Leon,Club Tijuana,,,2.0,2.0,0.0,0.0,2.0,2.0
+Tigres UANL,Necaxa,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Cruz Azul,Leon,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Toluca,FC Juarez,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Puebla,Guadalajara Chivas,True,False,1.0,1.0,0.0,0.0,1.0,1.0
+Puebla,Club America,False,True,1.0,6.0,1.0,2.0,1.0,6.0
+Cruz Azul,Monterrey,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Santos Laguna,True,False,4.0,3.0,2.0,2.0,4.0,3.0
+Tigres UANL,Pachuca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club America,Puebla,True,False,5.0,1.0,2.0,1.0,5.0,1.0
+Monterrey,Cruz Azul,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Santos Laguna,Toluca,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Pachuca,Tigres UANL,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Toluca,Club America,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Pachuca,Monterrey,True,False,5.0,2.0,2.0,2.0,5.0,2.0
+Club America,Toluca,,,1.0,1.0,1.0,1.0,1.0,1.0
+Monterrey,Pachuca,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Toluca,Pachuca,False,True,1.0,5.0,0.0,4.0,1.0,5.0
+Pachuca,Toluca,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Necaxa,Atletico San Luis,False,True,2.0,3.0,0.0,0.0,2.0,3.0
+Club America,Club Queretaro,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Guadalajara Chivas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+U.N.A.M. - Pumas,FC Juarez,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Santos Laguna,Tigres UANL,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Club Tijuana,Cruz Azul,,,1.0,1.0,1.0,0.0,1.0,1.0
+Pachuca,Puebla,True,False,5.0,1.0,2.0,1.0,5.0,1.0
+Atlas,Mazatlán,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Atletico San Luis,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Puebla,Club Queretaro,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Cruz Azul,Monterrey,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Toluca,Club America,,,2.0,2.0,2.0,1.0,2.0,2.0
+FC Juarez,Club Tijuana,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Santos Laguna,U.N.A.M. - Pumas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Tigres UANL,Pachuca,True,False,4.0,1.0,1.0,1.0,4.0,1.0
+Leon,Necaxa,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Mazatlán,Santos Laguna,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Club Tijuana,Tigres UANL,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club America,Puebla,,,2.0,2.0,1.0,0.0,2.0,2.0
+Guadalajara Chivas,Toluca,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Necaxa,Cruz Azul,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Leon,True,False,4.0,1.0,2.0,1.0,4.0,1.0
+Club Queretaro,Atlas,,,3.0,3.0,2.0,2.0,3.0,3.0
+Monterrey,Atletico San Luis,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Pachuca,FC Juarez,True,False,4.0,1.0,1.0,0.0,4.0,1.0
+Atlas,Santos Laguna,,,2.0,2.0,0.0,1.0,2.0,2.0
+Puebla,Monterrey,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Club Tijuana,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Tigres UANL,Atletico San Luis,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club America,Mazatlán,True,False,6.0,0.0,4.0,0.0,6.0,0.0
+FC Juarez,Guadalajara Chivas,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Toluca,Leon,,,0.0,0.0,0.0,0.0,0.0,0.0
+Pachuca,Necaxa,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Atlas,Toluca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atletico San Luis,Puebla,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Necaxa,Club Tijuana,,,1.0,1.0,0.0,1.0,1.0,1.0
+Mazatlán,FC Juarez,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Leon,Pachuca,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Cruz Azul,Tigres UANL,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Santos Laguna,Club America,,,2.0,2.0,2.0,1.0,2.0,2.0
+U.N.A.M. - Pumas,Atlas,,,2.0,2.0,2.0,1.0,2.0,2.0
+Guadalajara Chivas,Club Queretaro,,,1.0,1.0,0.0,0.0,1.0,1.0
+Monterrey,Toluca,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Club Queretaro,Leon,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+Atlas,Monterrey,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Puebla,Mazatlán,True,False,3.0,1.0,3.0,0.0,3.0,1.0
+Club Tijuana,Atletico San Luis,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club America,Necaxa,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Tigres UANL,U.N.A.M. - Pumas,True,False,4.0,2.0,3.0,1.0,4.0,2.0
+FC Juarez,Santos Laguna,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Pachuca,Guadalajara Chivas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Toluca,Cruz Azul,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Tigres UANL,FC Juarez,,,0.0,0.0,0.0,0.0,0.0,0.0
+Leon,Puebla,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Atletico San Luis,Club America,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Guadalajara Chivas,Club Tijuana,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Monterrey,Club Queretaro,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Necaxa,U.N.A.M. - Pumas,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Mazatlán,Pachuca,False,True,2.0,3.0,0.0,1.0,2.0,3.0
+FC Juarez,Leon,,,0.0,0.0,0.0,0.0,0.0,0.0
+Puebla,Cruz Azul,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+Atletico San Luis,Santos Laguna,,,1.0,1.0,1.0,0.0,1.0,1.0
+Atlas,Tigres UANL,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+U.N.A.M. - Pumas,Guadalajara Chivas,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Club Queretaro,Mazatlán,,,1.0,1.0,1.0,0.0,1.0,1.0
+Monterrey,Necaxa,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Club America,Club Tijuana,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Pachuca,Toluca,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Cruz Azul,Atlas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Toluca,False,True,0.0,5.0,0.0,2.0,0.0,5.0
+Necaxa,Club Queretaro,,,1.0,1.0,1.0,0.0,1.0,1.0
+Mazatlán,U.N.A.M. - Pumas,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Cruz Azul,FC Juarez,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Tigres UANL,Guadalajara Chivas,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Atlas,Club America,,,2.0,2.0,1.0,2.0,2.0,2.0
+Toluca,Atletico San Luis,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Santos Laguna,Puebla,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Club Tijuana,Pachuca,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Leon,Monterrey,,,1.0,1.0,1.0,0.0,1.0,1.0
+Necaxa,Tigres UANL,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Mazatlán,Cruz Azul,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Club Tijuana,Atlas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Leon,Atletico San Luis,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club America,Pachuca,False,True,0.0,3.0,0.0,3.0,0.0,3.0
+Monterrey,FC Juarez,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Guadalajara Chivas,Santos Laguna,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Puebla,False,True,2.0,4.0,1.0,2.0,2.0,4.0
+Club Queretaro,Toluca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Atletico San Luis,Club Queretaro,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Puebla,Guadalajara Chivas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Atlas,Leon,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Cruz Azul,U.N.A.M. - Pumas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Club America,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Toluca,Mazatlán,True,False,4.0,1.0,2.0,1.0,4.0,1.0
+Santos Laguna,Club Tijuana,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Pachuca,Monterrey,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+FC Juarez,Necaxa,,,1.0,1.0,0.0,0.0,1.0,1.0
+Puebla,Atlas,False,True,0.0,4.0,0.0,2.0,0.0,4.0
+Club Tijuana,Toluca,,,3.0,3.0,0.0,3.0,3.0,3.0
+Mazatlán,Necaxa,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Cruz Azul,Atletico San Luis,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Monterrey,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Guadalajara Chivas,Club America,False,True,2.0,4.0,0.0,3.0,2.0,4.0
+U.N.A.M. - Pumas,Pachuca,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Club Queretaro,FC Juarez,,,2.0,2.0,1.0,0.0,2.0,2.0
+Leon,Santos Laguna,True,False,4.0,1.0,3.0,0.0,4.0,1.0
+Mazatlán,Leon,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club Queretaro,Cruz Azul,,,2.0,2.0,0.0,1.0,2.0,2.0
+Necaxa,Santos Laguna,,,0.0,0.0,0.0,0.0,0.0,0.0
+FC Juarez,Puebla,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Pachuca,Cruz Azul,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Club America,Leon,,,2.0,2.0,0.0,1.0,2.0,2.0
+Monterrey,Club Tijuana,True,False,4.0,0.0,3.0,0.0,4.0,0.0
+Atlas,Guadalajara Chivas,,,3.0,3.0,2.0,2.0,3.0,3.0
+Toluca,Tigres UANL,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Atletico San Luis,Mazatlán,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Club Queretaro,U.N.A.M. - Pumas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Puebla,Toluca,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Club Tijuana,Club Queretaro,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Guadalajara Chivas,Necaxa,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Mazatlán,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Leon,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club America,Monterrey,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+U.N.A.M. - Pumas,Atletico San Luis,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Santos Laguna,Pachuca,False,True,1.0,4.0,1.0,2.0,1.0,4.0
+FC Juarez,Atlas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Atletico San Luis,FC Juarez,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Necaxa,Puebla,,,1.0,1.0,0.0,0.0,1.0,1.0
+Mazatlán,Club Tijuana,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Atlas,Pachuca,True,False,4.0,1.0,3.0,0.0,4.0,1.0
+Leon,Guadalajara Chivas,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Cruz Azul,Club America,False,True,1.0,3.0,1.0,1.0,1.0,3.0
+U.N.A.M. - Pumas,Toluca,True,False,3.0,1.0,3.0,1.0,3.0,1.0
+Club Queretaro,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Santos Laguna,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Tigres UANL,Puebla,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Necaxa,Atlas,False,True,1.0,3.0,0.0,3.0,1.0,3.0
+Mazatlán,Monterrey,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Club Tijuana,Leon,,,0.0,0.0,0.0,0.0,0.0,0.0
+Pachuca,Atletico San Luis,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Guadalajara Chivas,Cruz Azul,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Club America,U.N.A.M. - Pumas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Toluca,FC Juarez,,,1.0,1.0,1.0,0.0,1.0,1.0
+Santos Laguna,Club Queretaro,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+FC Juarez,Club America,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Puebla,Club Tijuana,True,False,5.0,2.0,2.0,1.0,5.0,2.0
+Atletico San Luis,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Guadalajara Chivas,Mazatlán,True,False,4.0,1.0,2.0,1.0,4.0,1.0
+Monterrey,U.N.A.M. - Pumas,True,False,4.0,1.0,4.0,1.0,4.0,1.0
+Cruz Azul,Santos Laguna,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Toluca,Necaxa,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club Queretaro,Pachuca,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Leon,Tigres UANL,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Cruz Azul,Atlas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Pachuca,Santos Laguna,False,True,4.0,4.0,3.0,2.0,4.0,4.0
+Leon,Atlético San Luis,False,True,1.0,3.0,1.0,3.0,1.0,3.0
+Santos Laguna,Monterrey,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atletico San Luis,Club America,False,True,1.0,3.0,1.0,3.0,1.0,3.0
+Atlas,Guadalajara Chivas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Tigres UANL,Toluca,True,False,4.0,1.0,3.0,1.0,4.0,1.0
+Monterrey,Santos Laguna,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club America,Atletico San Luis,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Toluca,Tigres UANL,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Guadalajara Chivas,Atlas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Monterrey,,,1.0,1.0,0.0,1.0,1.0,1.0
+Guadalajara Chivas,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Monterrey,Tigres UANL,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club America,Guadalajara Chivas,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+Tigres UANL,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Guadalajara Chivas,Tigres UANL,False,True,2.0,3.0,2.0,0.0,2.0,2.0
+Club America,FC Juarez,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Mazatlán,Pachuca,,,1.0,1.0,0.0,1.0,1.0,1.0
+Club Tijuana,U.N.A.M. - Pumas,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Atletico San Luis,Monterrey,,,1.0,1.0,0.0,1.0,1.0,1.0
+Tigres UANL,Puebla,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atlas,Cruz Azul,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Toluca,Necaxa,,,0.0,0.0,0.0,0.0,0.0,0.0
+Leon,Guadalajara Chivas,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Puebla,Santos Laguna,False,True,2.0,3.0,2.0,2.0,2.0,3.0
+Necaxa,Club Tijuana,,,1.0,1.0,0.0,0.0,1.0,1.0
+Cruz Azul,Toluca,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Guadalajara Chivas,Atletico San Luis,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+FC Juarez,Tigres UANL,,,1.0,1.0,0.0,1.0,1.0,1.0
+U.N.A.M. - Pumas,Mazatlán,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Atlas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Leon,Pachuca,True,False,4.0,0.0,3.0,0.0,4.0,0.0
+Santos Laguna,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Guadalajara Chivas,Necaxa,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Mazatlán,Monterrey,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Club Tijuana,Cruz Azul,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Atletico San Luis,Club Queretaro,True,False,4.0,1.0,2.0,1.0,4.0,1.0
+Club America,Puebla,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Tigres UANL,Leon,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Toluca,FC Juarez,False,True,2.0,4.0,1.0,1.0,2.0,4.0
+Pachuca,U.N.A.M. - Pumas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Leon,Mazatlán,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+U.N.A.M. - Pumas,Toluca,,,1.0,1.0,1.0,1.0,1.0,1.0
+Puebla,Atletico San Luis,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+FC Juarez,Guadalajara Chivas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Cruz Azul,Santos Laguna,,,2.0,2.0,2.0,1.0,2.0,2.0
+Club Queretaro,Pachuca,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club America,Atlas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Necaxa,Tigres UANL,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Guadalajara Chivas,Club Tijuana,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,Puebla,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+FC Juarez,U.N.A.M. - Pumas,True,False,4.0,1.0,3.0,0.0,4.0,1.0
+Club America,Necaxa,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Pachuca,Cruz Azul,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Atletico San Luis,Leon,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Puebla,FC Juarez,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club Tijuana,Mazatlán,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club America,Leon,,,1.0,1.0,0.0,0.0,1.0,1.0
+Santos Laguna,Guadalajara Chivas,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+U.N.A.M. - Pumas,Tigres UANL,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Monterrey,Cruz Azul,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Necaxa,Club Queretaro,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Pachuca,Atletico San Luis,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Toluca,Monterrey,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club Queretaro,Atlas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Tigres UANL,Santos Laguna,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+FC Juarez,Mazatlán,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Puebla,Club Tijuana,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Leon,Necaxa,,,1.0,1.0,0.0,1.0,1.0,1.0
+Santos Laguna,U.N.A.M. - Pumas,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Tigres UANL,Club Queretaro,True,False,5.0,0.0,2.0,0.0,5.0,0.0
+Cruz Azul,Club America,False,True,2.0,3.0,1.0,3.0,2.0,3.0
+Toluca,Pachuca,True,False,5.0,0.0,2.0,0.0,5.0,0.0
+Guadalajara Chivas,Monterrey,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Atletico San Luis,Atlas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Mazatlán,Cruz Azul,,,2.0,2.0,2.0,0.0,2.0,2.0
+Club Tijuana,Toluca,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Necaxa,FC Juarez,,,1.0,1.0,1.0,1.0,1.0,1.0
+Monterrey,Leon,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Club America,Guadalajara Chivas,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+U.N.A.M. - Pumas,Atletico San Luis,True,False,3.0,2.0,0.0,1.0,3.0,2.0
+Club Queretaro,Puebla,,,1.0,1.0,0.0,1.0,1.0,1.0
+Atlas,Tigres UANL,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Pachuca,Santos Laguna,True,False,3.0,2.0,1.0,0.0,3.0,2.0
+Club Queretaro,Club America,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+FC Juarez,Atlas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Atletico San Luis,Mazatlán,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Puebla,U.N.A.M. - Pumas,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Leon,Club Tijuana,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Monterrey,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Toluca,Club America,,,1.0,1.0,0.0,1.0,1.0,1.0
+Santos Laguna,Necaxa,False,True,2.0,5.0,0.0,1.0,2.0,5.0
+Cruz Azul,Club Queretaro,False,True,1.0,3.0,1.0,0.0,1.0,3.0
+Guadalajara Chivas,Mazatlán,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Atlas,Puebla,False,True,2.0,3.0,1.0,2.0,2.0,3.0
+Club Queretaro,Leon,,,1.0,1.0,0.0,1.0,1.0,1.0
+Atletico San Luis,Cruz Azul,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Club Tijuana,FC Juarez,True,False,5.0,1.0,1.0,1.0,5.0,1.0
+Pachuca,Necaxa,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club America,U.N.A.M. - Pumas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,Tigres UANL,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Toluca,Guadalajara Chivas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Puebla,Monterrey,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club America,Pachuca,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+U.N.A.M. - Pumas,Club Queretaro,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Necaxa,Cruz Azul,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+Tigres UANL,Toluca,,,2.0,2.0,1.0,1.0,2.0,2.0
+Santos Laguna,Club Tijuana,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Mazatlán,Club America,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Monterrey,FC Juarez,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Guadalajara Chivas,Atlas,True,False,4.0,1.0,1.0,1.0,4.0,1.0
+Pachuca,Tigres UANL,,,1.0,1.0,1.0,1.0,1.0,1.0
+Cruz Azul,U.N.A.M. - Pumas,False,True,1.0,4.0,1.0,1.0,1.0,4.0
+Toluca,Club Queretaro,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Necaxa,Puebla,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Santos Laguna,Leon,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Club Tijuana,Atletico San Luis,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Atlas,Mazatlán,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+FC Juarez,Pachuca,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Puebla,Guadalajara Chivas,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Leon,Toluca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Santos Laguna,True,False,4.0,3.0,3.0,2.0,4.0,3.0
+Club Queretaro,Club Tijuana,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Cruz Azul,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+U.N.A.M. - Pumas,Monterrey,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Atletico San Luis,Necaxa,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Leon,Atlas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monterrey,Club Tijuana,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+FC Juarez,Atletico San Luis,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Necaxa,U.N.A.M. - Pumas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,Club Queretaro,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Cruz Azul,Leon,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Guadalajara Chivas,Tigres UANL,False,True,0.0,4.0,0.0,1.0,0.0,4.0
+Pachuca,Puebla,,,1.0,1.0,1.0,1.0,1.0,1.0
+Monterrey,Club America,False,True,0.0,3.0,0.0,3.0,0.0,3.0
+Toluca,Atletico San Luis,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Santos Laguna,FC Juarez,True,False,5.0,1.0,2.0,1.0,5.0,1.0
+Club Tijuana,Atlas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Toluca,Puebla,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Queretaro,Guadalajara Chivas,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Leon,U.N.A.M. - Pumas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monterrey,Necaxa,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Atlas,Pachuca,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Cruz Azul,FC Juarez,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Atletico San Luis,Club America,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Mazatlán,Santos Laguna,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Club Tijuana,Tigres UANL,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Puebla,Leon,True,False,5.0,4.0,1.0,3.0,5.0,4.0
+Tigres UANL,Atletico San Luis,,,2.0,2.0,0.0,0.0,2.0,2.0
+Club America,Club Tijuana,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Guadalajara Chivas,Cruz Azul,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Monterrey,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+U.N.A.M. - Pumas,Atlas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Necaxa,Mazatlán,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Santos Laguna,Toluca,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+FC Juarez,Club Queretaro,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Monterrey,Santos Laguna,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Atlas,Necaxa,,,0.0,0.0,0.0,0.0,0.0,0.0
+Mazatlán,Toluca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Tijuana,Pachuca,False,True,2.0,3.0,1.0,0.0,2.0,3.0
+Club Queretaro,Monterrey,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atletico San Luis,Santos Laguna,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+U.N.A.M. - Pumas,Guadalajara Chivas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Tigres UANL,Club America,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Puebla,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Leon,FC Juarez,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Atletico San Luis,Leon,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Santos Laguna,Mazatlán,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Leon,Santos Laguna,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+León,Club America,,,2.0,2.0,2.0,1.0,2.0,2.0
+Atletico San Luis,Monterrey,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Puebla,Tigres UANL,,,2.0,2.0,1.0,1.0,2.0,2.0
+Guadalajara Chivas,U.N.A.M. - Pumas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Leon,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Monterrey,Atletico San Luis,,,1.0,1.0,1.0,0.0,1.0,1.0
+U.N.A.M. - Pumas,Guadalajara Chivas,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Tigres UANL,Puebla,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Atletico San Luis,Club America,False,True,0.0,5.0,0.0,2.0,0.0,5.0
+U.N.A.M. - Pumas,Tigres UANL,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club America,Atletico San Luis,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Tigres UANL,U.N.A.M. - Pumas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Tigres UANL,Club America,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club America,Tigres UANL,True,False,3.0,0.0,0.0,0.0,0.0,0.0
+Club Queretaro,Toluca,,,2.0,2.0,1.0,0.0,2.0,2.0
+Mazatlán,Atletico San Luis,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Cruz Azul,Pachuca,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Guadalajara Chivas,Santos Laguna,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Tijuana,Club America,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Monterrey,Puebla,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,FC Juarez,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Necaxa,Atlas,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Leon,Tigres UANL,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Puebla,Necaxa,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Atletico San Luis,U.N.A.M. - Pumas,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+FC Juarez,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Mazatlán,True,False,4.0,1.0,1.0,1.0,4.0,1.0
+Club America,Club Queretaro,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Atlas,Club Tijuana,,,0.0,0.0,0.0,0.0,0.0,0.0
+Tigres UANL,Guadalajara Chivas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Monterrey,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Monterrey,Club Queretaro,,,1.0,1.0,1.0,0.0,1.0,1.0
+Atletico San Luis,Tigres UANL,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+FC Juarez,Club America,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Puebla,Toluca,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club Tijuana,Guadalajara Chivas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Leon,Santos Laguna,True,False,3.0,2.0,0.0,1.0,3.0,2.0
+Cruz Azul,Mazatlán,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Monterrey,Atletico San Luis,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Necaxa,Club America,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Pachuca,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Atlas,FC Juarez,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Club Queretaro,Tigres UANL,,,1.0,1.0,1.0,0.0,1.0,1.0
+Cruz Azul,Club Tijuana,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,Leon,,,2.0,2.0,2.0,1.0,2.0,2.0
+Santos Laguna,Puebla,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Guadalajara Chivas,Toluca,True,False,3.0,2.0,2.0,2.0,3.0,2.0
+Pachuca,Atlas,True,False,4.0,3.0,3.0,2.0,4.0,3.0
+U.N.A.M. - Pumas,Necaxa,,,2.0,2.0,1.0,0.0,2.0,2.0
+Club Queretaro,Cruz Azul,False,True,1.0,3.0,1.0,3.0,1.0,3.0
+Puebla,Mazatlán,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Toluca,Leon,True,False,4.0,1.0,3.0,0.0,4.0,1.0
+Tigres UANL,U.N.A.M. - Pumas,,,2.0,2.0,1.0,0.0,2.0,2.0
+Pachuca,Club Tijuana,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Club America,Monterrey,,,1.0,1.0,1.0,1.0,1.0,1.0
+FC Juarez,Necaxa,,,2.0,2.0,1.0,1.0,2.0,2.0
+Atlas,Santos Laguna,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Atletico San Luis,Guadalajara Chivas,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Pachuca,Leon,True,False,3.0,2.0,1.0,2.0,3.0,2.0
+Mazatlán,Atlas,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club Tijuana,Club Queretaro,,,1.0,1.0,1.0,1.0,1.0,1.0
+Necaxa,Toluca,,,3.0,3.0,2.0,1.0,3.0,3.0
+Guadalajara Chivas,FC Juarez,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Leon,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Cruz Azul,Atletico San Luis,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Monterrey,Pachuca,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Santos Laguna,Tigres UANL,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+U.N.A.M. - Pumas,Puebla,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Club Queretaro,Necaxa,,,1.0,1.0,1.0,0.0,1.0,1.0
+Mazatlán,Guadalajara Chivas,,,2.0,2.0,0.0,1.0,2.0,2.0
+Atletico San Luis,Club Tijuana,,,3.0,3.0,1.0,2.0,3.0,3.0
+Pachuca,Club America,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Cruz Azul,Tigres UANL,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Atlas,Leon,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+U.N.A.M. - Pumas,Santos Laguna,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Monterrey,Toluca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Puebla,Pachuca,False,True,1.0,4.0,1.0,1.0,1.0,4.0
+Necaxa,Guadalajara Chivas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Toluca,Santos Laguna,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club America,Mazatlán,,,2.0,2.0,0.0,1.0,2.0,2.0
+Leon,Cruz Azul,False,True,2.0,3.0,0.0,2.0,2.0,3.0
+Puebla,Club Queretaro,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Necaxa,Pachuca,,,1.0,1.0,1.0,0.0,1.0,1.0
+FC Juarez,Monterrey,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Leon,Atletico San Luis,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Atlas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Guadalajara Chivas,U.N.A.M. - Pumas,True,False,3.0,1.0,0.0,0.0,3.0,1.0
+Club America,Cruz Azul,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Toluca,Club Tijuana,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Santos Laguna,Mazatlán,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Queretaro,Atletico San Luis,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Tigres UANL,FC Juarez,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Tijuana,Monterrey,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Queretaro,Santos Laguna,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Atletico San Luis,Puebla,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Mazatlán,Necaxa,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Toluca,Tigres UANL,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Pachuca,FC Juarez,True,False,3.0,2.0,0.0,0.0,3.0,2.0
+Cruz Azul,Guadalajara Chivas,True,False,3.0,0.0,3.0,0.0,3.0,0.0
+Atlas,Club America,False,True,1.0,5.0,1.0,2.0,1.0,5.0
+Monterrey,U.N.A.M. - Pumas,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Club Tijuana,Leon,,,1.0,1.0,0.0,0.0,1.0,1.0
+Puebla,Atlas,,,2.0,2.0,1.0,2.0,2.0,2.0
+Necaxa,Atletico San Luis,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+FC Juarez,Toluca,,,1.0,1.0,1.0,1.0,1.0,1.0
+Guadalajara Chivas,Leon,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Santos Laguna,Cruz Azul,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Pachuca,Club Queretaro,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Club America,Tigres UANL,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Club Tijuana,,,3.0,3.0,2.0,1.0,3.0,3.0
+Monterrey,Mazatlán,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Club Queretaro,FC Juarez,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club Tijuana,Santos Laguna,,,2.0,2.0,0.0,1.0,2.0,2.0
+Cruz Azul,Necaxa,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Tigres UANL,Mazatlán,True,False,5.0,1.0,2.0,0.0,5.0,1.0
+Leon,Puebla,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Guadalajara Chivas,Club America,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Monterrey,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Toluca,U.N.A.M. - Pumas,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Atletico San Luis,Pachuca,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+FC Juarez,Puebla,True,False,4.0,3.0,1.0,1.0,4.0,3.0
+Puebla,Tigres UANL,False,True,2.0,3.0,1.0,0.0,2.0,3.0
+Club America,Atletico San Luis,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Mazatlán,Club Tijuana,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monterrey,Guadalajara Chivas,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Pachuca,Toluca,False,True,2.0,3.0,1.0,3.0,2.0,3.0
+U.N.A.M. - Pumas,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Club Queretaro,False,True,2.0,3.0,2.0,1.0,2.0,3.0
+Necaxa,Leon,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+FC Juarez,Santos Laguna,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Mazatlán,U.N.A.M. - Pumas,False,True,0.0,4.0,0.0,1.0,0.0,4.0
+Club Tijuana,Necaxa,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Leon,Club Queretaro,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Tigres UANL,Pachuca,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Guadalajara Chivas,Puebla,True,False,3.0,2.0,1.0,0.0,3.0,2.0
+Santos Laguna,Club America,,,1.0,1.0,0.0,0.0,1.0,1.0
+Cruz Azul,Monterrey,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Toluca,Atlas,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Atletico San Luis,FC Juarez,False,True,2.0,3.0,2.0,2.0,2.0,3.0
+Club Queretaro,Mazatlán,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Necaxa,Santos Laguna,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Puebla,Cruz Azul,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Pachuca,Guadalajara Chivas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Club America,Toluca,True,False,5.0,1.0,3.0,1.0,5.0,1.0
+Monterrey,Tigres UANL,,,3.0,3.0,1.0,2.0,3.0,3.0
+Atlas,Atletico San Luis,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+U.N.A.M. - Pumas,Leon,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+FC Juarez,Club Tijuana,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Mazatlán,FC Juarez,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Atletico San Luis,Toluca,False,True,1.0,5.0,1.0,2.0,1.0,5.0
+Club Tijuana,Puebla,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Leon,Monterrey,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Guadalajara Chivas,Club Queretaro,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Tigres UANL,Necaxa,True,False,5.0,2.0,0.0,1.0,5.0,2.0
+Santos Laguna,Pachuca,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+U.N.A.M. - Pumas,Club America,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Cruz Azul,Atlas,,,2.0,2.0,1.0,2.0,2.0,2.0
+Puebla,Club America,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Club Queretaro,U.N.A.M. - Pumas,,,1.0,1.0,0.0,0.0,1.0,1.0
+FC Juarez,Leon,,,1.0,1.0,1.0,0.0,1.0,1.0
+Tigres UANL,Club Tijuana,True,False,4.0,1.0,1.0,0.0,4.0,1.0
+Toluca,Cruz Azul,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Atlas,Guadalajara Chivas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Santos Laguna,Atletico San Luis,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+Necaxa,Monterrey,False,True,2.0,5.0,0.0,0.0,2.0,5.0
+Necaxa,Club Queretaro,True,False,1.0,1.0,0.0,0.0,1.0,1.0
+Pachuca,U.N.A.M. - Pumas,False,True,0.0,0.0,0.0,0.0,0.0,0.0
+Pachuca,Necaxa,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Guadalajara Chivas,Toluca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Club America,,,1.0,1.0,1.0,1.0,1.0,1.0
+U.N.A.M. - Pumas,Cruz Azul,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Tigres UANL,Monterrey,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club America,Pachuca,,,1.0,1.0,0.0,1.0,1.0,1.0
+Cruz Azul,U.N.A.M. - Pumas,,,2.0,2.0,0.0,0.0,2.0,2.0
+Monterrey,Tigres UANL,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monterrey,Cruz Azul,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Club America,Guadalajara Chivas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Cruz Azul,Monterrey,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Cruz Azul,Club America,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club America,Cruz Azul,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Queretaro,Club America,,,0.0,0.0,0.0,0.0,0.0,0.0
+Necaxa,Santos Laguna,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+FC Juarez,Toluca,False,True,1.0,3.0,1.0,1.0,1.0,3.0
+Pachuca,Leon,True,False,4.0,0.0,0.0,0.0,4.0,0.0
+Guadalajara Chivas,Atletico San Luis,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+U.N.A.M. - Pumas,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Puebla,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Tijuana,Tigres UANL,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Cruz Azul,Mazatlán,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Mazatlán,Pachuca,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Puebla,Guadalajara Chivas,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Leon,Club Tijuana,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Monterrey,U.N.A.M. - Pumas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Atlas,FC Juarez,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Toluca,Tigres UANL,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Santos Laguna,Cruz Azul,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atletico San Luis,Club Queretaro,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club Queretaro,Leon,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Mazatlán,Monterrey,,,1.0,1.0,1.0,1.0,1.0,1.0
+Necaxa,Cruz Azul,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club Tijuana,Toluca,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Guadalajara Chivas,FC Juarez,,,2.0,2.0,1.0,1.0,2.0,2.0
+Club America,Puebla,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Tigres UANL,Santos Laguna,,,1.0,1.0,0.0,1.0,1.0,1.0
+U.N.A.M. - Pumas,Atletico San Luis,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Pachuca,Atlas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Atletico San Luis,Necaxa,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Puebla,Tigres UANL,,,1.0,1.0,1.0,0.0,1.0,1.0
+FC Juarez,Club Tijuana,,,1.0,1.0,1.0,1.0,1.0,1.0
+U.N.A.M. - Pumas,Club Queretaro,,,0.0,0.0,0.0,0.0,0.0,0.0
+Leon,Mazatlán,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Cruz Azul,Toluca,True,False,4.0,0.0,3.0,0.0,4.0,0.0
+Monterrey,Pachuca,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Atlas,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Santos Laguna,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Mazatlán,,,2.0,2.0,2.0,2.0,2.0,2.0
+Tigres UANL,Club Queretaro,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Necaxa,U.N.A.M. - Pumas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club Tijuana,Puebla,,,1.0,1.0,1.0,0.0,1.0,1.0
+Santos Laguna,Atlas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Cruz Azul,Monterrey,,,1.0,1.0,0.0,0.0,1.0,1.0
+Guadalajara Chivas,Leon,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+FC Juarez,Club America,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Mazatlán,Tigres UANL,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Leon,Santos Laguna,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monterrey,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Puebla,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club America,Club Tijuana,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Necaxa,FC Juarez,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Queretaro,Pachuca,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Mazatlán,Atletico San Luis,,,2.0,2.0,1.0,1.0,2.0,2.0
+Puebla,Club Queretaro,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Tijuana,Monterrey,,,2.0,2.0,1.0,2.0,2.0,2.0
+Guadalajara Chivas,Necaxa,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Leon,Club America,,,1.0,1.0,1.0,1.0,1.0,1.0
+Toluca,U.N.A.M. - Pumas,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Santos Laguna,FC Juarez,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Cruz Azul,Pachuca,,,1.0,1.0,0.0,1.0,1.0,1.0
+Puebla,Atletico San Luis,,,2.0,2.0,0.0,1.0,2.0,2.0
+FC Juarez,Cruz Azul,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Club Tijuana,Santos Laguna,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Atlas,Monterrey,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Tigres UANL,Leon,,,2.0,2.0,1.0,2.0,2.0,2.0
+Club America,Mazatlán,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Queretaro,Necaxa,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Pachuca,Toluca,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Atletico San Luis,Club Tijuana,True,False,4.0,1.0,3.0,1.0,4.0,1.0
+Necaxa,Atlas,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+Leon,FC Juarez,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Toluca,Club America,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Guadalajara Chivas,Pachuca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,U.N.A.M. - Pumas,,,2.0,2.0,1.0,0.0,2.0,2.0
+Cruz Azul,Club Queretaro,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monterrey,Tigres UANL,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Santos Laguna,Puebla,,,1.0,1.0,0.0,0.0,1.0,1.0
+FC Juarez,Atletico San Luis,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Monterrey,Toluca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Pachuca,Necaxa,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Puebla,Cruz Azul,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club Tijuana,Mazatlán,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Leon,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Tigres UANL,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club America,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Atletico San Luis,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Santos Laguna,Monterrey,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Necaxa,Club Tijuana,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Mazatlán,FC Juarez,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Atlas,Puebla,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Atletico San Luis,Tigres UANL,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Club Queretaro,Guadalajara Chivas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Puebla,Pachuca,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+FC Juarez,Monterrey,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Leon,Atletico San Luis,,,0.0,0.0,0.0,0.0,0.0,0.0
+Santos Laguna,Mazatlán,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Guadalajara Chivas,Atlas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Toluca,Club Queretaro,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club America,U.N.A.M. - Pumas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Tijuana,Cruz Azul,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+FC Juarez,Club Queretaro,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Queretaro,Club Tijuana,,,1.0,1.0,0.0,1.0,1.0,1.0
+Necaxa,Puebla,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Monterrey,Leon,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Atletico San Luis,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Pachuca,Santos Laguna,,,1.0,1.0,0.0,0.0,1.0,1.0
+Cruz Azul,Tigres UANL,,,1.0,1.0,1.0,1.0,1.0,1.0
+Guadalajara Chivas,Toluca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Queretaro,Monterrey,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Puebla,Mazatlán,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club America,Santos Laguna,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Atlas,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Necaxa,,,1.0,1.0,0.0,0.0,1.0,1.0
+Leon,U.N.A.M. - Pumas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Tigres UANL,Pachuca,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Club Tijuana,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Mazatlán,Club Queretaro,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Puebla,Leon,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club America,Tigres UANL,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Guadalajara Chivas,Cruz Azul,,,1.0,1.0,0.0,1.0,1.0,1.0
+U.N.A.M. - Pumas,Club Tijuana,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Monterrey,Necaxa,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Atletico San Luis,Atlas,False,True,2.0,6.0,0.0,4.0,2.0,6.0
+Santos Laguna,Toluca,,,2.0,2.0,1.0,0.0,2.0,2.0
+Pachuca,FC Juarez,,,1.0,1.0,0.0,1.0,1.0,1.0
+Atlas,Club Tijuana,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Necaxa,Mazatlán,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Club Queretaro,Santos Laguna,False,True,2.0,3.0,0.0,2.0,2.0,3.0
+Pachuca,U.N.A.M. - Pumas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Tigres UANL,Guadalajara Chivas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Cruz Azul,Club America,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Pachuca,Atletico San Luis,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Leon,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+U.N.A.M. - Pumas,Santos Laguna,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Atlas,Club Queretaro,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Puebla,Toluca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,Guadalajara Chivas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Leon,Necaxa,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club America,Monterrey,,,0.0,0.0,0.0,0.0,0.0,0.0
+Tigres UANL,FC Juarez,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club Tijuana,Pachuca,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+U.N.A.M. - Pumas,Cruz Azul,True,False,4.0,3.0,1.0,3.0,4.0,3.0
+Santos Laguna,Atletico San Luis,,,0.0,0.0,0.0,0.0,0.0,0.0
+Santos Laguna,Atletico San Luis,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Puebla,Guadalajara Chivas,True,False,2.0,2.0,1.0,1.0,2.0,2.0
+Toluca,U.N.A.M. - Pumas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Cruz Azul,Monterrey,False,True,1.0,4.0,1.0,2.0,1.0,4.0
+U.N.A.M. - Pumas,Club America,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Puebla,Leon,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Santos Laguna,Tigres UANL,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Club America,U.N.A.M. - Pumas,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Atlas,Monterrey,,,1.0,1.0,1.0,0.0,1.0,1.0
+Tigres UANL,Santos Laguna,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Leon,Puebla,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Tigres UANL,Leon,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+U.N.A.M. - Pumas,Atlas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Leon,Tigres UANL,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Atlas,U.N.A.M. - Pumas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Leon,Atlas,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Atlas,Leon,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Atletico San Luis,Pachuca,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+FC Juarez,Necaxa,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Puebla,Club America,,,1.0,1.0,1.0,1.0,1.0,1.0
+Monterrey,Club Queretaro,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Club Tijuana,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Guadalajara Chivas,Mazatlán,True,False,3.0,0.0,3.0,0.0,3.0,0.0
+U.N.A.M. - Pumas,Toluca,True,False,5.0,0.0,1.0,0.0,5.0,0.0
+Santos Laguna,Tigres UANL,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Queretaro,U.N.A.M. - Pumas,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Necaxa,Monterrey,False,True,0.0,4.0,0.0,3.0,0.0,4.0
+Atlas,Atletico San Luis,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Puebla,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Club Tijuana,Leon,,,1.0,1.0,0.0,1.0,1.0,1.0
+Toluca,Santos Laguna,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Pachuca,Guadalajara Chivas,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Leon,Atlas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Atletico San Luis,FC Juarez,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Mazatlán,Toluca,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Guadalajara Chivas,Club Queretaro,,,1.0,1.0,1.0,1.0,1.0,1.0
+Leon,Pachuca,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Club America,Atlas,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Monterrey,Cruz Azul,,,2.0,2.0,0.0,1.0,2.0,2.0
+U.N.A.M. - Pumas,Tigres UANL,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Santos Laguna,Necaxa,False,True,1.0,4.0,1.0,1.0,1.0,4.0
+Puebla,Club Tijuana,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Necaxa,Pachuca,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Club America,Atletico San Luis,False,True,2.0,3.0,0.0,1.0,2.0,3.0
+Club Tijuana,U.N.A.M. - Pumas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Queretaro,Puebla,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Atlas,Santos Laguna,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Tigres UANL,Mazatlán,True,False,4.0,3.0,2.0,0.0,4.0,3.0
+Leon,Cruz Azul,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+FC Juarez,Guadalajara Chivas,False,True,1.0,3.0,1.0,1.0,1.0,3.0
+Puebla,Atlas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Guadalajara Chivas,Tigres UANL,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Atletico San Luis,Toluca,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Cruz Azul,Necaxa,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Santos Laguna,Club America,False,True,2.0,3.0,2.0,2.0,2.0,3.0
+U.N.A.M. - Pumas,Leon,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Pachuca,Club Queretaro,,,2.0,2.0,2.0,1.0,2.0,2.0
+Mazatlán,Club America,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Puebla,Monterrey,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+FC Juarez,Santos Laguna,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Tijuana,Necaxa,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Queretaro,Mazatlán,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Tigres UANL,Atletico San Luis,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Leon,Guadalajara Chivas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Club America,Pachuca,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Toluca,Cruz Azul,False,True,1.0,4.0,1.0,1.0,1.0,4.0
+Pachuca,Mazatlán,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Club Queretaro,Toluca,,,1.0,1.0,1.0,0.0,1.0,1.0
+Necaxa,Leon,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+FC Juarez,Tigres UANL,False,True,2.0,3.0,0.0,3.0,2.0,3.0
+Club Tijuana,Atlas,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Guadalajara Chivas,Puebla,False,True,2.0,3.0,2.0,0.0,2.0,3.0
+Monterrey,Atletico San Luis,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Cruz Azul,Santos Laguna,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Toluca,Club Tijuana,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Puebla,FC Juarez,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club America,Club Queretaro,,,1.0,1.0,1.0,0.0,1.0,1.0
+Leon,Monterrey,,,0.0,0.0,0.0,0.0,0.0,0.0
+Mazatlán,Necaxa,,,0.0,0.0,0.0,0.0,0.0,0.0
+Tigres UANL,Cruz Azul,,,2.0,2.0,2.0,1.0,2.0,2.0
+Atlas,Pachuca,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Santos Laguna,U.N.A.M. - Pumas,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Atletico San Luis,Guadalajara Chivas,,,2.0,2.0,2.0,0.0,2.0,2.0
+Necaxa,Toluca,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+FC Juarez,Leon,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Queretaro,Atlas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Monterrey,Club America,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Guadalajara Chivas,Santos Laguna,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Cruz Azul,Puebla,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Necaxa,Club Queretaro,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Leon,Tigres UANL,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+Cruz Azul,U.N.A.M. - Pumas,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Toluca,Pachuca,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Atletico San Luis,Puebla,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Santos Laguna,Club Tijuana,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Monterrey,FC Juarez,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Club Queretaro,Atletico San Luis,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Puebla,Santos Laguna,,,2.0,2.0,0.0,0.0,2.0,2.0
+U.N.A.M. - Pumas,Necaxa,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Tigres UANL,Monterrey,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Pachuca,Cruz Azul,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Toluca,True,False,3.0,0.0,3.0,0.0,3.0,0.0
+Atlas,Guadalajara Chivas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Mazatlán,Leon,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Club Tijuana,FC Juarez,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Atletico San Luis,Mazatlán,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Necaxa,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+FC Juarez,U.N.A.M. - Pumas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Toluca,Puebla,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Leon,Club Queretaro,,,1.0,1.0,0.0,1.0,1.0,1.0
+Cruz Azul,Atlas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Tigres UANL,Club Tijuana,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Santos Laguna,Pachuca,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Toluca,Monterrey,,,2.0,2.0,1.0,2.0,2.0,2.0
+Club Tijuana,Atletico San Luis,,,1.0,1.0,0.0,0.0,1.0,1.0
+Pachuca,Tigres UANL,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Atlas,Necaxa,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Puebla,U.N.A.M. - Pumas,,,2.0,2.0,2.0,1.0,2.0,2.0
+Mazatlán,Cruz Azul,,,1.0,1.0,1.0,0.0,1.0,1.0
+Atletico San Luis,Leon,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monterrey,Santos Laguna,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club America,FC Juarez,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Club Queretaro,Tigres UANL,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Pachuca,Club Tijuana,,,0.0,0.0,0.0,0.0,0.0,0.0
+Guadalajara Chivas,Monterrey,False,True,1.0,3.0,1.0,1.0,1.0,3.0
+Atlas,Mazatlán,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Necaxa,Atletico San Luis,True,False,4.0,2.0,3.0,1.0,4.0,2.0
+FC Juarez,Pachuca,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club Tijuana,Club America,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Leon,Puebla,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Tigres UANL,Toluca,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Santos Laguna,Club Queretaro,,,1.0,1.0,0.0,0.0,1.0,1.0
+Cruz Azul,Guadalajara Chivas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+U.N.A.M. - Pumas,Monterrey,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Necaxa,Tigres UANL,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Pachuca,Puebla,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Toluca,FC Juarez,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Mazatlán,Santos Laguna,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Atletico San Luis,U.N.A.M. - Pumas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club America,Leon,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Queretaro,Cruz Azul,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Puebla,Necaxa,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+FC Juarez,Mazatlán,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Pachuca,Monterrey,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Guadalajara Chivas,U.N.A.M. - Pumas,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Toluca,Atlas,False,True,2.0,4.0,1.0,2.0,2.0,4.0
+Cruz Azul,Atletico San Luis,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Santos Laguna,Leon,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Tijuana,Club Queretaro,,,2.0,2.0,2.0,0.0,2.0,2.0
+Necaxa,Guadalajara Chivas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Mazatlán,Puebla,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Club Queretaro,FC Juarez,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Atlas,Tigres UANL,,,1.0,1.0,0.0,0.0,1.0,1.0
+Monterrey,Club Tijuana,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club America,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Pachuca,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Atletico San Luis,Santos Laguna,False,True,1.0,3.0,0.0,0.0,1.0,3.0
+Leon,Toluca,,,4.0,4.0,3.0,3.0,4.0,4.0
+Cruz Azul,Necaxa,True,False,1.0,1.0,0.0,0.0,1.0,1.0
+Monterrey,Atletico San Luis,False,True,2.0,2.0,1.0,0.0,2.0,2.0
+Puebla,Mazatlán,True,False,2.0,2.0,2.0,1.0,2.0,2.0
+Guadalajara Chivas,U.N.A.M. - Pumas,True,False,4.0,1.0,1.0,1.0,4.0,1.0
+Atletico San Luis,Pachuca,,,2.0,2.0,1.0,1.0,2.0,2.0
+Puebla,Club America,,,1.0,1.0,0.0,0.0,1.0,1.0
+Guadalajara Chivas,Atlas,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Club America,Puebla,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Pachuca,Atletico San Luis,True,False,3.0,2.0,0.0,0.0,3.0,2.0
+Atlas,Guadalajara Chivas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Tigres UANL,Cruz Azul,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Atlas,Tigres UANL,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club America,Pachuca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Tigres UANL,Atlas,True,False,4.0,2.0,0.0,1.0,4.0,2.0
+Pachuca,Club America,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Atlas,Pachuca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Pachuca,Atlas,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Necaxa,Tigres UANL,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+Club Tijuana,Atlas,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Cruz Azul,Santos Laguna,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Club Queretaro,True,False,3.0,2.0,1.0,0.0,3.0,2.0
+Atletico San Luis,FC Juarez,,,1.0,1.0,1.0,0.0,1.0,1.0
+Pachuca,Club America,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Mazatlán,Puebla,False,True,1.0,4.0,1.0,1.0,1.0,4.0
+Monterrey,Toluca,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Puebla,Cruz Azul,,,1.0,1.0,0.0,0.0,1.0,1.0
+FC Juarez,Necaxa,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Pachuca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club America,Club Tijuana,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Toluca,Atletico San Luis,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Club Queretaro,Mazatlán,,,1.0,1.0,0.0,0.0,1.0,1.0
+Santos Laguna,Guadalajara Chivas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Atlas,U.N.A.M. - Pumas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Leon,Monterrey,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Club Queretaro,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club Tijuana,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Necaxa,Club America,,,1.0,1.0,0.0,1.0,1.0,1.0
+Mazatlán,Toluca,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Cruz Azul,Leon,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monterrey,Santos Laguna,,,2.0,2.0,1.0,1.0,2.0,2.0
+Guadalajara Chivas,Puebla,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+U.N.A.M. - Pumas,FC Juarez,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atletico San Luis,Atlas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Necaxa,Mazatlán,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Pachuca,Leon,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Tigres UANL,Puebla,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Club Queretaro,Cruz Azul,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+FC Juarez,Guadalajara Chivas,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+U.N.A.M. - Pumas,Monterrey,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club Tijuana,Atletico San Luis,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Atlas,Toluca,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club America,Santos Laguna,True,False,3.0,1.0,3.0,0.0,3.0,1.0
+Puebla,Pachuca,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Guadalajara Chivas,Atletico San Luis,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Cruz Azul,FC Juarez,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Mazatlán,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Necaxa,,,1.0,1.0,0.0,0.0,1.0,1.0
+Toluca,Tigres UANL,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Club Queretaro,Club America,True,False,4.0,1.0,1.0,0.0,4.0,1.0
+Leon,Club Tijuana,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Necaxa,Santos Laguna,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Tigres UANL,U.N.A.M. - Pumas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atlas,Club Queretaro,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Monterrey,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Toluca,Guadalajara Chivas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Atletico San Luis,Cruz Azul,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Club Tijuana,Puebla,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Pachuca,Mazatlán,True,False,4.0,3.0,2.0,1.0,4.0,3.0
+Puebla,Toluca,True,False,4.0,1.0,2.0,1.0,4.0,1.0
+Mazatlán,Tigres UANL,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atletico San Luis,Club America,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Cruz Azul,Necaxa,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+U.N.A.M. - Pumas,Club Tijuana,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Santos Laguna,Club Queretaro,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Monterrey,FC Juarez,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Leon,Atlas,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Club America,Mazatlán,True,False,3.0,1.0,0.0,0.0,3.0,1.0
+Club Queretaro,Toluca,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Pachuca,Atletico San Luis,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Necaxa,Leon,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Club Tijuana,Monterrey,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+FC Juarez,Santos Laguna,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atlas,Cruz Azul,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Puebla,True,False,4.0,1.0,2.0,1.0,4.0,1.0
+Tigres UANL,Guadalajara Chivas,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+Atletico San Luis,Necaxa,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Monterrey,Atlas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Guadalajara Chivas,Club Queretaro,,,1.0,1.0,1.0,0.0,1.0,1.0
+Puebla,Club America,False,True,2.0,3.0,2.0,0.0,2.0,3.0
+Leon,Tigres UANL,,,1.0,1.0,1.0,0.0,1.0,1.0
+Cruz Azul,Pachuca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,Club Tijuana,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Santos Laguna,U.N.A.M. - Pumas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Necaxa,Guadalajara Chivas,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+FC Juarez,Puebla,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Atlas,Mazatlán,,,1.0,1.0,0.0,0.0,1.0,1.0
+U.N.A.M. - Pumas,Atletico San Luis,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club Queretaro,Leon,False,True,2.0,3.0,0.0,1.0,2.0,3.0
+Club Tijuana,Cruz Azul,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Pachuca,Monterrey,,,1.0,1.0,0.0,1.0,1.0,1.0
+Necaxa,Puebla,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Mazatlán,Cruz Azul,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Tigres UANL,Club Queretaro,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Club America,Guadalajara Chivas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Toluca,Santos Laguna,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Atletico San Luis,Monterrey,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Leon,U.N.A.M. - Pumas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Pachuca,Toluca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Puebla,Club Queretaro,,,3.0,3.0,1.0,2.0,3.0,3.0
+FC Juarez,Atlas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+U.N.A.M. - Pumas,Necaxa,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monterrey,Tigres UANL,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Guadalajara Chivas,Mazatlán,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Cruz Azul,Club America,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atletico San Luis,Leon,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Club Tijuana,FC Juarez,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Puebla,Santos Laguna,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Leon,Mazatlán,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Tigres UANL,Atletico San Luis,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Club America,U.N.A.M. - Pumas,,,2.0,2.0,1.0,1.0,2.0,2.0
+Toluca,Cruz Azul,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Atlas,Necaxa,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Queretaro,Monterrey,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+FC Juarez,Pachuca,,,1.0,1.0,0.0,1.0,1.0,1.0
+Santos Laguna,Club Tijuana,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Atletico San Luis,Club Queretaro,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Necaxa,Club Tijuana,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Mazatlán,FC Juarez,True,False,3.0,2.0,3.0,1.0,3.0,2.0
+Monterrey,Puebla,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Guadalajara Chivas,Atlas,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Cruz Azul,Tigres UANL,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+U.N.A.M. - Pumas,Toluca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Pachuca,,,1.0,1.0,1.0,1.0,1.0,1.0
+Leon,Club America,True,False,3.0,2.0,2.0,2.0,3.0,2.0
+Puebla,Leon,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Club Queretaro,Necaxa,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Tigres UANL,FC Juarez,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club America,Atlas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,Monterrey,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Toluca,Club Tijuana,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Guadalajara Chivas,Cruz Azul,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Santos Laguna,Atletico San Luis,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Atletico San Luis,Mazatlán,False,True,0.0,5.0,0.0,5.0,0.0,5.0
+Necaxa,Toluca,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Club Tijuana,Pachuca,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+FC Juarez,Club Queretaro,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Guadalajara Chivas,,,2.0,2.0,1.0,2.0,2.0,2.0
+Monterrey,Cruz Azul,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club America,Tigres UANL,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Leon,Santos Laguna,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Puebla,Atletico San Luis,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+FC Juarez,Club America,,,1.0,1.0,1.0,0.0,1.0,1.0
+Guadalajara Chivas,Monterrey,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Pachuca,Necaxa,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Cruz Azul,U.N.A.M. - Pumas,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Toluca,Leon,,,2.0,2.0,1.0,1.0,2.0,2.0
+Santos Laguna,Mazatlán,True,False,4.0,0.0,0.0,0.0,4.0,0.0
+Club Queretaro,Club Tijuana,,,2.0,2.0,1.0,0.0,2.0,2.0
+Santos Laguna,Pachuca,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Tigres UANL,Toluca,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Monterrey,Puebla,False,True,2.0,2.0,1.0,0.0,2.0,2.0
+Puebla,Leon,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Guadalajara Chivas,Club America,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Cruz Azul,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+Pachuca,U.N.A.M. - Pumas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Leon,Puebla,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Club America,Guadalajara Chivas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+U.N.A.M. - Pumas,Pachuca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Tigres UANL,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Guadalajara Chivas,Leon,,,1.0,1.0,0.0,1.0,1.0,1.0
+Cruz Azul,U.N.A.M. - Pumas,True,False,4.0,0.0,3.0,0.0,4.0,0.0
+Leon,Guadalajara Chivas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Cruz Azul,True,False,4.0,0.0,3.0,0.0,4.0,0.0
+U.N.A.M. - Pumas,Leon,,,1.0,1.0,0.0,0.0,1.0,1.0
+Puebla,Guadalajara Chivas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Mazatlán,Necaxa,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Atlas,Monterrey,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Tigres UANL,Leon,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club America,Atletico San Luis,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Toluca,Club Queretaro,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Santos Laguna,Cruz Azul,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Necaxa,Atletico San Luis,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+FC Juarez,Club Tijuana,,,0.0,0.0,0.0,0.0,0.0,0.0
+Guadalajara Chivas,Toluca,,,1.0,1.0,1.0,1.0,1.0,1.0
+Cruz Azul,Puebla,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Monterrey,Club America,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Mazatlán,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Santos Laguna,Tigres UANL,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club Queretaro,Atlas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Leon,Pachuca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atletico San Luis,Guadalajara Chivas,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Puebla,Club Tijuana,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Mazatlán,Santos Laguna,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Tigres UANL,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Toluca,Necaxa,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Queretaro,U.N.A.M. - Pumas,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Pachuca,Cruz Azul,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club America,FC Juarez,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Tigres UANL,Necaxa,,,1.0,1.0,1.0,1.0,1.0,1.0
+Mazatlán,Pachuca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Guadalajara Chivas,FC Juarez,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Cruz Azul,Club Queretaro,True,False,4.0,1.0,3.0,1.0,4.0,1.0
+Club Tijuana,Toluca,True,False,3.0,2.0,3.0,1.0,3.0,2.0
+Santos Laguna,Club America,,,1.0,1.0,0.0,1.0,1.0,1.0
+Leon,Atletico San Luis,True,False,3.0,1.0,0.0,0.0,3.0,1.0
+Puebla,Monterrey,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atletico San Luis,Club Tijuana,,,2.0,2.0,1.0,2.0,2.0,2.0
+Club Queretaro,Pachuca,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Necaxa,Cruz Azul,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Atlas,Santos Laguna,,,1.0,1.0,0.0,1.0,1.0,1.0
+Club America,Puebla,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Monterrey,U.N.A.M. - Pumas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Toluca,Mazatlán,True,False,4.0,1.0,3.0,0.0,4.0,1.0
+Leon,Guadalajara Chivas,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Puebla,FC Juarez,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Club Tijuana,Leon,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Mazatlán,Atletico San Luis,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+Guadalajara Chivas,Necaxa,,,2.0,2.0,1.0,1.0,2.0,2.0
+Club America,Club Queretaro,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Toluca,U.N.A.M. - Pumas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Monterrey,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Cruz Azul,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Atletico San Luis,Santos Laguna,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Necaxa,Monterrey,,,1.0,1.0,0.0,1.0,1.0,1.0
+FC Juarez,Mazatlán,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Cruz Azul,Toluca,True,False,3.0,2.0,2.0,2.0,3.0,2.0
+Atlas,Club America,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+U.N.A.M. - Pumas,Leon,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Queretaro,Puebla,,,1.0,1.0,0.0,0.0,1.0,1.0
+Tigres UANL,Club Tijuana,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Atletico San Luis,Tigres UANL,,,2.0,2.0,1.0,1.0,2.0,2.0
+Puebla,Necaxa,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,Club Queretaro,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Toluca,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club America,Pachuca,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Leon,Cruz Azul,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Monterrey,Club Tijuana,,,1.0,1.0,1.0,0.0,1.0,1.0
+Santos Laguna,FC Juarez,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Guadalajara Chivas,U.N.A.M. - Pumas,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Atlas,Atletico San Luis,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Tigres UANL,Toluca,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Leon,Puebla,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+FC Juarez,Monterrey,False,True,1.0,6.0,1.0,2.0,1.0,6.0
+Cruz Azul,Mazatlán,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Necaxa,Pachuca,,,2.0,2.0,1.0,1.0,2.0,2.0
+U.N.A.M. - Pumas,Santos Laguna,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Atletico San Luis,Toluca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Puebla,Tigres UANL,,,1.0,1.0,1.0,1.0,1.0,1.0
+Atlas,FC Juarez,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club America,Leon,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Monterrey,Club Queretaro,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Mazatlán,Guadalajara Chivas,,,1.0,1.0,1.0,1.0,1.0,1.0
+U.N.A.M. - Pumas,Cruz Azul,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Pachuca,Club Tijuana,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Monterrey,Leon,,,1.0,1.0,0.0,1.0,1.0,1.0
+Puebla,Atlas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+FC Juarez,U.N.A.M. - Pumas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Tigres UANL,Mazatlán,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Cruz Azul,Monterrey,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club Tijuana,Santos Laguna,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Toluca,Pachuca,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Club Queretaro,Atletico San Luis,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Guadalajara Chivas,Club America,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Leon,Necaxa,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Pachuca,Tigres UANL,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Atletico San Luis,U.N.A.M. - Pumas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Cruz Azul,Atlas,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Club Tijuana,Club Queretaro,True,False,3.0,1.0,3.0,1.0,3.0,1.0
+Toluca,Puebla,,,4.0,4.0,1.0,0.0,4.0,4.0
+Santos Laguna,Leon,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Puebla,Mazatlán,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+FC Juarez,Cruz Azul,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Atlas,Club Tijuana,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Necaxa,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Monterrey,Atletico San Luis,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Pachuca,,,2.0,2.0,0.0,1.0,2.0,2.0
+Leon,Toluca,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Guadalajara Chivas,Santos Laguna,,,1.0,1.0,0.0,1.0,1.0,1.0
+Necaxa,U.N.A.M. - Pumas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+FC Juarez,Atletico San Luis,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Cruz Azul,Guadalajara Chivas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Club America,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+Toluca,Monterrey,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Atlas,Leon,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+Club Queretaro,Santos Laguna,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club Tijuana,Mazatlán,False,True,2.0,3.0,2.0,1.0,2.0,3.0
+Pachuca,Puebla,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+FC Juarez,Tigres UANL,False,True,2.0,3.0,0.0,0.0,2.0,3.0
+Necaxa,Club Queretaro,,,0.0,0.0,0.0,0.0,0.0,0.0
+Mazatlán,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Guadalajara Chivas,Club Tijuana,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club America,Cruz Azul,,,1.0,1.0,1.0,0.0,1.0,1.0
+U.N.A.M. - Pumas,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atletico San Luis,Puebla,False,True,1.0,4.0,0.0,1.0,1.0,4.0
+Santos Laguna,Toluca,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Leon,FC Juarez,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Monterrey,Guadalajara Chivas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Puebla,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Tijuana,Necaxa,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Mazatlán,Leon,True,False,4.0,3.0,1.0,2.0,4.0,3.0
+Tigres UANL,Monterrey,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Cruz Azul,Atletico San Luis,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Toluca,Club America,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Club Queretaro,FC Juarez,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Santos Laguna,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Atletico San Luis,Pachuca,False,True,1.0,5.0,1.0,2.0,1.0,5.0
+Necaxa,Atlas,False,True,1.0,5.0,1.0,2.0,1.0,5.0
+FC Juarez,Toluca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Cruz Azul,Club Tijuana,,,1.0,1.0,1.0,0.0,1.0,1.0
+Monterrey,Mazatlán,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Guadalajara Chivas,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Leon,Club Queretaro,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Santos Laguna,Puebla,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Atlas,Tigres UANL,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Club Queretaro,True,False,5.0,0.0,2.0,0.0,5.0,0.0
+Leon,Toluca,False,True,2.0,2.0,1.0,1.0,2.0,2.0
+Pachuca,Guadalajara Chivas,True,False,4.0,2.0,0.0,1.0,4.0,2.0
+Toluca,Cruz Azul,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Atlas,Puebla,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Club America,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Santos Laguna,Monterrey,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Puebla,Atlas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Cruz Azul,Toluca,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Monterrey,Santos Laguna,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club America,Pachuca,True,False,4.0,2.0,2.0,1.0,4.0,2.0
+Pachuca,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Santos Laguna,Puebla,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Puebla,Santos Laguna,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Cruz Azul,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Cruz Azul,Santos Laguna,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monarcas,Monterrey,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Tijuana,Cruz Azul,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Club America,Club Queretaro,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Lobos Buap,Santos Laguna,,,2.0,2.0,2.0,2.0,2.0,2.0
+Tigres UANL,Puebla,True,False,5.0,0.0,3.0,0.0,5.0,0.0
+Leon,Atlas,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Guadalajara Chivas,Toluca,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Pachuca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Veracruz,Necaxa,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Puebla,Monarcas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Atlas,U.N.A.M. - Pumas,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Club Queretaro,Lobos Buap,False,True,0.0,4.0,0.0,1.0,0.0,4.0
+Cruz Azul,Guadalajara Chivas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Monterrey,Veracruz,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Pachuca,Club America,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Necaxa,Club Tijuana,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Toluca,Leon,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Santos Laguna,Tigres UANL,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monarcas,Santos Laguna,,,1.0,1.0,0.0,1.0,1.0,1.0
+Club Tijuana,Monterrey,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Lobos Buap,Pachuca,True,False,3.0,2.0,0.0,0.0,3.0,2.0
+Tigres UANL,Club Queretaro,,,1.0,1.0,0.0,1.0,1.0,1.0
+Leon,Cruz Azul,,,2.0,2.0,1.0,1.0,2.0,2.0
+Club America,U.N.A.M. - Pumas,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Guadalajara Chivas,Necaxa,,,2.0,2.0,2.0,2.0,2.0,2.0
+Toluca,Atlas,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Veracruz,Puebla,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Puebla,Club Tijuana,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Queretaro,Monarcas,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Cruz Azul,Toluca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Guadalajara Chivas,True,False,4.0,1.0,1.0,1.0,4.0,1.0
+Pachuca,Tigres UANL,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Necaxa,Leon,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+U.N.A.M. - Pumas,Lobos Buap,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Santos Laguna,Veracruz,False,True,2.0,3.0,0.0,1.0,2.0,3.0
+Monarcas,Pachuca,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Club Tijuana,Santos Laguna,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Cruz Azul,Atlas,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Lobos Buap,Club America,False,True,2.0,3.0,2.0,2.0,2.0,3.0
+Tigres UANL,U.N.A.M. - Pumas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Veracruz,Club Queretaro,,,1.0,1.0,1.0,0.0,1.0,1.0
+Leon,Monterrey,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Guadalajara Chivas,Puebla,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Pachuca,Veracruz,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Atlas,Lobos Buap,,,1.0,1.0,0.0,0.0,1.0,1.0
+U.N.A.M. - Pumas,Monarcas,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Club Queretaro,Club Tijuana,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Club America,Tigres UANL,,,2.0,2.0,1.0,1.0,2.0,2.0
+Puebla,Leon,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Santos Laguna,Guadalajara Chivas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monterrey,Toluca,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Necaxa,Cruz Azul,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Tijuana,Pachuca,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Tigres UANL,Lobos Buap,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Leon,Santos Laguna,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Monarcas,Club America,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Necaxa,Atlas,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Guadalajara Chivas,Club Queretaro,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Puebla,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Veracruz,U.N.A.M. - Pumas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Puebla,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Queretaro,Leon,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Lobos Buap,Monarcas,False,True,1.0,3.0,0.0,3.0,1.0,3.0
+Monterrey,Necaxa,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Guadalajara Chivas,False,True,1.0,3.0,0.0,3.0,1.0,3.0
+Club America,Veracruz,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Club Tijuana,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Santos Laguna,Toluca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monarcas,Tigres UANL,,,3.0,3.0,1.0,2.0,3.0,3.0
+Club Tijuana,Club America,,,1.0,1.0,0.0,1.0,1.0,1.0
+Cruz Azul,Santos Laguna,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Monterrey,Atlas,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Leon,Pachuca,True,False,3.0,1.0,3.0,0.0,3.0,1.0
+Necaxa,Puebla,,,1.0,1.0,0.0,1.0,1.0,1.0
+Guadalajara Chivas,U.N.A.M. - Pumas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Toluca,Club Queretaro,True,False,3.0,2.0,3.0,2.0,3.0,2.0
+Veracruz,Lobos Buap,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Guadalajara Chivas,Lobos Buap,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Puebla,Atlas,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Veracruz,Monarcas,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Club Tijuana,Tigres UANL,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Leon,Club America,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Toluca,U.N.A.M. - Pumas,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Necaxa,Club Queretaro,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Cruz Azul,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Monarcas,Club Tijuana,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Atlas,Veracruz,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club Queretaro,Monterrey,,,2.0,2.0,1.0,0.0,2.0,2.0
+Lobos Buap,Leon,False,True,0.0,3.0,0.0,3.0,0.0,3.0
+Pachuca,Necaxa,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Club America,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+U.N.A.M. - Pumas,Cruz Azul,False,True,1.0,4.0,1.0,1.0,1.0,4.0
+Toluca,Lobos Buap,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Puebla,Club Queretaro,,,2.0,2.0,1.0,0.0,2.0,2.0
+Club Tijuana,Veracruz,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Club America,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Monterrey,Pachuca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Leon,Tigres UANL,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Necaxa,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Guadalajara Chivas,Monarcas,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Santos Laguna,Atlas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Lobos Buap,Club Tijuana,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Club Queretaro,Cruz Azul,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Tigres UANL,Veracruz,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Leon,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Atlas,Monarcas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Santos Laguna,Necaxa,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Pachuca,Toluca,,,2.0,2.0,0.0,1.0,2.0,2.0
+Club America,Guadalajara Chivas,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Puebla,Monterrey,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monarcas,Leon,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Club Tijuana,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Queretaro,Santos Laguna,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Lobos Buap,Cruz Azul,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Tigres UANL,Toluca,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club America,Necaxa,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Veracruz,Guadalajara Chivas,False,True,2.0,3.0,0.0,2.0,2.0,3.0
+Puebla,U.N.A.M. - Pumas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club Queretaro,Atlas,,,2.0,2.0,2.0,1.0,2.0,2.0
+Cruz Azul,Tigres UANL,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Monterrey,Club America,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Leon,Veracruz,True,False,6.0,2.0,2.0,1.0,6.0,2.0
+Necaxa,Lobos Buap,True,False,5.0,0.0,3.0,0.0,5.0,0.0
+Guadalajara Chivas,Club Tijuana,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Toluca,Monarcas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Santos Laguna,Pachuca,,,2.0,2.0,1.0,2.0,2.0,2.0
+Atlas,Tigres UANL,,,1.0,1.0,1.0,1.0,1.0,1.0
+Monarcas,Cruz Azul,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Club Tijuana,Leon,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Lobos Buap,Monterrey,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Pachuca,Club Queretaro,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club America,Puebla,,,1.0,1.0,1.0,0.0,1.0,1.0
+Guadalajara Chivas,Atlas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+U.N.A.M. - Pumas,Santos Laguna,,,2.0,2.0,0.0,0.0,2.0,2.0
+Tigres UANL,Necaxa,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Veracruz,Toluca,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Monterrey,Santos Laguna,,,1.0,1.0,1.0,1.0,1.0,1.0
+Puebla,Lobos Buap,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Atlas,Pachuca,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club Queretaro,U.N.A.M. - Pumas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Cruz Azul,Veracruz,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Monterrey,Tigres UANL,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Necaxa,Monarcas,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Toluca,Club Tijuana,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Santos Laguna,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Toluca,Monarcas,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Leon,Tigres UANL,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atlas,Monterrey,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Tigres UANL,Leon,,,1.0,1.0,1.0,1.0,1.0,1.0
+Monarcas,Toluca,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Monterrey,Atlas,True,False,4.0,1.0,4.0,1.0,4.0,1.0
+Club America,Tigres UANL,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Monarcas,Monterrey,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Tigres UANL,Club America,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Monterrey,Monarcas,True,False,4.0,0.0,3.0,0.0,4.0,0.0
+Tigres UANL,Monterrey,,,1.0,1.0,1.0,1.0,1.0,1.0
+Monterrey,Tigres UANL,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Puebla,Tigres UANL,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Atlas,Leon,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Cruz Azul,Club Tijuana,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Monarcas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Pachuca,U.N.A.M. - Pumas,False,True,2.0,3.0,2.0,1.0,2.0,3.0
+Necaxa,Veracruz,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Guadalajara Chivas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Santos Laguna,Lobos Buap,True,False,4.0,2.0,3.0,1.0,4.0,2.0
+Club Queretaro,Club America,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Club Tijuana,Necaxa,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Monarcas,Puebla,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Pachuca,,,2.0,2.0,1.0,0.0,2.0,2.0
+Lobos Buap,Club Queretaro,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Tigres UANL,Santos Laguna,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Leon,Toluca,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Guadalajara Chivas,Cruz Azul,False,True,1.0,3.0,1.0,0.0,1.0,3.0
+U.N.A.M. - Pumas,Atlas,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Veracruz,Monterrey,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Puebla,Veracruz,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Atlas,Toluca,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Cruz Azul,Leon,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Club Tijuana,,,0.0,0.0,0.0,0.0,0.0,0.0
+Pachuca,Lobos Buap,True,False,3.0,1.0,3.0,0.0,3.0,1.0
+Necaxa,Guadalajara Chivas,False,True,1.0,3.0,1.0,1.0,1.0,3.0
+Santos Laguna,Monarcas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Monarcas,Club Queretaro,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Tijuana,Puebla,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Lobos Buap,U.N.A.M. - Pumas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Tigres UANL,Pachuca,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Leon,Necaxa,False,True,0.0,4.0,0.0,1.0,0.0,4.0
+Club America,Atlas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Guadalajara Chivas,Monterrey,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Toluca,Cruz Azul,,,1.0,1.0,1.0,0.0,1.0,1.0
+Veracruz,Santos Laguna,,,1.0,1.0,1.0,0.0,1.0,1.0
+Puebla,Guadalajara Chivas,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Atlas,Cruz Azul,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Club Queretaro,Veracruz,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Monterrey,Leon,True,False,5.0,1.0,2.0,0.0,5.0,1.0
+Santos Laguna,Club Tijuana,,,0.0,0.0,0.0,0.0,0.0,0.0
+Pachuca,Monarcas,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Club America,Lobos Buap,True,False,5.0,1.0,2.0,0.0,5.0,1.0
+Necaxa,Toluca,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Tigres UANL,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Monarcas,U.N.A.M. - Pumas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Club Tijuana,Club Queretaro,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Cruz Azul,Necaxa,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Lobos Buap,Atlas,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Tigres UANL,Club America,,,1.0,1.0,1.0,0.0,1.0,1.0
+Leon,Puebla,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Guadalajara Chivas,Santos Laguna,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Toluca,Monterrey,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Veracruz,Pachuca,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Atlas,Necaxa,,,1.0,1.0,0.0,0.0,1.0,1.0
+Lobos Buap,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club America,Monarcas,True,False,4.0,1.0,3.0,1.0,4.0,1.0
+Santos Laguna,Leon,True,False,5.0,1.0,4.0,1.0,5.0,1.0
+Club Queretaro,Guadalajara Chivas,,,2.0,2.0,1.0,0.0,2.0,2.0
+Monterrey,Cruz Azul,,,2.0,2.0,1.0,1.0,2.0,2.0
+U.N.A.M. - Pumas,Veracruz,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Puebla,Toluca,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Pachuca,Club Tijuana,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monarcas,Lobos Buap,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Cruz Azul,Puebla,,,1.0,1.0,1.0,0.0,1.0,1.0
+Tigres UANL,Atlas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Tijuana,U.N.A.M. - Pumas,True,False,4.0,1.0,2.0,1.0,4.0,1.0
+Necaxa,Monterrey,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Guadalajara Chivas,Pachuca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Toluca,Santos Laguna,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Veracruz,Club America,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atlas,Monterrey,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Puebla,Necaxa,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Queretaro,Toluca,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Lobos Buap,Veracruz,True,False,5.0,0.0,1.0,0.0,5.0,0.0
+Tigres UANL,Monarcas,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Pachuca,Leon,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Club America,Club Tijuana,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Guadalajara Chivas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Santos Laguna,Cruz Azul,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club Tijuana,Lobos Buap,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Monarcas,Atlas,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Cruz Azul,Club Queretaro,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Monterrey,Puebla,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Leon,U.N.A.M. - Pumas,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Necaxa,Santos Laguna,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Guadalajara Chivas,Club America,,,1.0,1.0,1.0,1.0,1.0,1.0
+Toluca,Pachuca,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Veracruz,Tigres UANL,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Monarcas,Veracruz,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Club Queretaro,Necaxa,,,1.0,1.0,0.0,0.0,1.0,1.0
+Cruz Azul,Pachuca,True,False,5.0,0.0,3.0,0.0,5.0,0.0
+Lobos Buap,Guadalajara Chivas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Tigres UANL,Club Tijuana,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Toluca,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Santos Laguna,Monterrey,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Puebla,Santos Laguna,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Tijuana,Monarcas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Cruz Azul,U.N.A.M. - Pumas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Monterrey,Club Queretaro,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Leon,Lobos Buap,,,2.0,2.0,0.0,1.0,2.0,2.0
+Club America,Toluca,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Necaxa,Pachuca,,,1.0,1.0,0.0,1.0,1.0,1.0
+Veracruz,Atlas,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Monarcas,Guadalajara Chivas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Atlas,Santos Laguna,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Club Queretaro,Puebla,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Lobos Buap,Toluca,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Tigres UANL,Leon,True,False,4.0,1.0,4.0,0.0,4.0,1.0
+Pachuca,Monterrey,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Club America,Cruz Azul,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+U.N.A.M. - Pumas,Necaxa,,,1.0,1.0,1.0,0.0,1.0,1.0
+Veracruz,Club Tijuana,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Puebla,Pachuca,False,True,2.0,6.0,0.0,2.0,2.0,6.0
+Club Tijuana,Atlas,,,2.0,2.0,2.0,0.0,2.0,2.0
+Cruz Azul,Lobos Buap,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Monterrey,U.N.A.M. - Pumas,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Leon,Monarcas,False,True,2.0,3.0,0.0,2.0,2.0,3.0
+Necaxa,Club America,,,1.0,1.0,0.0,0.0,1.0,1.0
+Guadalajara Chivas,Veracruz,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Toluca,Tigres UANL,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Club Queretaro,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Club Tijuana,Guadalajara Chivas,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Atlas,Club Queretaro,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Lobos Buap,Necaxa,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Tigres UANL,Cruz Azul,,,2.0,2.0,0.0,1.0,2.0,2.0
+Pachuca,Santos Laguna,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Monarcas,Toluca,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+U.N.A.M. - Pumas,Puebla,True,False,4.0,2.0,1.0,1.0,4.0,2.0
+Veracruz,Leon,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Puebla,Club America,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Club Queretaro,Pachuca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Monarcas,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Monterrey,Lobos Buap,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Leon,Club Tijuana,,,1.0,1.0,0.0,0.0,1.0,1.0
+Necaxa,Tigres UANL,,,1.0,1.0,0.0,1.0,1.0,1.0
+Toluca,Veracruz,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Santos Laguna,U.N.A.M. - Pumas,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Monarcas,Necaxa,,,2.0,2.0,1.0,1.0,2.0,2.0
+Club Tijuana,Toluca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Lobos Buap,Puebla,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Tigres UANL,Monterrey,,,2.0,2.0,1.0,1.0,2.0,2.0
+Pachuca,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club America,Santos Laguna,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Guadalajara Chivas,Leon,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+U.N.A.M. - Pumas,Club Queretaro,,,1.0,1.0,1.0,0.0,1.0,1.0
+Veracruz,Cruz Azul,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+U.N.A.M. - Pumas,Club America,False,True,1.0,4.0,1.0,3.0,1.0,4.0
+Club Tijuana,Monterrey,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monarcas,Toluca,,,2.0,2.0,0.0,1.0,2.0,2.0
+Monterrey,Club Tijuana,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Toluca,Monarcas,,,2.0,2.0,1.0,0.0,2.0,2.0
+Santos Laguna,Tigres UANL,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Santos Laguna,Club America,True,False,4.0,1.0,2.0,1.0,4.0,1.0
+Club Tijuana,Toluca,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Toluca,Club Tijuana,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Club America,Santos Laguna,,,2.0,2.0,2.0,1.0,2.0,2.0
+Santos Laguna,Toluca,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Toluca,Santos Laguna,,,1.0,1.0,0.0,1.0,1.0,1.0
+Club Queretaro,Club Tijuana,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+FC Juarez,Atlas,,,2.0,2.0,1.0,0.0,2.0,2.0
+Atletico San Luis,Club America,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Tigres UANL,Necaxa,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Pachuca,Monterrey,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Club America,Club Queretaro,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Club Tijuana,Guadalajara Chivas,True,False,4.0,2.0,1.0,0.0,4.0,2.0
+Mazatlán,Atletico San Luis,,,2.0,2.0,0.0,0.0,2.0,2.0
+Atlas,Tigres UANL,,,1.0,1.0,1.0,0.0,1.0,1.0
+Necaxa,Puebla,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Santos Laguna,U.N.A.M. - Pumas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Toluca,FC Juarez,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Monterrey,Cruz Azul,False,True,0.0,4.0,0.0,2.0,0.0,4.0
+Atlas,Santos Laguna,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Queretaro,Guadalajara Chivas,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Pachuca,Atletico San Luis,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Puebla,Leon,,,2.0,2.0,1.0,1.0,2.0,2.0
+Cruz Azul,Club Tijuana,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Necaxa,Monterrey,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+FC Juarez,U.N.A.M. - Pumas,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Tigres UANL,Club America,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Toluca,Mazatlán,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Atletico San Luis,Club Tijuana,,,1.0,1.0,1.0,1.0,1.0,1.0
+Puebla,Atlas,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Guadalajara Chivas,Mazatlán,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Monterrey,Club Queretaro,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Santos Laguna,Tigres UANL,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Cruz Azul,Toluca,,,1.0,1.0,0.0,1.0,1.0,1.0
+U.N.A.M. - Pumas,Pachuca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Puebla,Monterrey,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Club Tijuana,Santos Laguna,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Atletico San Luis,Club Queretaro,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Club Queretaro,Cruz Azul,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Mazatlán,Pachuca,True,False,3.0,0.0,3.0,0.0,3.0,0.0
+Necaxa,FC Juarez,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Tigres UANL,Guadalajara Chivas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atlas,U.N.A.M. - Pumas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Leon,Santos Laguna,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club America,Puebla,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Toluca,Atletico San Luis,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Atletico San Luis,Atlas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Mazatlán,Puebla,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club Tijuana,Leon,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Pachuca,Club Queretaro,,,1.0,1.0,0.0,1.0,1.0,1.0
+Guadalajara Chivas,FC Juarez,True,False,5.0,0.0,4.0,0.0,5.0,0.0
+Monterrey,Toluca,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Cruz Azul,Club America,True,False,4.0,1.0,2.0,1.0,4.0,1.0
+U.N.A.M. - Pumas,Tigres UANL,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Santos Laguna,Necaxa,True,False,3.0,2.0,0.0,1.0,3.0,2.0
+Puebla,Club Queretaro,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Atlas,Pachuca,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Tigres UANL,Atletico San Luis,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Necaxa,U.N.A.M. - Pumas,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Toluca,Club Tijuana,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Leon,Cruz Azul,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club America,Atlas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Atletico San Luis,Cruz Azul,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Club Queretaro,Tigres UANL,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Puebla,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Guadalajara Chivas,Leon,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monterrey,FC Juarez,True,False,3.0,2.0,1.0,0.0,3.0,2.0
+Atlas,Club Queretaro,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Puebla,Pachuca,False,True,2.0,3.0,1.0,2.0,2.0,3.0
+Necaxa,Club America,,,1.0,1.0,1.0,0.0,1.0,1.0
+U.N.A.M. - Pumas,Club Tijuana,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Toluca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+FC Juarez,Tigres UANL,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Puebla,FC Juarez,False,True,2.0,3.0,0.0,1.0,2.0,3.0
+Club Queretaro,Necaxa,,,0.0,0.0,0.0,0.0,0.0,0.0
+Tigres UANL,Leon,,,2.0,2.0,1.0,1.0,2.0,2.0
+Club Tijuana,Mazatlán,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Pachuca,Cruz Azul,False,True,2.0,4.0,2.0,1.0,2.0,4.0
+Guadalajara Chivas,Monterrey,,,1.0,1.0,1.0,0.0,1.0,1.0
+Atletico San Luis,Santos Laguna,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Club America,U.N.A.M. - Pumas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Mazatlán,Club Queretaro,,,2.0,2.0,2.0,1.0,2.0,2.0
+Club Tijuana,Pachuca,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Tigres UANL,Puebla,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Cruz Azul,Necaxa,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Toluca,U.N.A.M. - Pumas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Guadalajara Chivas,Atlas,False,True,2.0,3.0,0.0,1.0,2.0,3.0
+Leon,Club America,,,1.0,1.0,1.0,0.0,1.0,1.0
+Santos Laguna,FC Juarez,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Atlas,Mazatlán,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Queretaro,Toluca,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Necaxa,Club Tijuana,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Puebla,Cruz Azul,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Pachuca,Guadalajara Chivas,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Club America,Santos Laguna,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+FC Juarez,Leon,False,True,2.0,3.0,0.0,1.0,2.0,3.0
+Monterrey,Tigres UANL,True,False,4.0,2.0,3.0,2.0,4.0,2.0
+Santos Laguna,Pachuca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Guadalajara Chivas,Necaxa,True,False,3.0,2.0,0.0,1.0,3.0,2.0
+Toluca,Puebla,True,False,5.0,0.0,2.0,0.0,5.0,0.0
+Mazatlán,Tigres UANL,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Monterrey,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,FC Juarez,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Leon,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Tijuana,Club America,,,2.0,2.0,1.0,1.0,2.0,2.0
+Santos Laguna,Mazatlán,,,0.0,0.0,0.0,0.0,0.0,0.0
+Puebla,Guadalajara Chivas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Leon,Club Queretaro,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+U.N.A.M. - Pumas,Cruz Azul,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Tigres UANL,Pachuca,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Necaxa,Toluca,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+FC Juarez,Atletico San Luis,False,True,2.0,4.0,0.0,3.0,2.0,4.0
+Club America,Monterrey,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Club Queretaro,FC Juarez,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Mazatlán,Club America,False,True,0.0,5.0,0.0,4.0,0.0,5.0
+Club Tijuana,Tigres UANL,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Toluca,Leon,,,2.0,2.0,0.0,1.0,2.0,2.0
+Atletico San Luis,Puebla,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Guadalajara Chivas,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Atlas,True,False,4.0,0.0,3.0,0.0,4.0,0.0
+Pachuca,Necaxa,True,False,6.0,2.0,2.0,0.0,6.0,2.0
+Santos Laguna,Guadalajara Chivas,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Leon,Mazatlán,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Club Queretaro,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Tigres UANL,Toluca,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Club America,Pachuca,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Necaxa,Atletico San Luis,,,1.0,1.0,0.0,1.0,1.0,1.0
+Atlas,Cruz Azul,,,2.0,2.0,1.0,2.0,2.0,2.0
+FC Juarez,Club Tijuana,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Queretaro,Santos Laguna,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Mazatlán,U.N.A.M. - Pumas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Guadalajara Chivas,Atletico San Luis,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Toluca,Club America,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Pachuca,FC Juarez,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Cruz Azul,Tigres UANL,,,1.0,1.0,0.0,0.0,1.0,1.0
+Necaxa,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Leon,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Club Tijuana,Puebla,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Guadalajara Chivas,Atlas,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Club Tijuana,Club America,False,True,2.0,2.0,1.0,0.0,2.0,2.0
+Club Tijuana,Atlas,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Club America,Toluca,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club Tijuana,Cruz Azul,True,False,3.0,0.0,3.0,0.0,3.0,0.0
+Atletico San Luis,Tigres UANL,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Monterrey,U.N.A.M. - Pumas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Toluca,Club America,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Cruz Azul,Club Tijuana,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+U.N.A.M. - Pumas,Monterrey,False,True,3.0,5.0,1.0,1.0,3.0,5.0
+Atletico San Luis,Monterrey,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Monterrey,Atletico San Luis,True,False,5.0,1.0,0.0,0.0,5.0,1.0
+Cruz Azul,Club America,False,True,3.0,4.0,0.0,1.0,3.0,4.0
+Monterrey,Club America,,,1.0,1.0,0.0,1.0,1.0,1.0
+Puebla,Club Tijuana,False,True,1.0,3.0,1.0,1.0,1.0,3.0
+Atlas,FC Juarez,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Leon,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Atletico San Luis,U.N.A.M. - Pumas,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Club America,Monterrey,True,False,4.0,2.0,2.0,2.0,4.0,2.0
+Tigres UANL,Monarcas,True,False,4.0,2.0,3.0,0.0,4.0,2.0
+Necaxa,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Club Queretaro,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Santos Laguna,Guadalajara Chivas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Monarcas,Atlas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Veracruz,Pachuca,,,3.0,3.0,2.0,1.0,3.0,3.0
+Leon,Club America,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Toluca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Tijuana,Club Queretaro,,,1.0,1.0,1.0,0.0,1.0,1.0
+U.N.A.M. - Pumas,Necaxa,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Santos Laguna,FC Juarez,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Guadalajara Chivas,Tigres UANL,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Puebla,Guadalajara Chivas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Atlas,Santos Laguna,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Club Queretaro,Cruz Azul,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club America,Club Tijuana,True,False,3.0,1.0,0.0,0.0,3.0,1.0
+Pachuca,Monarcas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Necaxa,Veracruz,True,False,7.0,0.0,1.0,0.0,7.0,0.0
+Monterrey,Leon,True,False,3.0,2.0,1.0,2.0,3.0,2.0
+FC Juarez,Toluca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monarcas,Monterrey,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Veracruz,Atlas,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Club Tijuana,U.N.A.M. - Pumas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club Queretaro,Pachuca,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Cruz Azul,FC Juarez,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Tigres UANL,Necaxa,True,False,3.0,1.0,3.0,1.0,3.0,1.0
+Guadalajara Chivas,Atletico San Luis,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Toluca,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Santos Laguna,Puebla,True,False,4.0,1.0,2.0,1.0,4.0,1.0
+Puebla,Pachuca,False,True,0.0,4.0,0.0,2.0,0.0,4.0
+Atlas,Cruz Azul,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Atletico San Luis,Tigres UANL,,,1.0,1.0,0.0,0.0,1.0,1.0
+Leon,Guadalajara Chivas,True,False,4.0,3.0,2.0,1.0,4.0,3.0
+Club America,Monarcas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Veracruz,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Necaxa,Santos Laguna,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+FC Juarez,Club Queretaro,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Veracruz,Atletico San Luis,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Monarcas,U.N.A.M. - Pumas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Santos Laguna,Monterrey,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Club Queretaro,Leon,False,True,0.0,4.0,0.0,1.0,0.0,4.0
+Pachuca,Atlas,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Cruz Azul,Puebla,,,1.0,1.0,0.0,0.0,1.0,1.0
+Toluca,Club Tijuana,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Guadalajara Chivas,Necaxa,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Veracruz,Club Queretaro,False,True,0.0,5.0,0.0,3.0,0.0,5.0
+Atletico San Luis,Monarcas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Leon,Santos Laguna,,,2.0,2.0,1.0,1.0,2.0,2.0
+Necaxa,Toluca,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club Tijuana,Cruz Azul,True,False,3.0,2.0,1.0,2.0,3.0,2.0
+Puebla,FC Juarez,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Monarcas,Veracruz,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Atlas,Club America,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Necaxa,Club Tijuana,True,False,3.0,2.0,1.0,2.0,3.0,2.0
+Tigres UANL,Leon,,,1.0,1.0,0.0,1.0,1.0,1.0
+Cruz Azul,Guadalajara Chivas,,,1.0,1.0,1.0,1.0,1.0,1.0
+U.N.A.M. - Pumas,Toluca,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+FC Juarez,Monterrey,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Puebla,Atletico San Luis,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Veracruz,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Tijuana,Tigres UANL,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monterrey,Necaxa,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Leon,FC Juarez,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Toluca,Monarcas,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Atlas,Toluca,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Monarcas,Guadalajara Chivas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Monterrey,Puebla,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Necaxa,Leon,False,True,2.0,4.0,0.0,1.0,2.0,4.0
+Atletico San Luis,Santos Laguna,False,True,2.0,3.0,2.0,2.0,2.0,3.0
+Pachuca,Club Tijuana,True,False,4.0,1.0,3.0,0.0,4.0,1.0
+Club America,Club Queretaro,,,2.0,2.0,1.0,1.0,2.0,2.0
+U.N.A.M. - Pumas,Cruz Azul,,,1.0,1.0,0.0,0.0,1.0,1.0
+FC Juarez,Veracruz,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Tigres UANL,Puebla,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Queretaro,Necaxa,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Guadalajara Chivas,Pachuca,False,True,2.0,4.0,1.0,1.0,2.0,4.0
+Santos Laguna,Veracruz,True,False,5.0,0.0,1.0,0.0,5.0,0.0
+Club Tijuana,Monarcas,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Puebla,Leon,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Atlas,Club Queretaro,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Pachuca,Cruz Azul,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Necaxa,FC Juarez,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Tigres UANL,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Club America,Guadalajara Chivas,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+U.N.A.M. - Pumas,Santos Laguna,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Atletico San Luis,Club Tijuana,False,True,2.0,3.0,0.0,0.0,2.0,3.0
+Veracruz,Toluca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Monarcas,Necaxa,False,True,2.0,3.0,2.0,0.0,2.0,3.0
+Leon,Veracruz,,,1.0,1.0,0.0,0.0,1.0,1.0
+Tigres UANL,Santos Laguna,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Cruz Azul,Club America,True,False,5.0,2.0,1.0,2.0,5.0,2.0
+Guadalajara Chivas,U.N.A.M. - Pumas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club Tijuana,Atlas,,,2.0,2.0,1.0,1.0,2.0,2.0
+Toluca,Puebla,,,1.0,1.0,0.0,0.0,1.0,1.0
+FC Juarez,Atletico San Luis,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club Queretaro,Monterrey,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Veracruz,Tigres UANL,False,True,1.0,3.0,0.0,3.0,1.0,3.0
+Santos Laguna,Club Tijuana,True,False,4.0,1.0,3.0,0.0,4.0,1.0
+Cruz Azul,Monarcas,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Necaxa,Club America,,,2.0,2.0,0.0,0.0,2.0,2.0
+U.N.A.M. - Pumas,Leon,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Atletico San Luis,Club Queretaro,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Monterrey,Guadalajara Chivas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Monarcas,Santos Laguna,,,2.0,2.0,2.0,1.0,2.0,2.0
+Atlas,Necaxa,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Club Tijuana,Veracruz,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club Queretaro,U.N.A.M. - Pumas,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Club America,Puebla,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Leon,Atletico San Luis,True,False,3.0,2.0,1.0,2.0,3.0,2.0
+Tigres UANL,Cruz Azul,,,1.0,1.0,0.0,1.0,1.0,1.0
+Toluca,Pachuca,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+FC Juarez,Guadalajara Chivas,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Santos Laguna,Club Queretaro,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Veracruz,Puebla,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Atlas,True,False,5.0,1.0,1.0,1.0,5.0,1.0
+Pachuca,Monterrey,False,True,2.0,3.0,1.0,2.0,2.0,3.0
+Guadalajara Chivas,Club Tijuana,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Tigres UANL,Toluca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Monarcas,FC Juarez,True,False,6.0,1.0,2.0,0.0,6.0,1.0
+Puebla,U.N.A.M. - Pumas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atlas,Atletico San Luis,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Club America,Santos Laguna,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Monterrey,Veracruz,,,1.0,1.0,0.0,0.0,1.0,1.0
+Necaxa,Pachuca,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Toluca,Guadalajara Chivas,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+FC Juarez,Club Tijuana,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Leon,Monarcas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Monarcas,Puebla,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Veracruz,Club America,False,True,0.0,5.0,0.0,3.0,0.0,5.0
+Club Tijuana,Monterrey,False,True,0.0,4.0,0.0,1.0,0.0,4.0
+Tigres UANL,Pachuca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Guadalajara Chivas,Club Queretaro,True,False,3.0,2.0,3.0,0.0,3.0,2.0
+Leon,Toluca,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+U.N.A.M. - Pumas,FC Juarez,,,1.0,1.0,1.0,0.0,1.0,1.0
+Santos Laguna,Cruz Azul,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Puebla,Necaxa,True,False,3.0,0.0,3.0,0.0,3.0,0.0
+Club Tijuana,Leon,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Club Queretaro,Monarcas,True,False,3.0,1.0,0.0,0.0,3.0,1.0
+Monterrey,Atlas,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Cruz Azul,Atletico San Luis,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Guadalajara Chivas,Veracruz,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Pachuca,U.N.A.M. - Pumas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Toluca,Santos Laguna,,,2.0,2.0,2.0,2.0,2.0,2.0
+FC Juarez,Tigres UANL,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Monarcas,Leon,,,3.0,3.0,2.0,2.0,3.0,3.0
+Necaxa,Club Queretaro,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Monterrey,Santos Laguna,True,False,5.0,2.0,2.0,2.0,5.0,2.0
+Club America,Tigres UANL,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Leon,Monarcas,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Club Queretaro,Necaxa,False,True,2.0,3.0,2.0,0.0,2.0,3.0
+Santos Laguna,Monterrey,,,1.0,1.0,1.0,0.0,1.0,1.0
+Tigres UANL,Club America,False,True,2.0,4.0,0.0,3.0,2.0,4.0
+Monterrey,Necaxa,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Club America,Monarcas,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Club America,Monterrey,False,True,4.0,2.0,2.0,0.0,2.0,1.0
+Monarcas,Toluca,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Cruz Azul,Atlas,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Guadalajara Chivas,FC Juarez,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Pachuca,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+FC Juarez,U.N.A.M. - Pumas,,,4.0,4.0,3.0,2.0,4.0,4.0
+Atletico San Luis,Cruz Azul,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Monterrey,Monarcas,,,2.0,2.0,1.0,1.0,2.0,2.0
+Pachuca,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Necaxa,False,True,2.0,3.0,2.0,1.0,2.0,3.0
+Club Queretaro,Club Tijuana,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Santos Laguna,Leon,True,False,3.0,2.0,0.0,1.0,3.0,2.0
+Puebla,Club Queretaro,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Tijuana,Club America,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Santos Laguna,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Tigres UANL,Atlas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Leon,Pachuca,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Guadalajara Chivas,Toluca,,,2.0,2.0,1.0,0.0,2.0,2.0
+U.N.A.M. - Pumas,Monterrey,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+FC Juarez,Monarcas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Atletico San Luis,Guadalajara Chivas,,,2.0,2.0,0.0,2.0,2.0,2.0
+Atlas,Club Tijuana,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Monterrey,Club Queretaro,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Monarcas,Leon,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Necaxa,Puebla,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Pachuca,Tigres UANL,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Santos Laguna,U.N.A.M. - Pumas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club America,FC Juarez,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Toluca,Cruz Azul,,,3.0,3.0,2.0,2.0,3.0,3.0
+Puebla,Club America,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Necaxa,Monterrey,,,2.0,2.0,1.0,1.0,2.0,2.0
+Atlas,Monarcas,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+Puebla,Santos Laguna,,,2.0,2.0,0.0,1.0,2.0,2.0
+Club Tijuana,Toluca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Cruz Azul,Pachuca,True,False,3.0,1.0,0.0,0.0,3.0,1.0
+Tigres UANL,Guadalajara Chivas,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Leon,Monterrey,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+U.N.A.M. - Pumas,Atletico San Luis,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Club Queretaro,Club America,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+FC Juarez,Necaxa,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Atletico San Luis,Leon,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Monarcas,Club Tijuana,,,1.0,1.0,1.0,0.0,1.0,1.0
+Toluca,U.N.A.M. - Pumas,False,True,2.0,3.0,2.0,1.0,2.0,3.0
+Club America,Atlas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monterrey,FC Juarez,,,1.0,1.0,1.0,1.0,1.0,1.0
+Guadalajara Chivas,Cruz Azul,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Necaxa,Club Queretaro,False,True,2.0,3.0,1.0,2.0,2.0,3.0
+Santos Laguna,Tigres UANL,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Atlas,Pachuca,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Puebla,Toluca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Tijuana,Guadalajara Chivas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Leon,Necaxa,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Cruz Azul,Tigres UANL,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Monterrey,Club America,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+U.N.A.M. - Pumas,Monarcas,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Club Queretaro,Atletico San Luis,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+FC Juarez,Santos Laguna,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Toluca,Monterrey,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Atletico San Luis,FC Juarez,False,True,0.0,3.0,0.0,3.0,0.0,3.0
+Monarcas,Cruz Azul,False,True,2.0,4.0,0.0,2.0,2.0,4.0
+Club Tijuana,Puebla,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Pachuca,Club Queretaro,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club America,Necaxa,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+Tigres UANL,U.N.A.M. - Pumas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Guadalajara Chivas,Leon,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Santos Laguna,Atlas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club Queretaro,Toluca,,,1.0,1.0,0.0,1.0,1.0,1.0
+U.N.A.M. - Pumas,Club America,,,3.0,3.0,1.0,1.0,3.0,3.0
+Puebla,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Atletico San Luis,,,2.0,2.0,1.0,0.0,2.0,2.0
+Cruz Azul,Club Tijuana,True,False,4.0,2.0,1.0,1.0,4.0,2.0
+Pachuca,Santos Laguna,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Atlas,Guadalajara Chivas,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Necaxa,Monarcas,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+FC Juarez,Leon,False,True,1.0,4.0,1.0,0.0,1.0,4.0
+Monarcas,Club Queretaro,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Atletico San Luis,Puebla,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Tigres UANL,FC Juarez,True,False,3.0,2.0,0.0,1.0,3.0,2.0
+Leon,U.N.A.M. - Pumas,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Toluca,Atlas,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Santos Laguna,Necaxa,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Club America,Cruz Azul,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Veracruz,U.N.A.M. - Pumas,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Atlas,Club Queretaro,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Puebla,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Pachuca,Monterrey,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Tijuana,Guadalajara Chivas,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Toluca,Monarcas,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Santos Laguna,Lobos Buap,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Necaxa,Club America,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Monarcas,Santos Laguna,True,False,3.0,1.0,0.0,0.0,3.0,1.0
+Puebla,Toluca,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Club Queretaro,Pachuca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club America,Atlas,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Guadalajara Chivas,Cruz Azul,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+U.N.A.M. - Pumas,Necaxa,True,False,5.0,3.0,1.0,1.0,5.0,3.0
+Lobos Buap,Veracruz,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Leon,Monterrey,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Veracruz,Monarcas,,,2.0,2.0,1.0,1.0,2.0,2.0
+Atlas,U.N.A.M. - Pumas,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+Necaxa,Lobos Buap,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Club America,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+Monterrey,Club Queretaro,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Toluca,Guadalajara Chivas,,,2.0,2.0,1.0,1.0,2.0,2.0
+Santos Laguna,Puebla,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Puebla,Veracruz,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Monarcas,Necaxa,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Lobos Buap,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Tigres UANL,Toluca,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Leon,Club Queretaro,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Club America,Monterrey,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Guadalajara Chivas,Santos Laguna,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club Tijuana,Cruz Azul,,,1.0,1.0,0.0,0.0,1.0,1.0
+Veracruz,Guadalajara Chivas,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Cruz Azul,Leon,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Pachuca,Lobos Buap,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Necaxa,Puebla,,,2.0,2.0,0.0,1.0,2.0,2.0
+Club Queretaro,Club America,,,1.0,1.0,0.0,1.0,1.0,1.0
+Toluca,Club Tijuana,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Santos Laguna,Tigres UANL,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Monarcas,Pachuca,,,1.0,1.0,1.0,0.0,1.0,1.0
+U.N.A.M. - Pumas,Club Queretaro,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Guadalajara Chivas,Necaxa,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Puebla,Atlas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Leon,Club America,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Cruz Azul,Toluca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Tigres UANL,Veracruz,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Lobos Buap,Monterrey,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Club Tijuana,Santos Laguna,,,2.0,2.0,0.0,0.0,2.0,2.0
+Pachuca,Puebla,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Necaxa,Tigres UANL,,,1.0,1.0,0.0,0.0,1.0,1.0
+Monterrey,Monarcas,,,2.0,2.0,2.0,1.0,2.0,2.0
+Club Queretaro,Lobos Buap,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Toluca,Leon,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Monarcas,Club Queretaro,False,True,1.0,4.0,0.0,1.0,1.0,4.0
+Puebla,Monterrey,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Cruz Azul,Veracruz,True,False,4.0,1.0,1.0,0.0,4.0,1.0
+Tigres UANL,Atlas,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Leon,U.N.A.M. - Pumas,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Guadalajara Chivas,Pachuca,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Toluca,Santos Laguna,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Lobos Buap,Club America,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Veracruz,Toluca,False,True,2.0,3.0,0.0,2.0,2.0,3.0
+Club Queretaro,Puebla,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club America,Monarcas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Pachuca,Tigres UANL,,,1.0,1.0,1.0,0.0,1.0,1.0
+Necaxa,Cruz Azul,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monterrey,Guadalajara Chivas,False,True,2.0,4.0,0.0,1.0,2.0,4.0
+U.N.A.M. - Pumas,Lobos Buap,True,False,4.0,2.0,1.0,0.0,4.0,2.0
+Santos Laguna,Leon,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Atlas,Club Tijuana,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Monarcas,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Puebla,Club America,False,True,2.0,3.0,1.0,2.0,2.0,3.0
+Toluca,Necaxa,True,False,3.0,2.0,0.0,1.0,3.0,2.0
+Leon,Lobos Buap,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Cruz Azul,Atlas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Tijuana,Pachuca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Veracruz,,,1.0,1.0,0.0,0.0,1.0,1.0
+Tigres UANL,Monterrey,,,0.0,0.0,0.0,0.0,0.0,0.0
+Veracruz,Leon,False,True,0.0,4.0,0.0,1.0,0.0,4.0
+Atlas,Toluca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Queretaro,Tigres UANL,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Pachuca,Cruz Azul,True,False,3.0,1.0,3.0,1.0,3.0,1.0
+Necaxa,Santos Laguna,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Monterrey,Club Tijuana,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+U.N.A.M. - Pumas,Puebla,,,2.0,2.0,2.0,0.0,2.0,2.0
+Lobos Buap,Monarcas,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Club America,Guadalajara Chivas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Santos Laguna,Atlas,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Veracruz,Necaxa,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Monterrey,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Tigres UANL,Club America,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Guadalajara Chivas,U.N.A.M. - Pumas,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Toluca,Pachuca,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Puebla,Lobos Buap,,,2.0,2.0,0.0,1.0,2.0,2.0
+Atlas,Veracruz,True,False,4.0,3.0,2.0,2.0,4.0,3.0
+Club Queretaro,Cruz Azul,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club America,Club Tijuana,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Pachuca,Santos Laguna,,,1.0,1.0,1.0,0.0,1.0,1.0
+Monterrey,Toluca,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Lobos Buap,Guadalajara Chivas,,,1.0,1.0,1.0,0.0,1.0,1.0
+U.N.A.M. - Pumas,Tigres UANL,,,3.0,3.0,2.0,2.0,3.0,3.0
+Monarcas,Puebla,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Santos Laguna,Monterrey,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Veracruz,Pachuca,False,True,2.0,3.0,0.0,1.0,2.0,3.0
+Necaxa,Atlas,,,2.0,2.0,0.0,1.0,2.0,2.0
+Guadalajara Chivas,Monarcas,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Tigres UANL,Lobos Buap,,,2.0,2.0,0.0,1.0,2.0,2.0
+Club Tijuana,U.N.A.M. - Pumas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Toluca,Club Queretaro,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Leon,Puebla,False,True,0.0,4.0,0.0,2.0,0.0,4.0
+Monarcas,Tigres UANL,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Puebla,Guadalajara Chivas,,,2.0,2.0,0.0,2.0,2.0,2.0
+Pachuca,Necaxa,True,False,6.0,2.0,3.0,0.0,6.0,2.0
+Monterrey,Veracruz,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Lobos Buap,Club Tijuana,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+U.N.A.M. - Pumas,Cruz Azul,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Club Queretaro,Santos Laguna,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Atlas,Leon,,,0.0,0.0,0.0,0.0,0.0,0.0
+Veracruz,Club Queretaro,,,2.0,2.0,2.0,0.0,2.0,2.0
+Atlas,Pachuca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Cruz Azul,Lobos Buap,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Tigres UANL,Puebla,True,False,6.0,1.0,4.0,1.0,6.0,1.0
+Leon,Guadalajara Chivas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Tijuana,Monarcas,False,True,2.0,3.0,0.0,1.0,2.0,3.0
+Toluca,U.N.A.M. - Pumas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Monarcas,Cruz Azul,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Puebla,Club Tijuana,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Queretaro,Necaxa,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Veracruz,True,False,4.0,1.0,3.0,1.0,4.0,1.0
+Pachuca,Leon,,,1.0,1.0,1.0,1.0,1.0,1.0
+Guadalajara Chivas,Tigres UANL,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Monterrey,Atlas,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+U.N.A.M. - Pumas,Santos Laguna,,,1.0,1.0,0.0,1.0,1.0,1.0
+Lobos Buap,Toluca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Toluca,Club America,,,2.0,2.0,1.0,2.0,2.0,2.0
+Tigres UANL,U.N.A.M. - Pumas,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Cruz Azul,Club Queretaro,,,1.0,1.0,1.0,0.0,1.0,1.0
+Santos Laguna,Monterrey,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+U.N.A.M. - Pumas,Tigres UANL,True,False,3.0,1.0,0.0,0.0,3.0,1.0
+Club America,Toluca,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Monterrey,Cruz Azul,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Club America,,,1.0,1.0,0.0,1.0,1.0,1.0
+Cruz Azul,Monterrey,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club America,U.N.A.M. - Pumas,True,False,6.0,1.0,3.0,1.0,6.0,1.0
+Cruz Azul,Club America,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Monarcas,Toluca,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Club Queretaro,Atlas,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Monterrey,Pachuca,True,False,5.0,0.0,1.0,0.0,5.0,0.0
+Leon,Tigres UANL,,,2.0,2.0,1.0,1.0,2.0,2.0
+U.N.A.M. - Pumas,Veracruz,,,0.0,0.0,0.0,0.0,0.0,0.0
+Lobos Buap,Santos Laguna,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Atlas,Club America,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Monterrey,Leon,,,2.0,2.0,0.0,0.0,2.0,2.0
+Pachuca,Club Queretaro,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Club Tijuana,Tigres UANL,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Necaxa,U.N.A.M. - Pumas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Toluca,Puebla,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monarcas,Veracruz,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Puebla,Santos Laguna,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club Queretaro,Monterrey,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Club America,Pachuca,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+U.N.A.M. - Pumas,Atlas,,,2.0,2.0,2.0,0.0,2.0,2.0
+Lobos Buap,Necaxa,False,True,2.0,3.0,2.0,1.0,2.0,3.0
+Leon,Club Tijuana,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Veracruz,Puebla,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Atlas,Lobos Buap,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Monterrey,Club America,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Cruz Azul,Club Tijuana,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Pachuca,U.N.A.M. - Pumas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Necaxa,Monarcas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Tigres UANL,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Club Queretaro,Leon,False,True,0.0,4.0,0.0,3.0,0.0,4.0
+Santos Laguna,Guadalajara Chivas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Monarcas,Atlas,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Puebla,Necaxa,False,True,1.0,4.0,1.0,2.0,1.0,4.0
+Club America,Club Queretaro,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Tigres UANL,Santos Laguna,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Leon,Cruz Azul,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Club Tijuana,Toluca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Monterrey,,,1.0,1.0,0.0,1.0,1.0,1.0
+Lobos Buap,Pachuca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Guadalajara Chivas,Veracruz,,,0.0,0.0,0.0,0.0,0.0,0.0
+Veracruz,Tigres UANL,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Atlas,Puebla,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Monterrey,Lobos Buap,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Club Queretaro,U.N.A.M. - Pumas,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Club America,Leon,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Pachuca,Monarcas,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Necaxa,Guadalajara Chivas,,,3.0,3.0,0.0,1.0,3.0,3.0
+Toluca,Cruz Azul,,,1.0,1.0,0.0,1.0,1.0,1.0
+Santos Laguna,Club Tijuana,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monarcas,Monterrey,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Puebla,Pachuca,,,1.0,1.0,0.0,1.0,1.0,1.0
+Club Tijuana,Veracruz,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Cruz Azul,Santos Laguna,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Tigres UANL,Necaxa,True,False,3.0,2.0,1.0,0.0,3.0,2.0
+Leon,Toluca,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Guadalajara Chivas,Atlas,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+U.N.A.M. - Pumas,Club America,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Lobos Buap,Club Queretaro,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Atlas,Tigres UANL,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Veracruz,Cruz Azul,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club Queretaro,Monarcas,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Monterrey,Puebla,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club America,Lobos Buap,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Necaxa,Club Tijuana,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Pachuca,Guadalajara Chivas,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+U.N.A.M. - Pumas,Leon,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Santos Laguna,Toluca,True,False,4.0,0.0,3.0,0.0,4.0,0.0
+Club Tijuana,Atlas,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Monarcas,Club America,,,2.0,2.0,1.0,0.0,2.0,2.0
+Cruz Azul,Necaxa,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Tigres UANL,Pachuca,True,False,3.0,0.0,3.0,0.0,3.0,0.0
+Leon,Santos Laguna,True,False,3.0,0.0,0.0,0.0,3.0,0.0
+Guadalajara Chivas,Monterrey,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Toluca,Veracruz,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Lobos Buap,U.N.A.M. - Pumas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Puebla,Club Queretaro,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Necaxa,False,True,1.0,3.0,1.0,0.0,1.0,3.0
+Veracruz,Santos Laguna,,,2.0,2.0,1.0,1.0,2.0,2.0
+Atlas,Cruz Azul,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Pachuca,Club Tijuana,True,False,4.0,0.0,2.0,0.0,4.0,0.0
+Monterrey,Tigres UANL,,,1.0,1.0,1.0,0.0,1.0,1.0
+Necaxa,Toluca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Club Queretaro,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Monarcas,,,2.0,2.0,0.0,1.0,2.0,2.0
+Lobos Buap,Leon,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Monarcas,Lobos Buap,,,1.0,1.0,1.0,1.0,1.0,1.0
+Puebla,U.N.A.M. - Pumas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Cruz Azul,Pachuca,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Guadalajara Chivas,Club America,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Tigres UANL,Club Queretaro,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Club Tijuana,Monterrey,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Toluca,Atlas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Santos Laguna,Necaxa,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Leon,Veracruz,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Monarcas,Leon,False,True,2.0,3.0,2.0,0.0,2.0,3.0
+Club America,Tigres UANL,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Pachuca,Toluca,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Monterrey,Cruz Azul,,,2.0,2.0,1.0,0.0,2.0,2.0
+Necaxa,Veracruz,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Guadalajara Chivas,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Lobos Buap,Puebla,False,True,0.0,4.0,0.0,3.0,0.0,4.0
+Veracruz,Atlas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Puebla,Monarcas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Cruz Azul,Club Queretaro,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Leon,Necaxa,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Guadalajara Chivas,Lobos Buap,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Tijuana,Club America,True,False,3.0,2.0,1.0,2.0,3.0,2.0
+Toluca,Monterrey,True,False,5.0,1.0,1.0,0.0,5.0,1.0
+Santos Laguna,Pachuca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Necaxa,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Puebla,Leon,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+Club Queretaro,Toluca,,,0.0,0.0,0.0,0.0,0.0,0.0
+Pachuca,Veracruz,True,False,9.0,2.0,6.0,1.0,9.0,2.0
+Lobos Buap,Tigres UANL,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Monterrey,Santos Laguna,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Veracruz,Monterrey,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club Tijuana,Lobos Buap,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Leon,Atlas,True,False,5.0,2.0,1.0,0.0,5.0,2.0
+Tigres UANL,Monarcas,,,3.0,3.0,0.0,2.0,3.0,3.0
+Cruz Azul,U.N.A.M. - Pumas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Guadalajara Chivas,Puebla,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Toluca,Club America,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Santos Laguna,Club Queretaro,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Puebla,Tigres UANL,,,1.0,1.0,0.0,1.0,1.0,1.0
+Monarcas,Club Tijuana,False,True,1.0,4.0,1.0,1.0,1.0,4.0
+Pachuca,Atlas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Monterrey,Necaxa,,,2.0,2.0,2.0,1.0,2.0,2.0
+Club America,Santos Laguna,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Guadalajara Chivas,Leon,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+U.N.A.M. - Pumas,Toluca,,,2.0,2.0,1.0,0.0,2.0,2.0
+Lobos Buap,Cruz Azul,False,True,1.0,4.0,1.0,2.0,1.0,4.0
+Club Queretaro,Veracruz,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Veracruz,Club America,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Cruz Azul,Monarcas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Leon,Pachuca,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Club Tijuana,Puebla,True,False,4.0,0.0,0.0,0.0,4.0,0.0
+Toluca,Lobos Buap,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Atlas,Monterrey,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Santos Laguna,U.N.A.M. - Pumas,True,False,5.0,2.0,3.0,1.0,5.0,2.0
+Club Tijuana,Leon,False,True,1.0,3.0,0.0,1.0,1.0,3.0
+Necaxa,Monterrey,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Cruz Azul,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Leon,Club Tijuana,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Cruz Azul,Club America,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Monterrey,Necaxa,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Monterrey,Tigres UANL,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Leon,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Tigres UANL,Monterrey,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Leon,Club America,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Leon,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Tijuana,Monarcas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Queretaro,Veracruz,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Monterrey,Puebla,,,1.0,1.0,1.0,0.0,1.0,1.0
+Atlas,Toluca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Pachuca,Leon,True,False,5.0,1.0,2.0,1.0,5.0,1.0
+Club America,Jaguares de Chiapas,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Guadalajara Chivas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Santos Laguna,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Veracruz,Santos Laguna,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Jaguares de Chiapas,Pachuca,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Cruz Azul,U.N.A.M. - Pumas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Tigres UANL,Atlas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monarcas,Club Queretaro,,,2.0,2.0,1.0,0.0,2.0,2.0
+Leon,Necaxa,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club America,Toluca,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Puebla,Club Tijuana,True,False,3.0,2.0,3.0,1.0,3.0,2.0
+Club Tijuana,Guadalajara Chivas,True,False,4.0,0.0,3.0,0.0,4.0,0.0
+Club Queretaro,Puebla,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Monterrey,Cruz Azul,,,1.0,1.0,1.0,1.0,1.0,1.0
+Atlas,Veracruz,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club America,Tigres UANL,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Jaguares de Chiapas,Toluca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Santos Laguna,Monarcas,False,True,2.0,4.0,1.0,2.0,2.0,4.0
+Cruz Azul,Club Tijuana,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Tigres UANL,Jaguares de Chiapas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Monarcas,Atlas,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Leon,Monterrey,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Necaxa,U.N.A.M. - Pumas,,,2.0,2.0,1.0,1.0,2.0,2.0
+Veracruz,Club America,False,True,2.0,4.0,2.0,1.0,2.0,4.0
+Toluca,Pachuca,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Puebla,Santos Laguna,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Queretaro,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Puebla,True,False,3.0,2.0,2.0,1.0,3.0,2.0
+Pachuca,U.N.A.M. - Pumas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club America,Monarcas,,,1.0,1.0,0.0,0.0,1.0,1.0
+Toluca,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Jaguares de Chiapas,Veracruz,,,1.0,1.0,0.0,1.0,1.0,1.0
+Santos Laguna,Guadalajara Chivas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Veracruz,Toluca,,,2.0,2.0,1.0,0.0,2.0,2.0
+Cruz Azul,Santos Laguna,True,False,3.0,1.0,0.0,0.0,3.0,1.0
+Tigres UANL,Pachuca,True,False,4.0,2.0,2.0,1.0,4.0,2.0
+Monarcas,Jaguares de Chiapas,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Leon,Club Queretaro,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Necaxa,Club Tijuana,,,1.0,1.0,1.0,0.0,1.0,1.0
+Guadalajara Chivas,Atlas,,,2.0,2.0,1.0,1.0,2.0,2.0
+U.N.A.M. - Pumas,Monterrey,True,False,5.0,3.0,4.0,1.0,5.0,3.0
+Puebla,Club America,,,2.0,2.0,1.0,1.0,2.0,2.0
+Club Queretaro,Necaxa,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Tigres UANL,Veracruz,,,1.0,1.0,0.0,0.0,1.0,1.0
+Atlas,Cruz Azul,,,1.0,1.0,1.0,0.0,1.0,1.0
+Pachuca,Monterrey,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club America,Guadalajara Chivas,False,True,0.0,3.0,0.0,2.0,0.0,3.0
+Toluca,Monarcas,,,2.0,2.0,1.0,1.0,2.0,2.0
+Jaguares de Chiapas,Puebla,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Santos Laguna,Leon,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Veracruz,Pachuca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Cruz Azul,Club America,False,True,3.0,4.0,3.0,0.0,3.0,4.0
+Monarcas,Tigres UANL,False,True,0.0,2.0,0.0,2.0,0.0,2.0
+Leon,Atlas,True,False,4.0,1.0,3.0,1.0,4.0,1.0
+Necaxa,Santos Laguna,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Guadalajara Chivas,Jaguares de Chiapas,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Puebla,Toluca,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Veracruz,Monarcas,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Toluca,Guadalajara Chivas,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Club Queretaro,Monterrey,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Puebla,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Jaguares de Chiapas,Cruz Azul,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Pachuca,Club Tijuana,,,2.0,2.0,1.0,1.0,2.0,2.0
+Club America,Leon,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Santos Laguna,U.N.A.M. - Pumas,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+Monarcas,Pachuca,False,True,1.0,5.0,1.0,2.0,1.0,5.0
+Cruz Azul,Toluca,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Puebla,Veracruz,True,False,3.0,2.0,2.0,2.0,3.0,2.0
+Necaxa,Club America,,,1.0,1.0,1.0,1.0,1.0,1.0
+Leon,Jaguares de Chiapas,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Atlas,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Monterrey,Santos Laguna,True,False,5.0,2.0,3.0,1.0,5.0,2.0
+Club Tijuana,Club Queretaro,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Veracruz,Guadalajara Chivas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Jaguares de Chiapas,Necaxa,,,2.0,2.0,1.0,2.0,2.0,2.0
+Tigres UANL,Cruz Azul,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Monterrey,True,False,3.0,1.0,2.0,0.0,3.0,1.0
+Monarcas,Puebla,False,True,2.0,3.0,1.0,0.0,2.0,3.0
+Club America,U.N.A.M. - Pumas,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Toluca,Leon,,,1.0,1.0,1.0,1.0,1.0,1.0
+Santos Laguna,Club Tijuana,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Club Tijuana,Atlas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club Queretaro,Santos Laguna,,,1.0,1.0,0.0,1.0,1.0,1.0
+Cruz Azul,Veracruz,True,False,5.0,3.0,2.0,2.0,5.0,3.0
+Monterrey,Club America,,,1.0,1.0,1.0,1.0,1.0,1.0
+Leon,Tigres UANL,True,False,3.0,2.0,3.0,1.0,3.0,2.0
+Necaxa,Toluca,True,False,3.0,1.0,3.0,1.0,3.0,1.0
+Guadalajara Chivas,Monarcas,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+U.N.A.M. - Pumas,Jaguares de Chiapas,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Puebla,Pachuca,,,1.0,1.0,0.0,0.0,1.0,1.0
+Veracruz,Leon,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Jaguares de Chiapas,Monterrey,False,True,1.0,4.0,1.0,2.0,1.0,4.0
+Tigres UANL,Necaxa,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Atlas,Club Queretaro,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Monarcas,Cruz Azul,,,1.0,1.0,0.0,0.0,1.0,1.0
+Pachuca,Santos Laguna,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club America,Club Tijuana,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Tijuana,Jaguares de Chiapas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Monterrey,Toluca,,,1.0,1.0,1.0,1.0,1.0,1.0
+Club Queretaro,Club America,,,1.0,1.0,0.0,0.0,1.0,1.0
+Necaxa,Veracruz,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Leon,Monarcas,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+U.N.A.M. - Pumas,Tigres UANL,False,True,1.0,3.0,1.0,1.0,1.0,3.0
+Santos Laguna,Atlas,,,2.0,2.0,1.0,1.0,2.0,2.0
+Guadalajara Chivas,Pachuca,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Veracruz,U.N.A.M. - Pumas,False,True,1.0,4.0,0.0,1.0,1.0,4.0
+Jaguares de Chiapas,Club Queretaro,False,True,1.0,2.0,1.0,1.0,1.0,2.0
+Tigres UANL,Monterrey,,,1.0,1.0,1.0,0.0,1.0,1.0
+Monarcas,Necaxa,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Pachuca,Atlas,True,False,3.0,2.0,1.0,2.0,3.0,2.0
+Club America,Santos Laguna,True,False,3.0,1.0,2.0,1.0,3.0,1.0
+Guadalajara Chivas,Cruz Azul,True,False,3.0,2.0,1.0,1.0,3.0,2.0
+Toluca,Club Tijuana,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Puebla,Leon,,,2.0,2.0,0.0,2.0,2.0,2.0
+Club Tijuana,Tigres UANL,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Club Queretaro,Toluca,False,True,2.0,3.0,0.0,2.0,2.0,3.0
+Cruz Azul,Pachuca,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Monterrey,Veracruz,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Atlas,Club America,,,1.0,1.0,1.0,0.0,1.0,1.0
+Leon,Guadalajara Chivas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Necaxa,Puebla,True,False,3.0,1.0,1.0,0.0,3.0,1.0
+U.N.A.M. - Pumas,Monarcas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Santos Laguna,Jaguares de Chiapas,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Veracruz,Club Tijuana,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Jaguares de Chiapas,Atlas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Cruz Azul,Leon,False,True,2.0,3.0,0.0,2.0,2.0,3.0
+Tigres UANL,Club Queretaro,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Monarcas,Monterrey,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Pachuca,Club America,,,3.0,3.0,2.0,1.0,3.0,3.0
+Guadalajara Chivas,Necaxa,,,1.0,1.0,1.0,1.0,1.0,1.0
+Puebla,U.N.A.M. - Pumas,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Leon,Club Tijuana,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+U.N.A.M. - Pumas,Tigres UANL,,,2.0,2.0,1.0,1.0,2.0,2.0
+Necaxa,Pachuca,True,False,2.0,1.0,1.0,0.0,2.0,1.0
+Club America,Guadalajara Chivas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Tigres UANL,U.N.A.M. - Pumas,True,False,5.0,0.0,2.0,0.0,5.0,0.0
+Club Tijuana,Leon,True,False,3.0,2.0,3.0,0.0,3.0,2.0
+Leon,Tigres UANL,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Tigres UANL,Leon,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Club America,Necaxa,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club America,Tigres UANL,,,1.0,1.0,0.0,1.0,1.0,1.0
+Tigres UANL,Club America,True,False,1.0,1.0,0.0,0.0,0.0,0.0
+Veracruz,Club Queretaro,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Tigres UANL,Santos Laguna,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monarcas,Club Tijuana,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Leon,Pachuca,False,True,2.0,4.0,2.0,2.0,2.0,4.0
+Guadalajara Chivas,U.N.A.M. - Pumas,True,False,2.0,1.0,2.0,0.0,2.0,1.0
+Toluca,Atlas,True,False,4.0,1.0,1.0,1.0,4.0,1.0
+Puebla,Monterrey,False,True,2.0,3.0,2.0,1.0,2.0,3.0
+Club Tijuana,Puebla,True,False,6.0,2.0,2.0,1.0,6.0,2.0
+Club Queretaro,Monarcas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Guadalajara Chivas,,,2.0,2.0,0.0,2.0,2.0,2.0
+Atlas,Tigres UANL,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Pachuca,Jaguares de Chiapas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Necaxa,Leon,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+U.N.A.M. - Pumas,Cruz Azul,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Toluca,Club America,True,False,2.0,1.0,2.0,1.0,2.0,1.0
+Santos Laguna,Veracruz,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Veracruz,Atlas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Cruz Azul,Monterrey,,,2.0,2.0,0.0,2.0,2.0,2.0
+Tigres UANL,Club America,True,False,4.0,2.0,2.0,1.0,4.0,2.0
+Leon,U.N.A.M. - Pumas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Necaxa,Pachuca,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Guadalajara Chivas,Club Tijuana,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Toluca,Jaguares de Chiapas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Puebla,Club Queretaro,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club Tijuana,Cruz Azul,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Queretaro,Guadalajara Chivas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Monterrey,Leon,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,Monarcas,True,False,3.0,1.0,1.0,1.0,3.0,1.0
+Club America,Veracruz,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Necaxa,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Jaguares de Chiapas,Tigres UANL,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Veracruz,Jaguares de Chiapas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Cruz Azul,Club Queretaro,,,1.0,1.0,0.0,0.0,1.0,1.0
+Monarcas,Club America,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Leon,Club Tijuana,False,True,2.0,4.0,1.0,2.0,2.0,4.0
+U.N.A.M. - Pumas,Pachuca,,,1.0,1.0,1.0,0.0,1.0,1.0
+Jaguares de Chiapas,Club America,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club Tijuana,Necaxa,False,True,1.0,2.0,0.0,0.0,1.0,2.0
+Club Queretaro,Leon,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+Monterrey,U.N.A.M. - Pumas,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Pachuca,Tigres UANL,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Club America,Puebla,,,0.0,0.0,0.0,0.0,0.0,0.0
+Toluca,Veracruz,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Jaguares de Chiapas,Monarcas,False,True,1.0,2.0,1.0,2.0,1.0,2.0
+Santos Laguna,Cruz Azul,,,2.0,2.0,1.0,1.0,2.0,2.0
+Veracruz,Tigres UANL,False,True,0.0,3.0,0.0,0.0,0.0,3.0
+Monterrey,Pachuca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Monarcas,Toluca,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Leon,Santos Laguna,,,2.0,2.0,1.0,2.0,2.0,2.0
+Necaxa,Club Queretaro,False,True,1.0,4.0,1.0,2.0,1.0,4.0
+Guadalajara Chivas,Club America,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+U.N.A.M. - Pumas,Club Tijuana,,,3.0,3.0,0.0,1.0,3.0,3.0
+Puebla,Jaguares de Chiapas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Club Tijuana,Monterrey,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Club Queretaro,U.N.A.M. - Pumas,True,False,4.0,3.0,2.0,1.0,4.0,3.0
+Tigres UANL,Monarcas,,,1.0,1.0,0.0,1.0,1.0,1.0
+Atlas,Leon,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Pachuca,Veracruz,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club America,Cruz Azul,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Toluca,Puebla,False,True,1.0,3.0,0.0,2.0,1.0,3.0
+Jaguares de Chiapas,Guadalajara Chivas,True,False,4.0,3.0,0.0,2.0,4.0,3.0
+Santos Laguna,Necaxa,,,2.0,2.0,1.0,1.0,2.0,2.0
+Cruz Azul,Jaguares de Chiapas,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Monterrey,Club Queretaro,True,False,4.0,1.0,1.0,1.0,4.0,1.0
+Necaxa,Atlas,,,1.0,1.0,0.0,0.0,1.0,1.0
+U.N.A.M. - Pumas,Santos Laguna,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Puebla,Tigres UANL,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Club Tijuana,Santos Laguna,,,1.0,1.0,0.0,1.0,1.0,1.0
+Club Queretaro,Pachuca,True,False,3.0,0.0,2.0,0.0,3.0,0.0
+Cruz Azul,Tigres UANL,,,0.0,0.0,0.0,0.0,0.0,0.0
+Monterrey,Atlas,True,False,2.0,0.0,1.0,0.0,2.0,0.0
+Leon,Toluca,False,True,2.0,3.0,1.0,1.0,2.0,3.0
+Necaxa,Jaguares de Chiapas,,,2.0,2.0,1.0,0.0,2.0,2.0
+Guadalajara Chivas,Veracruz,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+U.N.A.M. - Pumas,Club America,False,True,2.0,3.0,0.0,2.0,2.0,3.0
+Puebla,Monarcas,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Veracruz,Cruz Azul,True,False,3.0,1.0,0.0,1.0,3.0,1.0
+Jaguares de Chiapas,U.N.A.M. - Pumas,False,True,0.0,3.0,0.0,1.0,0.0,3.0
+Tigres UANL,Leon,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Atlas,Club Tijuana,,,3.0,3.0,2.0,2.0,3.0,3.0
+Monarcas,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Pachuca,Puebla,,,0.0,0.0,0.0,0.0,0.0,0.0
+Club America,Monterrey,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Toluca,Necaxa,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Santos Laguna,Club Queretaro,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Club Queretaro,Atlas,False,True,1.0,4.0,0.0,2.0,1.0,4.0
+Cruz Azul,Monarcas,,,1.0,1.0,1.0,0.0,1.0,1.0
+Monterrey,Jaguares de Chiapas,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Leon,Veracruz,True,False,4.0,0.0,0.0,0.0,4.0,0.0
+Necaxa,Tigres UANL,,,1.0,1.0,1.0,1.0,1.0,1.0
+Guadalajara Chivas,Puebla,True,False,3.0,2.0,0.0,2.0,3.0,2.0
+U.N.A.M. - Pumas,Toluca,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Santos Laguna,Pachuca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Jaguares de Chiapas,Leon,,,0.0,0.0,0.0,0.0,0.0,0.0
+Tigres UANL,Guadalajara Chivas,True,False,3.0,0.0,1.0,0.0,3.0,0.0
+Veracruz,Puebla,True,False,3.0,2.0,2.0,0.0,3.0,2.0
+Club Queretaro,Club Tijuana,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Santos Laguna,Monterrey,,,2.0,2.0,2.0,1.0,2.0,2.0
+Club America,Necaxa,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Pachuca,Monarcas,,,0.0,0.0,0.0,0.0,0.0,0.0
+Atlas,U.N.A.M. - Pumas,,,1.0,1.0,1.0,1.0,1.0,1.0
+Toluca,Cruz Azul,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Jaguares de Chiapas,Club Tijuana,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Tigres UANL,U.N.A.M. - Pumas,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Monarcas,Leon,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Veracruz,Necaxa,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Club America,Club Queretaro,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Toluca,Monterrey,,,1.0,1.0,1.0,1.0,1.0,1.0
+Puebla,Cruz Azul,True,False,2.0,1.0,0.0,1.0,2.0,1.0
+Club Tijuana,Toluca,True,False,2.0,0.0,0.0,0.0,2.0,0.0
+Club Queretaro,Jaguares de Chiapas,,,2.0,2.0,1.0,0.0,2.0,2.0
+Monterrey,Tigres UANL,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Atlas,Pachuca,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Leon,Puebla,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Necaxa,Monarcas,True,False,2.0,1.0,1.0,1.0,2.0,1.0
+U.N.A.M. - Pumas,Veracruz,False,True,0.0,2.0,0.0,1.0,0.0,2.0
+Santos Laguna,Club America,True,False,2.0,1.0,0.0,0.0,2.0,1.0
+Veracruz,Monterrey,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Jaguares de Chiapas,Santos Laguna,,,2.0,2.0,1.0,0.0,2.0,2.0
+Tigres UANL,Club Tijuana,True,False,3.0,0.0,3.0,0.0,3.0,0.0
+Monarcas,U.N.A.M. - Pumas,True,False,4.0,0.0,1.0,0.0,4.0,0.0
+Guadalajara Chivas,Leon,,,1.0,1.0,0.0,0.0,1.0,1.0
+Pachuca,Cruz Azul,,,2.0,2.0,0.0,0.0,2.0,2.0
+Club America,Atlas,False,True,1.0,2.0,0.0,2.0,1.0,2.0
+Toluca,Club Queretaro,False,True,1.0,2.0,1.0,0.0,1.0,2.0
+Club Queretaro,Tigres UANL,False,True,1.0,5.0,0.0,2.0,1.0,5.0
+Club Tijuana,Veracruz,True,False,1.0,0.0,0.0,0.0,1.0,0.0
+Monterrey,Monarcas,False,True,1.0,2.0,0.0,1.0,1.0,2.0
+Atlas,Jaguares de Chiapas,False,True,0.0,1.0,0.0,1.0,0.0,1.0
+Club America,Pachuca,False,True,2.0,3.0,0.0,2.0,2.0,3.0
+Necaxa,Guadalajara Chivas,,,0.0,0.0,0.0,0.0,0.0,0.0
+U.N.A.M. - Pumas,Puebla,False,True,0.0,1.0,0.0,0.0,0.0,1.0
+Santos Laguna,Toluca,,,2.0,2.0,0.0,2.0,2.0,2.0
+Tigres UANL,Monterrey,True,False,4.0,1.0,2.0,0.0,4.0,1.0
+Santos Laguna,Toluca,False,True,1.0,4.0,0.0,1.0,1.0,4.0
+Monarcas,Club Tijuana,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Toluca,Santos Laguna,False,True,1.0,3.0,1.0,2.0,1.0,3.0
+Guadalajara Chivas,Atlas,True,False,1.0,0.0,1.0,0.0,1.0,0.0
+Tigres UANL,Club Tijuana,True,False,2.0,0.0,2.0,0.0,2.0,0.0
+Guadalajara Chivas,Toluca,,,1.0,1.0,1.0,0.0,1.0,1.0
+Club Tijuana,Tigres UANL,False,True,0.0,2.0,0.0,0.0,0.0,2.0
+Tigres UANL,Guadalajara Chivas,,,2.0,2.0,0.0,2.0,2.0,2.0
+Guadalajara Chivas,Tigres UANL,True,False,2.0,1.0,1.0,0.0,2.0,1.0
