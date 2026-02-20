@@ -39,6 +39,57 @@
         "Veracruz"
     ];
 
+    const round = [
+        "Apertura - 1",
+        "Apertura - 2",
+        "Apertura - 3",
+        "Apertura - 4",
+        "Apertura - 5",
+        "Apertura - 6",
+        "Apertura - 7",
+        "Apertura - 8",
+        "Apertura - 9",
+        "Apertura - 10",
+        "Apertura - 11",
+        "Apertura - 12",
+        "Apertura - 13",
+        "Apertura - 14",
+        "Apertura - 15",
+        "Apertura - 16",
+        "Apertura - 17",
+        "Apertura - 18",
+        "Apertura - 19",
+        "Apertura - Final",
+        "Apertura - Finals",
+        "Apertura - Play-offs",
+        "Apertura - Quarter-finals",
+        "Apertura - Reclasificación",
+        "Apertura - Semi-finals",
+        "Clausura - 1",
+        "Clausura - 2",
+        "Clausura - 3",
+        "Clausura - 4",
+        "Clausura - 5",
+        "Clausura - 6",
+        "Clausura - 7",
+        "Clausura - 8",
+        "Clausura - 9",
+        "Clausura - 10",
+        "Clausura - 11",
+        "Clausura - 12",
+        "Clausura - 13",
+        "Clausura - 14",
+        "Clausura - 15",
+        "Clausura - 16",
+        "Clausura - 17",
+        "Clausura - Final",
+        "Clausura - Finals",
+        "Clausura - Play-offs",
+        "Clausura - Quarter-finals",
+        "Clausura - Reclasificacion",
+        "Clausura - Semi-finals"
+    ];
+
     function handleHTLocal(e) {
         const v = e.target.value;
         if (v === '') { homeGoalsHT = ''; return; }
