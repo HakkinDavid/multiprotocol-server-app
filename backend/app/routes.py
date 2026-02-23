@@ -28,8 +28,12 @@ from pathlib import Path
 
 # Routes imports
 #from app.routes.chat import router as chat_router
+from app.predict import router as predict_router
 
 router = APIRouter()
+
+# Include sub-routers
+router.include_router(predict_router)
 
 # ============================
 # User Management Endpoints
