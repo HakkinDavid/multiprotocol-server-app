@@ -164,3 +164,6 @@ backend/uploads/*
 backend/streaming/test.txt
 *.txt
 *.mov
+
+# Models
+*.joblib

@@ -1,10 +1,10 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from typing import List, Optional
+from joblib import load
+import pandas as pd
 
 router = APIRouter()
 
-# Define la estructura del body
 class PredictRequest(BaseModel):
     home_team: str
     away_team: str
@@ -12,16 +12,29 @@ class PredictRequest(BaseModel):
     away_goals_half_time: int
     
 class PredictResponse(BaseModel):
-    prediction: str
-    confidence: float
+    home_goals: int
+    away_goals: int
+
+model = load("../training/models/best_model_MultiOutputRegressor.joblib")
 
 @router.post("/predict", response_model=PredictResponse)
 async def predict(request: PredictRequest):
     """
-    Endpoint para predicciones ML
+    Endpoint para predicciones del golizador mexicano
     """
-    # Todo: incorporar modelo 
+    
+    # Preparar los datos de entrada para la predicción
+    input_data = pd.DataFrame([{
+        'home_team': request.home_team,
+        'away_team': request.away_team,
+        'home_goals_half_time': request.home_goals_half_time,
+        'away_goals_half_time': request.away_goals_half_time
+    }])
+    
+    # Realizar la predicción usando el modelo cargado
+    prediction = model.predict(input_data)
+    
     return PredictResponse(
-        prediction="resultado de la predicción",
-        confidence=0.95,
+        home_goals=int(prediction[0][0]),
+        away_goals=int(prediction[0][1])
     )
