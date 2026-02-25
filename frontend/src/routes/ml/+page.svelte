@@ -15,7 +15,6 @@
 
     const teams = [
         "Atlas",
-        "Atletico San Luis",
         "Atlético San Luis",
         "Club America",
         "Club Queretaro",
