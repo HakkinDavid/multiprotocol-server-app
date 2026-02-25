@@ -15,7 +15,6 @@
 
     const teams = [
         "Atlas",
-        "Atletico San Luis",
         "Atlético San Luis",
         "Club America",
         "Club Queretaro",
@@ -147,8 +146,8 @@
             }
 
             const data = await response.json();
-            predHome = data.home_goals;
-            predAway = data.away_goals;
+            predHome = data.home_goals + parseInt(homeGoalsHT);
+            predAway = data.away_goals + parseInt(awayGoalsHT);
 
         } catch (err) {
             // @ts-ignore
