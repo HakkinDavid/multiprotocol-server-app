@@ -5,6 +5,11 @@ import pandas as pd
 
 router = APIRouter()
 
+def round_school(x):
+    i, f = divmod(x, 1)
+    return int(i + ((f >= 0.5) if (x > 0) else (f > 0.5)))
+
+
 class PredictRequest(BaseModel):
     home_team: str
     away_team: str
@@ -35,6 +40,6 @@ async def predict(request: PredictRequest):
     prediction = model.predict(input_data)
     
     return PredictResponse(
-        home_goals=int(prediction[0][0]),
-        away_goals=int(prediction[0][1])
+        home_goals=round_school(prediction[0][0]),
+        away_goals=round_school(prediction[0][1])
     )
