@@ -217,8 +217,12 @@
 
       {#if predHome !== null && predAway !== null}
         <div class="mt-6 p-4 bg-green-100 border border-green-300 rounded-lg text-green-800">
-          Resultado Predicho — Local: {predHome} | Visitante: {predAway}
+          {homeTeam} {predHome} - {predAway} {awayTeam}
         </div>
+
+        <div class="mt-6 p-4 bg-blue-100 border border-green-300 rounded-lg text-green-800">
+            {predHome > predAway ? "Gana " + homeTeam : predAway > predHome ? "Gana " + awayTeam : "Hay empate"}
+          </div>
       {/if}
 
       {#if error}

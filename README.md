@@ -83,3 +83,13 @@ npm run devHost
 ```
 
 El frontend quedará disponible en el puerto indicado por la configuración del proyecto.
+
+## Uso del sistema
+	1.	Abrir la aplicación web en el navegador una vez que el servidor de desarrollo esté en ejecución y navegar al menú de Machine Learning.
+	2.	En el formulario principal, seleccionar el equipo local en el primer menú desplegable.
+	3.	Seleccionar un equipo distinto como visitante en el segundo menú desplegable.
+	4.	Ingresar los goles del equipo local al medio tiempo en el campo correspondiente.
+	5.	Ingresar los goles del equipo visitante al medio tiempo en el campo correspondiente.
+	6.	Presionar el botón Predecir.
+
+La aplicación enviará los datos al backend y mostrará en pantalla los goles finales estimados para ambos equipos, junto con el resultado derivado del encuentro.
